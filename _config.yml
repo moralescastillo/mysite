@@ -10,7 +10,11 @@ permalink:        pretty
 title:            Hyde
 tagline:          'A Jekyll theme'
 description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+<<<<<<< HEAD
 url:              https://moralescastillo.github.io
+=======
+url:              http://hyde.getpoole.com
+>>>>>>> parent of 5c1095d... Update _config.yml
 baseurl:          /
 
 author:
