@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+# highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -14,9 +14,9 @@ description:      #'A brazen two-column <a href="http://jekyllrb.com" target="_b
 url:              http://moralescastillo.github.io
 baseurl:          /
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+#author:
+#  name:           'Mark Otto'
+#  url:            https://twitter.com/mdo
 
 paginate:         5
 
@@ -25,3 +25,6 @@ paginate:         5
 
 github:
   repo:           #https://
+
+# Gems
+gems: [jekyll-paginate]
