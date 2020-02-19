@@ -24,7 +24,7 @@ paginate:         5
 # version:          2.1.0
 
 github:
-  repo:            https://github.com/moralescastillo
+  repo:           #https://
 
 # Gems
 gems: [jekyll-paginate]
