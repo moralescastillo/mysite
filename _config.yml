@@ -1,18 +1,17 @@
 # Dependencies
 markdown:         kramdown
-# highlighter:      pygments
+#highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-# relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
 title:            Paulo Morales Castillo
-tagline:          'Data Analyst'
+tagline:          Data Analyst
 #description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-description:      #'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://moralescastillo.github.io
-baseurl:          /mysite
+url:              http://moralescastillo.github.io/mysite
+baseurl:          /
 
 #author:
 #  name:           'Mark Otto'
@@ -28,3 +27,7 @@ github:
 
 # Gems
 gems: [jekyll-paginate]
+
+# pluggins
+
+plugins:        [jekyll-paginate]
