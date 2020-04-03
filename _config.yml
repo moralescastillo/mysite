@@ -10,12 +10,12 @@ permalink:        pretty
 title:            Paulo Morales Castillo
 tagline:          Data Analyst
 #description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://moralescastillo.github.io/mysite
+url:              https://paulomoralescastillo.com
 baseurl:          /
 
-#author:
-#  name:           'Mark Otto'
-#  url:            https://twitter.com/mdo
+author:
+  name:           Paulo Morales Castillo
+  url:            https://paulomoralescastillo.com
 
 paginate:         5
 
