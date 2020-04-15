@@ -17,7 +17,7 @@ author:
   name:           Paulo Morales Castillo
   url:            https://paulomoralescastillo.com
 
-paginate:         5
+#paginate:         5
 
 # Custom vars
 # version:          2.1.0
@@ -25,9 +25,9 @@ paginate:         5
 github:
   repo:           #https://
 
-# Gems
-gems: [jekyll-paginate]
-
 # pluggins
 
-plugins:        [jekyll-paginate]
+#plugins:        [jekyll-paginate]
+
+# Social media usernames
+github_username:    moralescastillo
