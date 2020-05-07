@@ -28,7 +28,7 @@
 				{% endif %}>Home</a>
 				
 			<a 	class="sidebar-nav-item" 
-				href="/about.html" 
+				href="{{ "/" | relative_url }}about.html" 
 				{% if page.active == 'about' %} 
 					style="font-weight:bold"
 				{% endif %}>About</a>
