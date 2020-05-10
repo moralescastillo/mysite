@@ -22,16 +22,13 @@
 		<nav class="sidebar-nav">
 		
 			<a 	class="sidebar-nav-item" 
-				href="/index.html" 
-				{% if page.active == 'home' %} 
-					style="font-weight:bold"
-				{% endif %}>Home</a>
+				href="/index.html" >Home</a>
 				
 			<a 	class="sidebar-nav-item" 
-				href="{{ "/" | relative_url }}about.html" 
-				{% if page.active == 'about' %} 
-					style="font-weight:bold"
-				{% endif %}>About</a>
+				href="/projects" >Projects</a>
+		
+			<a 	class="sidebar-nav-item" 
+				href="/about" >About</a>
 				
 <!--			<a 	class="sidebar-nav-item" 
 				href="/indexTest.html" 
