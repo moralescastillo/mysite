@@ -11,3 +11,5 @@ title: Power BI Tips & Tricks
 [3. Get to Know the Services](/projects/101-pbi-tips/003-structure-service)
 
 [4. Get to Know the Tool](/projects/101-pbi-tips/004-structure-tool)
+
+[5. Create Calendar Tables](/projects/101-pbi-tips/005-calendar-table)
