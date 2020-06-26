@@ -13,3 +13,5 @@ title: Power BI Tips & Tricks
 [4. Get to Know the Tool](/projects/101-pbi-tips/004-structure-tool)
 
 [5. Create Calendar Tables](/projects/101-pbi-tips/005-calendar-table)
+
+[6. Connect to Excel Files in OneDrive Personal](/projects/101-pbi-tips/006-excel-one-drive)
