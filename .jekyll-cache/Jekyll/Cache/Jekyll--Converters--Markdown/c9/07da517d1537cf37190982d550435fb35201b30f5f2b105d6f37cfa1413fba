@@ -1,0 +1,23 @@
+I"ì<p>As a business intelligence analyst, there is no better feeling than saving time on a task. And this tip will save you some time while working on the Power Query Editor.</p>
+
+<p>Say you gathered your data set and is now displayed on Power Query Editor. Now, you would like to alter one of the columns in the data set.</p>
+
+<p>A natural approach (one very common in my organization) is to scroll to the right using the horizontal scroll bar. With large data sets, this approach can be difficult because the column may be located somewhere in the middle of dozens of columns!</p>
+
+<p>Instead, you can use the <strong>Go to Column</strong> command in Power Query Editor:</p>
+
+<ol>
+  <li>
+    <p>Go to <strong>Home</strong> &gt; <strong>Choose Columns</strong>. Click on the lower half of the icon. Then select <strong>Go to Column</strong>.</p>
+
+    <p><img src="/asset/screenshot/999-PRE-go-to-column-img03.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Once the Go to Column pane appears, either select the column or search for the name of the column and then select. Click <strong>OK</strong>.</p>
+
+    <p><img src="/asset/screenshot/999-PRE-go-to-column-img04.png" alt="" /></p>
+  </li>
+</ol>
+
+<p>Power Query Editor will then take you to the column selected.</p>
+:ET

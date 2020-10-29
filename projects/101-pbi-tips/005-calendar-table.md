@@ -3,34 +3,31 @@ layout: page
 title: 5. Create Calendar Tables
 ---
 
+A calendar table stores a sequence of unique dates between a start date and an end date. For simplicity in relations among tables, it is sensible to create a calendar table for each date column you would like to include in visualizations.
 
-For consistency in reports, a table dedicated to storing dates comes in handy. A calendar table allows you to use date hierarchies when using dates in visualizations.
- 
-A calendar table stores a sequence of unique dates between a start date and an end date. For simplicity in relation among tables, it is sensible to create a calendar table for each date column you would like to include in visualizations.
+Say you have the table "account" with column *creation date*. To create a calendar table:
 
-To create a calendar table, use [CALENDAR()](https://dax.guide/calendar/) and pass starting and ending dates as inputs. Take, for example, the table "account". This table has a date column account[creationDate]. From Power BI Desktop, go to Modeling -> New Table. On the header bar, we use:  
+1. From Data Editor, go to **Table Tools** > **New tables**.
 
-```
+![](/asset/screenshot/005-calendar-table-img01.png)
 
-accountCalendar =
-CALENDAR ( MIN ( account[creationDate] ); MAX ( account[creationDate] ) )
+2. On the header bar, use [CALENDAR()](https://dax.guide/calendar/) and pass starting *creation date* and ending *creation date* as inputs.  
 
-```
+		{%raw%}
+		account calendar =
+		CALENDAR ( MIN ( account[creation date] ), MAX ( account[creation date] ) )
+		{%endraw%}
+		
+	The previous piece of DAX code creates the table "account calendar" with unique dates between the earliest and latest dates found in the column *creation date*. 
 
-This piece of DAX code creates the table "accountCalendar" with unique dates between the earliest and latest dates found in the column account[creationDate].    
+3. Mark the new table as a calendar table. Go to **Table tools** > **Mark as date table** > **Mark as date table**.
 
-After creating a calendar table, make sure to do two things. First, mark the new table as a calendar table. From Power BI Desktop, in Data:  
+	![](/asset/screenshot/005-calendar-table-img02.png)
 
- 
- 
-* Click on the new calendar table  
+4. For a Date column, select the column *Date* and click **Ok**. 
 
-* Table Tools > Mark as date table > Mark as date table  
+	![](/asset/screenshot/005-calendar-table-img03.png)
 
-* For a Date column, select the column name with unique dates  
+Within calendar tables, you can further create other useful columns such as calendar week, month, semester and year. 
 
-* Click Ok  
-
-In calendar tables, you can further create other useful columns such as calendar week, month, semester and year. Finally, stack all useful columns into a hierarchy to be used in visualizations. 
-
-[comment]: <> (Add link to tip later on: include link to 056, include link to 057)   
+[comment]: <> (Finally, stack all useful columns into a hierarchy to be used in visualizations. )   

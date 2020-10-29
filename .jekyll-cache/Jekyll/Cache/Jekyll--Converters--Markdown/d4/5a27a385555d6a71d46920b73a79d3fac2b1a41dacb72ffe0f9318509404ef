@@ -1,0 +1,26 @@
+I"b<p>It is important to familiarize yourself with the different services that Power BI offers:</p>
+
+<h3 id="power-bi-desktop">Power BI Desktop</h3>
+
+<p>A desktop application that allows you to extract, transform and arrange data sets. The data is then used to create visualizations and publish reports. In other words, Power BI Desktop is where most of the magic happens.</p>
+
+<p><img src="/asset/screenshot/003-structure-service-img01.jpg" alt="003-structure-service-img01" /></p>
+
+<p>The application is available for free. At the time of writing, Power BI Desktop is only available for Windows operating systems. Download Power BI Desktop at the official <a href="https://powerbi.microsoft.com/en-us/desktop/">download site</a>. Most of the tips described in this blog series will apply to Power BI Desktop.</p>
+
+<h3 id="power-bi-service">Power BI Service</h3>
+
+<p>An online SaaS service. This is the place in the cloud where your reports get published.  Power BI Service is accessible via <a href="app.powerbi.com">app.powerbi.com</a> and it offers different features depending on your <a href="/projects/101-pbi-tips/002-get-account">account type</a>.</p>
+
+<p><img src="/asset/screenshot/003-structure-service-img02.jpg" alt="003-structure-service-img02" /></p>
+
+<p>From Power BI Service, you will be able to see and manage access to your reports. In this way, you can share your reports with other Power BI users.</p>
+
+<h3 id="power-bi-mobile">Power BI Mobile</h3>
+
+<p>A mobile application with access to your reports. From this app, the user is able to not only explore reports and dashboards, but also get push notifications related to reports, make annotations on visualizations and share content with other users.</p>
+
+<p><img src="/asset/screenshot/003-structure-service-img03.png" alt="003-structure-service-img03" /></p>
+
+<p>The app is available for Android, iOS and Windows.</p>
+:ET
