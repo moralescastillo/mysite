@@ -17,7 +17,7 @@ A bit messy, right? To format this code:
 
 1. Copy and paste your DAX code into SQLBI's [DAX formatting tool](https://www.daxformatter.com/). Click on **Format**. 
 
-	![](/asset/screenshot/999-PRE-format-dax-code-img01.png) 
+	![](/asset/screenshot/format-dax-code-img01.png) 
 
 2. See the results 
 
@@ -40,4 +40,4 @@ A bit messy, right? To format this code:
 			BLANK ()
 		)
   
-At the time of writing, I am not aware of a formatter for M code. Still, simple rules as indentation and limiting lines to a maximum of 80 characters improves the readability M code.  
+Happy DAX coding!

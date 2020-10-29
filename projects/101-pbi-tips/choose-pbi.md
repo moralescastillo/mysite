@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 1. Choose Power BI
+title: Choose Power BI
 ---
 
 

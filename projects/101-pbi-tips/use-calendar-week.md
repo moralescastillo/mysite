@@ -9,7 +9,7 @@ Say you have the table "account calendar" with column *Date*:
 
 1. From Data Editor on Power BI Desktop, select the table "calendar table."
 
-	![](/asset/screenshot/999-PRE-use-calendar-week-img01.png)
+	![](/asset/screenshot/use-calendar-week-img01.png)
 
 2. Create *calendar week* using each date's *start of week* and *week number*.	
 

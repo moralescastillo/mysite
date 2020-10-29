@@ -1,0 +1,35 @@
+I"�<p>A calendar table stores a sequence of unique dates between a start date and an end date. For simplicity in relations among tables, it is sensible to create a calendar table for each date column you would like to include in visualizations.</p>
+
+<p>Say you have the table “account” with column <em>creation date</em>. To create a calendar table:</p>
+
+<ol>
+  <li>From Data Editor, go to <strong>Table Tools</strong> &gt; <strong>New tables</strong>.</li>
+</ol>
+
+<p><img src="/asset/screenshot/calendar-table-img01.png" alt="" /></p>
+
+<ol>
+  <li>
+    <p>On the header bar, use <a href="https://dax.guide/calendar/">CALENDAR()</a> and pass starting <em>creation date</em> and ending <em>creation date</em> as inputs.</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> account calendar =
+ CALENDAR ( MIN ( account[creation date] ), MAX ( account[creation date] ) )
+</code></pre></div>    </div>
+
+    <p>The previous piece of DAX code creates the table “account calendar” with unique dates between the earliest and latest dates found in the column <em>creation date</em>.</p>
+  </li>
+  <li>
+    <p>Mark the new table as a calendar table. Go to <strong>Table tools</strong> &gt; <strong>Mark as date table</strong> &gt; <strong>Mark as date table</strong>.</p>
+
+    <p><img src="/asset/screenshot/calendar-table-img02.png" alt="" /></p>
+  </li>
+  <li>
+    <p>For a Date column, select the column <em>Date</em> and click <strong>Ok</strong>.</p>
+
+    <p><img src="/asset/screenshot/calendar-table-img03.png" alt="" /></p>
+  </li>
+</ol>
+
+<p>Within calendar tables, you can further create other useful columns such as calendar week, month, semester and year.</p>
+
+:ET
