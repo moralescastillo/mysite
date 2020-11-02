@@ -1,0 +1,43 @@
+I"]	<p>Effective reports need to be appealing to the eye. And for this reason, the aesthetics surrounding your graphs and charts need are an essential part of reporting with Power BI.</p>
+
+<p>Aesthetics such as background color, titles, and company logos can be handled from Visualizations with the Report Editor. Although this is a valid way of creating a background, these objects may increase the size of your .pbix file and slow down the refresh of your report.</p>
+
+<p>For this reason, it is recommended to have a report background template at hand. Chances are, you already have a PowerPoint template for presentations within your organization.</p>
+
+<p>To create a PowerPoint background for your Power BI reports:</p>
+
+<ol>
+  <li>
+    <p>Create a slide in PowerPoint that would be a suitable background for your report. Adjust the PowerPoint slide for the needs of your report, e.g. title, fonts and colors.</p>
+
+    <p><img src="/asset/screenshot/pptx-background-img01.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Save/download the PowerPoint template slide as an image.  This image will be your report background image.</p>
+
+    <p><img src="/asset/screenshot/pptx-background-img02.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Go to the Report Editor in Power BI Desktop. Select the report background (click on any blank report surface). Then, go to the <strong>Visualizations</strong> pane &gt; <strong>Format</strong> &gt; <strong>Page background</strong>.</p>
+
+    <p><img src="/asset/screenshot/pptx-background-img03.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Click on <strong>+ Add image</strong>, find the PowerPoint slide that you saved/downloaded as image and open it.</p>
+
+    <p><img src="/asset/screenshot/pptx-background-img04.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Make sure that <strong>Transparency</strong> is set to 0% and that <strong>Image Fit</strong> is set to Fit.</p>
+
+    <p><img src="/asset/screenshot/pptx-background-img05.png" alt="" /></p>
+  </li>
+</ol>
+
+<p>If the background and visuals do not fit well, adjust the PowerPoint slide and/or Power BI visualizations. Iterate until you achieve the appearance you aim for.</p>
+
+<p>For slick reports, make sure to use the same font type and chart colors in PowerPoint as those used in your visuals.</p>
+
+<p>Finally, use the PowerPoint template for future reports. This will save you and your colleagues time down the line.</p>
+
+:ET
