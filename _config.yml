@@ -31,3 +31,6 @@ github:
 
 # Social media usernames
 github_username:    moralescastillo
+
+exclude:
+  - .jekyll-cache
