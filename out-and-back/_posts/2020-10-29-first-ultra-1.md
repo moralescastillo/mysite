@@ -5,7 +5,7 @@ title: Running my First Ultra, Part I
 
 I remember the moment I crossed the finish line at the 2019 Berlin Marathon. I began gasping for air and my eyes became watery. Soon after my breathing went back to normal, I realized that I could probably run a bit farther.   
 
-But what is farther? A month or so after the marathon, I started researching endurance races nearby.  On a google search, I came across the [Balaton Supermarathon](https://balatonsupermarathon.runinbudapest.com/13th-lake-balaton-supermarathon/). The name caught my attention since I have visited Hungary many times and have fond memories of the country.  
+But what is farther? A month or so after the marathon, I started researching endurance races nearby.  On a google search, I came across the [Balaton Szupermarathon](https://balatonsupermarathon.runinbudapest.com/13th-lake-balaton-supermarathon/). The name caught my attention since I have visited Hungary many times and have fond memories of the country.  
 
 ![](/asset/picture/2020-10-27-first-ultra-1-img02.jpg)
 
@@ -15,6 +15,10 @@ But what is farther? A month or so after the marathon, I started researching end
 The race consists of running around Lake Balaton, the biggest lake in Central Europe. The race breaks down into 4 races, of about 50 km each, distributed over four consecutive days. This race format made the Balaton race a perfect next-step into ultra running.  
 
 ![](/asset/screenshot/2020-10-27-first-ultra-1-img01.png)
+
+<font size="-1"><center><span>Course of <a href="https://www.google.com/maps/d/viewer?mid=17SHqsNRVI7auHHLb3setZCzzcGAc9oIn&ll=46.881044167690284%2C17.707253079861403&z=10">Balaton Szupermarathon</a></span></center></font>
+<br>
+
 
 To prepare for the race, I continued with my marathon training program for about three months. I added mileage to my weekly runs and worked on strength exercises (from the Cool Impossible). About a month before the race, I ran 160 km of the [Mauerweg](https://www.komoot.com/tour/78555721), split over four consecutive days. After this final training push, I did mostly recovery runs until race week.   
 

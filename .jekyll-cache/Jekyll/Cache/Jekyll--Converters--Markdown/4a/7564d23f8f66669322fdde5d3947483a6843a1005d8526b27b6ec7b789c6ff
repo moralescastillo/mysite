@@ -1,0 +1,26 @@
+I"Ù<p>When you create a report in Power BI Desktop, you create two main components: A <a href="https://docs.microsoft.com/en-us/power-bi/fundamentals/service-basic-concepts">dataset and a report</a>.</p>
+
+<h3 id="dataset">Dataset</h3>
+
+<p>A dataset is a collection of data used by the report. It contains all information you compile in the Power Query, Data, and Model editors. This collection of data could be imported or connected to.</p>
+
+<p>The good thing about datasets is that they are reusable! Once you create a report in Power BI Desktop and publish it to Power BI Service, you can refer to the dataset for other reports.</p>
+
+<h3 id="report">Report</h3>
+
+<p>A report is a collection of visualizations - that is, the collection of graphs, tables, and other visuals that you create in the Report editor. It is important to keep in mind that a report always relies on one dataset.</p>
+
+<p>Both reports and datasets can live in the same Workspace or in different Workspaces.</p>
+
+<p><img src="/asset/screenshot/dataset-and-report-img01.png" alt="" /></p>
+
+<p>When publishing a report from Power BI Desktop, both the report and the dataset will be published (unless you are reusing the dataset already). Once your report is in Power BI Service, datasets are located under <strong>Datasets + dataflows</strong> and reports are located under <strong>Content</strong>. To see all components, simply refer to <strong>All</strong>.</p>
+
+<p><img src="/asset/screenshot/dataset-and-report-img02.png" alt="" /></p>
+
+<p>When deleting a report from Power BI Service, remember that both components exist! If you delete the dataset, then all dependent reports will be deleted. But, deleting the report does not delete its underlying dataset.</p>
+
+<p>If a report can only refer to a dataset, can a report have many sources? Sure! The dataset itself can refer to many data sources, but it cannot refer to another dataset.</p>
+
+<p>Having these concepts in mind is important when using Power BI datasets as data marts.</p>
+:ET

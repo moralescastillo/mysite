@@ -1,0 +1,45 @@
+I"<p>Importing Excel files into python is very simple:</p>
+
+<ol>
+  <li>
+    <p>Open the Excel file from the personal OneDrive. Go to <strong>File</strong> &gt; <strong>Share</strong> &gt; <strong>Embed</strong>.</p>
+
+    <p><img src="/asset/screenshot/2020-11-08-excel-personal-onedrive-python-img01.png" alt="" /></p>
+  </li>
+  <li>
+    <p>In the next Embed dialogue, click on <strong>Generate</strong>.</p>
+
+    <p><img src="/asset/screenshot/2020-11-08-excel-personal-onedrive-python-img02.png" alt="" /></p>
+  </li>
+  <li>
+    <p>In the Embed pane, refer to the <strong>Embed code</strong> box on the lower left-hand corner. Here you will find the embed iframe. Copy the iframe and paste it onto a text editor of your choice.</p>
+
+    <p><img src="/asset/screenshot/2020-11-08-excel-personal-onedrive-python-img03.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Within the iframe, locate the values for <strong>resid</strong> and <strong>authkey</strong>.</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> &lt;iframe width="402" height="346" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=YOURRESID&amp;authkey=YOURAUTHKEY&amp;em=2&amp;wdAllowInteractivity=False&amp;wdHideGridlines=True&amp;wdHideHeaders=True&amp;wdDownloadButton=True&amp;wdInConfigurator=True"&gt;&lt;/iframe&gt; 
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>With these values, use pandas to read the file. Replace ‘YOURRESID’ and ‘YOURAUTHKEY’ with the values found in the previous step.</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> import pandas as pd
+
+ resid = 'YOURRESID'
+
+ authkey = 'YOURAUTHKEY'
+
+ url_excel = ('https://onedrive.live.com/download?'
+              + 'resid=' + resid 
+              + '&amp;authkey=' + authkey
+              + '&amp;em=2&amp;app=Excel')
+
+ one_drive_df = pd.read_excel(url_excel)
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p>Beware that this method works for Excel files in a personal OneDrive, not enterprise OneDrive</p>
+:ET
