@@ -13,7 +13,7 @@ The program is broken down into phase I and phase II, which are 12 weeks and 9 w
 <br>
 
 
-All my runs previous to reading this book were based on distance, regardless of how strong or weak I was feeling. In my naïve understanding of the sport, running was all about accumulating run distance. The more kilometers you run, the better runner you are. This is not a good approach as it could turn to be very boring and detrimental for your body.   
+All my runs previous to reading this book were based on distance, regardless of how strong or weak I was feeling. In my naïve understanding of the sport, running was all about accumulating distance. The more kilometers you run, the better runner you are. This is not a good approach as it could turn to be very boring and detrimental for your body.   
 
 ![](/asset/screenshot/2020-11-13-foundation-program-img02.png)
 
