@@ -1,6 +1,6 @@
 ---
 layout: post_out_and_back
-title: Challenge July 2020&#58; My First 50 Miler
+title: Challenge July 2020&#58; My First 50-Miler
 ---
 
 11:25:56. It was brutal.  
