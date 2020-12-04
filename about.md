@@ -3,8 +3,12 @@ layout: page
 title: About
 ---
 
-I am Paulo Morales Castillo and I am a data analyst based in Berlin, Germany.  
-
-I have been drawn to data sets and visualization from a young age. At age 13, I was witnessing a contending presidential election in my native Colombia. On election day, the adults in my family were discussing who among the candidates would make it to the [second election round](https://en.wikipedia.org/wiki/Two-round_system). Meanwhile, I took poll data from different news channels, extrapolated the data and correctly predicted there will be no second election round.  Experiences such this made opt for economics and mathematics as the subject of my bachelor and master studies. Later on, by reasons attributed to chance, I came to Berlin, where I reside since 2014. 
+My name is Paulo and I am a data analyst currently working at [Kapilendo AG](https://www.kapilendo.de/#/). As the lead BI developer and analyst, I am responsible for the company’s data warehouse development and reporting systems. Before joining Kapilendo, I was a senior data analyst at the credit-comparison site Smava, where I worked for 4 years. 
 
 In terms of technology for data analysis, I am agnostic. Rather, I am a firm believer in best practices. I have professional experience creating products and analysis using R, Python, PowerQuery and SQL (MS SQL Server, PostgreSQL and MySql). In terms of BI development, I have been a user of a wide range of software including Azure products (data factory and databricks), Google Analytics, matomo, Tableau, MS Power Platform (Power BI, Automate, Apps) among others. 
+
+# About this site 
+
+This site is powered by Jekyll using the Hyde theme under [MIT License](https://github.com/poole/hyde/blob/master/LICENSE.md). The source code can be found on my [GitHub](https://github.com/moralescastillo/mysite). 
+
+Many thanks to all the countless open-source contributors and the many stackoverflowers. This site would have not been possible without your help. Special thanks got to [Randi Griffin](https://github.com/rgriff23 ) and [Chris Schuld](https://github.com/cbschuld ). The example of their own personal sites helped me getting my own site running.  
