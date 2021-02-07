@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Testing Expressions in Azure Data Factory
+description: here is some description
+tags: adf dwh
 ---
 
 Azure Data Factory supports the use of [expressions and functions](https://docs.microsoft.com/en-us/azure/data-factory/control-flow-expression-language-functions) to evaluate and fill in parameters and variables on the fly.

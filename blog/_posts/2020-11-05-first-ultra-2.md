@@ -1,6 +1,7 @@
 ---
-layout: post_out_and_back
+layout: post
 title: Running my First Ultra, Part II
+tag: running
 ---
 
 You realize you are about to hit the wall when your mind starts asking “why are you doing this?”. And at that point, you better have a good answer. On Day 1, I never had a clear answer in mind.   

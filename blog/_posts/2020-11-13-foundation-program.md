@@ -1,6 +1,7 @@
 ---
-layout: post_out_and_back
+layout: post
 title: The Foundation Program
+tag: running
 ---
 
 Thanks to the pandemic, everyone in Berlin was under lockdown starting in mid-March 2020. Working from home and with the world on pause, I could not have a better time to work on Orton’s running plan called [the Foundation Program](https://www.goodreads.com/book/show/15808539-the-cool-impossible).   

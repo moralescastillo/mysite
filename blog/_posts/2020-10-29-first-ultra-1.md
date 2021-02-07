@@ -1,6 +1,7 @@
 ---
-layout: post_out_and_back
+layout: post
 title: Running my First Ultra, Part I
+tag: running
 ---
 
 I remember the moment I crossed the finish line at the 2019 Berlin Marathon. I began gasping for air and my eyes became watery. Soon after my breathing went back to normal, I realized that I could probably run a bit farther.   

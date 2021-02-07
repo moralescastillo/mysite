@@ -1,7 +1,5 @@
 ---
-layout: tagpage
-title: "Tag: running"
+layout: tag_page
+title: "Tag: Running"
 tag: running
-robots: noindex
-sitemap: false
 ---

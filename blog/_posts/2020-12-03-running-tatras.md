@@ -1,6 +1,7 @@
 ---
-layout: post_out_and_back
+layout: post
 title: Running in the Tatras
+tag: running
 ---
 
 I visited the Tatra mountains over the summer from the Polish side. With beautiful views and great weather, the Tatras are a prime location for trail running. 
