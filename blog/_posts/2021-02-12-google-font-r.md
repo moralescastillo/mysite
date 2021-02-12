@@ -47,4 +47,4 @@ Yet, the saved file will have the desired outcome.
 
 References:
 
-https://stackoverflow.com/questions/53219980/fonts-not-loading-in-showtext-font-add-google 
+[Fonts not loading in showtext font_add_google](https://stackoverflow.com/questions/53219980/fonts-not-loading-in-showtext-font-add-google)
