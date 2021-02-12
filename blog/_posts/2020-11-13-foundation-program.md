@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Foundation Program
+description: My experience following Eric Orton’s running plan, the Foundation Program.
 tag: running
 ---
 

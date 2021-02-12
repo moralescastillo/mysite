@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Running my First Ultra, Part II
+description: A tale of my achievements at the Balaton Supermarathon 2020.
 tag: running
 ---
 

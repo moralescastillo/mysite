@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Running in the Tatras
+description: I insist, the color of the trail marker has nothing to do with the trail's difficulty! 
 tag: running
 ---
 

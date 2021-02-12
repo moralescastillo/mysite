@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Challenge July 2020&#58; My First 50-Miler
+description: Discovering the power of alcohol-free beer on a warm July 4th.
 tag: running
 ---
 

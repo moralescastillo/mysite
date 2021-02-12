@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testing Expressions in Azure Data Factory
-description: here is some description
+description: Testing expression is a simple trick in Azure Data Factory, so that you are able to see what is being passed on to your conditional activities.
 tags: adf dwh
 ---
 

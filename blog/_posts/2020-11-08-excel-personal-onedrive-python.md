@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Importing Excel Files from a Personal OneDrive in Python
+description: I saw multiple people struggling with this topic on Stack Overflow. Here is simple and quick way of importing excel data located in a Personal OneDrive into Python.
 tags: python onedrive
 ---
 
