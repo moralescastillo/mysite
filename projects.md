@@ -4,4 +4,4 @@ title: Projects
 ---
 
 
-+ [Power BI Tips & Tricks](/projects/101-pbi-tips/intro) - A compilation of tips and tricks for setting up a BI infrastructure in the context of small and medium enterprises.
++ [Creating Minimalist Map Posters using R](/projects/minimalist-map-r) - Use the `osmdata` and `ggplot2` packages to create custom map posters. 
