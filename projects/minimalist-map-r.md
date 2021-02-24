@@ -15,7 +15,7 @@ At first, I came across the package [`ggmap`](https://www.rdocumentation.org/pac
 <font size="-1"><center><span>Map of Berlin via <a href="http://maps.stamen.com/toner/#12/52.5269/13.4315">maps.stamen.com</a></span></center></font>
 <br>
 
-Finally, I came across this [tutorial](http://joshuamccrain.com/tutorials/maps/streets_tutorial.html). In this short guide, the author explains how to use the OpenStreetMaps (OSM) data package to create maps with `ggplot`. I invite you to do through the tutorial should you want to know more about using OSM data in R.  
+Finally, I came across this [tutorial](http://joshuamccrain.com/tutorials/maps/streets_tutorial.html). In this short guide, the author explains how to use the OpenStreetMaps (OSM) data package to create maps with `ggplot`. I invite you to go through the tutorial should you want to know more about using OSM data in R.  
 
 The biggest issue I run into with the OSM data is the coordinates themselves. With the function `getbb()`, you are able to find the bounding coordinates of a location (city, country, etc). The issue is that, when plotting a location with the bounding coordinates on a common poster-size pdf, a lot of white space is created.  
 
