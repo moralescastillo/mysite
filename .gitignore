@@ -39,5 +39,6 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+.jekyll-cache/
 .jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910
 .jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/07/c4fa2f6b5c1b669e105affa376a207475d35bd8c94e943780dfdb78c03083f
