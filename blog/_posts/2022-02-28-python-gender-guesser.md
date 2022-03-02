@@ -140,6 +140,8 @@ In the end, I created a final version of gender classification: take whichever g
 
 Over 80% of names in my list found a corresponding gender match. As expected, some names were unisex. For instance, Daniele is a female name in France and a male name in Italy. Other unisex names found were Conny, Janne, Joan, Kim, and Vesa.
 
+The full script is available on [GitHub](https://github.com/moralescastillo/code_sample/blob/main/python_gender_guesser.py).
+
 
 
 
