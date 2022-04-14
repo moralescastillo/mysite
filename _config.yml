@@ -31,6 +31,7 @@ github:
 
 # Social media usernames
 github_username:    moralescastillo
+linkedin_username:  moralescas
 
 exclude:
   - .jekyll-cache
