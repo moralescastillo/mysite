@@ -1,4 +1,11 @@
-----
+{% if site.github_username %}
 <a href="https://github.com/{{ site.github_username }}">
   <i class="fab fa-github"></i>
 </a>
+{% endif %}
+
+{% if site.linkedin_username %}
+<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+  <i class="fab fa-linkedin-in"></i>
+</a>
+{% endif %}
