@@ -2,7 +2,7 @@
 layout: post
 title: Working from Corralejo, Fuerteventura 
 description: Some learnings from my travels in the nomad island
-tags: remote_work
+tags: remote-work
 ---
 
 ![](/asset/screenshot/2022-03-31-remote-fuerteventura-corralejo-img01.jpg)
