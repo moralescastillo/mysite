@@ -5,7 +5,7 @@ description: A sample Dockerfile to containerize a dbt project with Azure Synaps
 tags: dbt docker azure
 ---
 
-![](/asset/screenshot/2022-07-18-Docker-dbt-synapse-img01.jpg)
+![](/asset/screenshot/2022-07-18-docker-dbt-synapse-img01.jpg)
 
 <font size="-1"><center><span> Docker and dbt are indispensible tools for the CI/CD of modern DWH systems </span></center></font>
 <br>
