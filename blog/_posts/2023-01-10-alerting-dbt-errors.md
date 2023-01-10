@@ -12,7 +12,7 @@ tags: azure adf dbt databricks python
 
 Is it me or dbt (getdbt.com) is synonym for Snowflake? The two are often seen hand in hand. In reality, dbt works with any other data warehouse solution. For some of our clients, we use dbt alongside Azure Synapse and Azure Data Factory (ADF).
 
-For example, we use this neat approach by [Guang X](https://medium.com/@guangx/run-dbt-in-azure-data-factory-a-clean-solution-for-azure-cloud-edddf0c85849). It executes dbt via docker in a Azure Container Instance (ACI). The execution gets triggered by a ADF pipeline.
+For example, we use this neat approach by [Guang X](https://medium.com/@guangx/run-dbt-in-azure-data-factory-a-clean-solution-for-azure-cloud-edddf0c85849). It executes dbt via docker in a Azure Container Instance (ACI). The execution gets triggered by an ADF pipeline.
 
 We expand on this solution by pulling the dbt logs from ACI. Then, we scan the logs for errors and send an alert in case any issue has come up. 
 
@@ -77,7 +77,7 @@ We then check if the dbt logs contain any errors:
 After checking for errors, we can e.g. send an email to the person in charge of the pipeline, alerting them of any issue. 
 
 
-### Send the Email
+### Send the Alert
 
 To send an email from databricks, we use the `smtplib` package. The following is a sample of what the actual code would look like:
 
@@ -86,7 +86,6 @@ To send an email from databricks, we use the `smtplib` package. The following is
     '''
     if errors found, send email
     '''
-
 
     if error_count > 0:
     
