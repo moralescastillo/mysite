@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Alerting for dbt Errors in Azure Data Factory Using Databricks
-description: tbd
+description: Stay on top of errors that may come up when running your dbt build.
 tags: azure adf dbt databricks python
 ---
 
