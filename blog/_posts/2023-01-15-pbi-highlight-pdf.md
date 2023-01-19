@@ -17,7 +17,7 @@ Often times, the data point which is highlighted goes away when exporting the PB
 
 For example, consider a report showing the distribution of stock market performance. The data for this sample report is the daily observations for the S&P 500 between the years 1950 and 2018. This data set comes from the `openintro` package in R and is available [here](https://vincentarelbundock.github.io/Rdatasets/articles/data.html).
 
-Say we would like to highlight the performance of year 1987. From the PBI Service, we highlight this year by selecting **1987** from the table. 
+Say we would like to highlight the performance of year 1987. From the PBI Service, we highlight this year by selecting *1987* in the table. 
 
 ![2023-01-15-pbi-highlight-pdf-img02](/asset/screenshot/2023-01-15-pbi-highlight-pdf-img02.jpg)
 
@@ -46,7 +46,7 @@ The idea is to first use the slicer to filter the content of the table. Then, we
 
 ### The Test
 
-After publishing these changes, let us repeat the exercise above. First, we look for the year 1987 in the lookup slicer and select it. Then, select the year **1987** in the table. 
+After publishing these changes, let us repeat the exercise above. First, we look for the year *1987* in the lookup slicer and select it. Then, select the year *1987* in the table. 
 
 ![2023-01-15-pbi-highlight-pdf-img06](/asset/screenshot/2023-01-15-pbi-highlight-pdf-img06.jpg)
 
