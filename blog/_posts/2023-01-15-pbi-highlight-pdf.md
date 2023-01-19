@@ -54,7 +54,7 @@ Notice that this has the same effect as the attempt made earlier. Now, export to
 
 ![2023-01-15-pbi-highlight-pdf-img07](/asset/screenshot/2023-01-15-pbi-highlight-pdf-img07.jpg)
 
-Voila. We are now able to see the selection from the table and the highlight in the distribution chart. 
+Voilà. We are now able to see the selection from the table and the highlight in the distribution chart. 
 
 Keep in mind that, the same procedure would apply to highlight multiple data points within the table. The sample report is available in [GitHub](https://github.com/moralescastillo/code_sample/blob/main/pbi_highlight_pdf/distribution_sp_performance_1950_2018.pbix).
 
