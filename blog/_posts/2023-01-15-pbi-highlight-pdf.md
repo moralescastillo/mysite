@@ -21,7 +21,7 @@ Say we would like to highlight the performance of year 1987. From the PBI Servic
 
 ![2023-01-15-pbi-highlight-pdf-img02](/asset/screenshot/2023-01-15-pbi-highlight-pdf-img02.jpg)
 
-The highlight will show us that, for the year 1987, the S&P 500 had an end-of-year performance between 0% and 5%. As expected, the highlight does not remove any data from the distribution chart. 
+The highlight will show us that, for the year 1987, the S&P 500 had an end-of-year performance between 0% and 5%. As expected, the highlight does not remove any data from the distribution chart.  
 
 Now, say we would like to export these findings as a PDF and share it with colleagues. From the PBI Service, we then select **Export**>**PDF**>**Export with Current Values**>**Only export current page**>**Export**. 
 
