@@ -12,7 +12,7 @@ tags: adf azure dbt dwh
 
 One of the advantages of using dbt (getdbt.com) is that we can use tags to run groups of models. In this way, we save time by not running all models available. 
 
-This implies that some dbt runs could last shorter times than others. How would you go about making sure that a containerized dbt project has ended in a pipeline? 
+This implies that some dbt runs could last shorter times than others. How would you then go about making sure that a containerized dbt project has ended in a pipeline? 
 
 ### The Goal
 
@@ -32,7 +32,7 @@ To achieve this, we will request the ACI’s status via REST API:
 <font size="-1"><center><span> ACI GET REST API as found in <a href="https://learn.microsoft.com/en-us/rest/api/container-instances/container-groups/get?tabs=HTTP">Microsoft documentation</a></span></center></font>
 <br>
 
-Keep in mind that, ADF should have access rights to ACI to get a response from the state request. The steps on how to grant such access is in our previous article, [Pulling Azure Container Instance Logs into Azure Data Factory](https://paulomoralescastillo.com/blog/2023/01/05/pulling-logs-aci.html).
+Keep in mind that, ADF should have access rights to ACI to get a response from the state request. The steps on how to grant such access is in our [previous article](https://paulomoralescastillo.com/blog/2023/01/05/pulling-logs-aci.html).
 
 
 ### Wait Until Success
