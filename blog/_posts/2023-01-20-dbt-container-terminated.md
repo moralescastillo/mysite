@@ -3,7 +3,7 @@ layout: post
 title: Is My dbt Ready?
 subtitle: Waiting for a Containerized dbt Project to End in Azure Data Factory 
 description: Set up activities in Azure Data Factory to track when your containerized dbt project has finished running.
-tags: adf azure dbt
+tags: adf azure dbt dwh
 ---
 
 ![](/asset/screenshot/2023-01-20-dbt-container-terminated-img01.jpg)
