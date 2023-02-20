@@ -9,7 +9,7 @@ tags: power-bi
 ![](/asset/screenshot/2023-02-19-nudge-the-user-img01.jpg)
 <font size="-1"><center><span> Photo by <a href="https://unsplash.com/ko/@debrupas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pascal Debrunner</a> on <a href="https://unsplash.com/photos/WuwKphhRQSM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span></center></font>
 <br>
-
+ 
 In [Nudge](https://www.goodreads.com/book/show/3450744-nudge), economist Richard Thaler promotes the practice of libertarian paternalism in society. By this idea, a choice architect designs ways to "nudge" others towards optimal decision-making. 
 
 We would argue that, we, the creators of data products, are also choice architects. We are responsible for sharing data and insights in ways which are most practical to the end user. And thus, it is also our duty to nudge the end user to make good use of the data and insights given to them.
