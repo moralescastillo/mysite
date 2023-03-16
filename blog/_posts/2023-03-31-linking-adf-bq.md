@@ -10,7 +10,7 @@ tags: azure adf gcp big-query dwh
 <font size="-1"><center><span> Working with Azure Data Factory and Google BigQuery </span></center></font>
 <br>
  
-One advantage of Azure Data Factory (ADF) is its ability to integrate to a variety of data warehouses. Such integrations are called linked services. They are connections to an external data source or data destination.
+One advantage of Azure Data Factory (ADF) is its ability to integrate to a variety of data warehouses. Such integrations are called *linked services*. They are connections to an external data source or data destination.
 
 In this example, we go over the requirements and steps to create a BigQuery linked service in ADF. We use a google service account and its key file in JSON format. Additionally, we use a self-hosted integration runtime installed on a windows virtual machine (VM).  
 
@@ -31,13 +31,13 @@ As a sanity check, we recommend testing if the account has the correct roles bef
 A [self-hosted integration runtime (IR)](https://learn.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory) allows ADF to connect to specific network environments. It also allows access to files in the hosting machine. 
 
 ![2023-03-31-linking-adf-bq-img03](/asset/screenshot/2023-03-31-linking-adf-bq-img03.jpg)
-<font size="-1"><center><span> An example of a Self-hosted integration runtime connected from a Windows virtual machine </span></center></font>
+<font size="-1"><center><span> An example of a self-hosted integration runtime connected from a Windows virtual machine </span></center></font>
 <br>
 
 
-In this scenario, the IR hosting machine is the place where we  save our service account key file. The perfect place to save it is in the C drive. Otherwise, ADF would not be able to locate it and fail to authenticate. 
+In this scenario, the IR hosting machine is the place where we store our Google service account key file. The perfect place to save it in is the C drive. Otherwise, ADF would not be able to locate it and fail to authenticate. 
 
-From the IR hosting machine, navigate to the C drive and save the Google service account key file.
+From the IR hosting machine, navigate to the C drive and save the key file.
 
 ![2023-03-31-linking-adf-bq-img04](/asset/screenshot/2023-03-31-linking-adf-bq-img04.jpg)
 <font size="-1"><center><span> Saving a sample key file in the IR hosting machine's C drive </span></center></font>
@@ -65,6 +65,6 @@ Under *Authentication type*, select **Service authentication** and input the ser
 <font size="-1"><center><span> Sample BigQuery linked service properties </span></center></font>
 <br>
 
-Under *key file path*, point to the key file within the IR hosting machine. Next, **Test** connection; and finally, **Create**.
+Under *key file path*, point to the key file within the IR hosting machine. Next, **Test connection**; and finally, **Create**.
 
 Pro tip: A successful test connection does not imply that a copy activity will succeed. When running into such issues, we recommend looking into IAM roles like [BigQuery.Read.Session.User](https://community.powerbi.com/t5/Service/BIgQuery-Account-Permissions/m-p/1404853).
