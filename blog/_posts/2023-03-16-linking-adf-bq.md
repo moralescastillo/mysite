@@ -6,7 +6,7 @@ description: In this article, we go over the steps, requirements and recommendat
 tags: azure adf gcp big-query dwh
 ---
 
-![](/asset/screenshot/2023-03-31-linking-adf-bq-img01.jpg)
+![](/asset/screenshot/2023-03-16-linking-adf-bq-img01.jpg)
 <font size="-1"><center><span> Working with Azure Data Factory and Google BigQuery </span></center></font>
 <br>
  
@@ -18,7 +18,7 @@ In this example, we go over the requirements and steps to create a BigQuery link
 
 We begin by creating a [service account](https://cloud.google.com/iam/docs/keys-create-delete#iam-service-account-keys-create-console) with enough roles to access the BigQuery service. Then, we create a service account key file in JSON format.
 
-![2023-03-31-linking-adf-bq-img02](/asset/screenshot/2023-03-31-linking-adf-bq-img02.jpg)
+![2023-03-16-linking-adf-bq-img02](/asset/screenshot/2023-03-16-linking-adf-bq-img02.jpg)
 <font size="-1"><center><span> An example of a Google service account key file in JSON format </span></center></font>
 <br>
 
@@ -30,7 +30,7 @@ As a sanity check, we recommend testing if the account has the correct roles bef
 
 A [self-hosted integration runtime (IR)](https://learn.microsoft.com/en-us/azure/data-factory/create-self-hosted-integration-runtime?tabs=data-factory) allows ADF to connect to specific network environments. It also allows access to files in the hosting machine. 
 
-![2023-03-31-linking-adf-bq-img03](/asset/screenshot/2023-03-31-linking-adf-bq-img03.jpg)
+![2023-03-16-linking-adf-bq-img03](/asset/screenshot/2023-03-16-linking-adf-bq-img03.jpg)
 <font size="-1"><center><span> An example of a self-hosted integration runtime connected from a Windows virtual machine </span></center></font>
 <br>
 
@@ -39,7 +39,7 @@ In this scenario, the IR hosting machine is the place where we store our Google 
 
 From the IR hosting machine, navigate to the C drive and save the key file.
 
-![2023-03-31-linking-adf-bq-img04](/asset/screenshot/2023-03-31-linking-adf-bq-img04.jpg)
+![2023-03-16-linking-adf-bq-img04](/asset/screenshot/2023-03-16-linking-adf-bq-img04.jpg)
 <font size="-1"><center><span> Saving a sample key file in the IR hosting machine's C drive </span></center></font>
 <br>
 
@@ -47,13 +47,13 @@ From the IR hosting machine, navigate to the C drive and save the key file.
 
 From the ADF, navigate to **Manage**>**Linked services**>**+New**.
 
-![2023-03-31-linking-adf-bq-img05](/asset/screenshot/2023-03-31-linking-adf-bq-img05.jpg)
+![2023-03-16-linking-adf-bq-img05](/asset/screenshot/2023-03-16-linking-adf-bq-img05.jpg)
 <font size="-1"><center><span> Creating a new linked service in ADF </span></center></font>
 <br>
 
 In the *New Linked Service* window, search for and select **Google BigQuery** as the linked service.
 
-![2023-03-31-linking-adf-bq-img06](/asset/screenshot/2023-03-31-linking-adf-bq-img06.jpg)
+![2023-03-16-linking-adf-bq-img06](/asset/screenshot/2023-03-16-linking-adf-bq-img06.jpg)
 <font size="-1"><center><span> An example of a New Linked Service window in ADF </span></center></font>
 <br>
 
@@ -61,7 +61,7 @@ In the *New Linked Service (Google BigQuery)* window, enter a name for your link
 
 Under *Authentication type*, select **Service authentication** and input the service account email. Remember, this information is found in the key file itself. 
 
-![2023-03-31-linking-adf-bq-img07](/asset/screenshot/2023-03-31-linking-adf-bq-img07.jpg)
+![2023-03-16-linking-adf-bq-img07](/asset/screenshot/2023-03-16-linking-adf-bq-img07.jpg)
 <font size="-1"><center><span> Sample BigQuery linked service properties </span></center></font>
 <br>
 
