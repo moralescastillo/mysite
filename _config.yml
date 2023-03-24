@@ -36,3 +36,5 @@ strava_username:    paulo_mc
 
 exclude:
   - .jekyll-cache
+
+google_analytics: G-79GPSHLYJ6
