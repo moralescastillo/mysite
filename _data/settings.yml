@@ -1,6 +1,6 @@
 #-------------------------------
 # Site Settings
-title: Dann
+title: Paulo Morales Castillo
 logo: # You can add own logo. For example "/images/logo.png".
 description: Multipurpose Jekyll Blog Theme
 
@@ -8,8 +8,8 @@ description: Multipurpose Jekyll Blog Theme
 #-------------------------------
 # Author Global Settings
 author:
-  author__name: Dann Kanigan
-  author__bio: Hi there! I’m Dann Kanigan, a Filmmaker and Content Creator based in Toronto, Ontario, Canada. This blog is about learning, life, and inspiring you to take one step forward.
+  author__name: Paulo Morales Castillo
+  author__bio: Hi there! Paulo here, a Filmmaker and Content Creator based in Toronto, Ontario, Canada. This blog is about learning, life, and inspiring you to take one step forward.
   author__avatar: /images/01-1.jpg
 
 
@@ -97,7 +97,7 @@ social:
 #-------------------------------
 # Contact Settings
 contact:
-  email: your@email.com # Add your email for contant form
+  email: hello@paulomoralescastillo.com # Add your email for contant form
 
 # NOTE
 # Dann theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
