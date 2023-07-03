@@ -2,7 +2,10 @@
 layout: post
 title: Reason to Choose Power BI
 description: Thoughts after working with the tool for about two years.
-tags: power-bi
+date: 2020-04-01 12:00:00 +0200
+author: paulo
+image: '/images/21.jpg'
+tags: [power-bi]
 ---
 
 
