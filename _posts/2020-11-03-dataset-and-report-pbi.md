@@ -2,7 +2,12 @@
 layout: post
 title: Datasets vs Reports in Power BI
 description: And the importance of distinguish the one from the other.
-tags: power-bi
+date: 2020-11-03 12:00:00 +0200
+author: paulo
+image: '/images/2020-11-03-dataset-and-report-pbi-img00.jpg'
+image_caption: Power BI is Microsoft's data visualization solution
+tags: [power-bi]
+featured: 
 ---
 
 When you create a report in Power BI Desktop, you create two main components: A [dataset and a report](https://docs.microsoft.com/en-us/power-bi/fundamentals/service-basic-concepts).
@@ -19,11 +24,11 @@ A report is a collection of visualizations - that is, the collection of graphs, 
 
 Both reports and datasets can live in the same Workspace or in different Workspaces.  
 
-![](/asset/screenshot/dataset-and-report-img01.png) 
+![2020-11-03-dataset-and-report-pbi-img01](/images/2020-11-03-dataset-and-report-pbi-img01.jpg) 
 
 When publishing a report from Power BI Desktop, both the report and the dataset will be published (unless you are reusing the dataset already). Once your report is in Power BI Service, datasets are located under **Datasets + dataflows** and reports are located under **Content**. To see all components, simply refer to **All**.  
 
-![](/asset/screenshot/dataset-and-report-img02.png) 
+![2020-11-03-dataset-and-report-pbi-img02](/images/2020-11-03-dataset-and-report-pbi-img02.jpg) 
 
 When deleting a report from Power BI Service, remember that both components exist! If you delete the dataset, then all dependent reports will be deleted. But, deleting the report does not delete its underlying dataset.  
 

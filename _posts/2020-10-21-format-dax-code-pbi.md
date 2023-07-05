@@ -1,8 +1,14 @@
 ---
 layout: post
 title: Formatting DAX Code
-description: Keep your code neat and tidy.
-tags: power-bi dax
+description: Keeping your code neat and tidy
+date: 2020-10-21 15:01:35 +0200
+author: paulo
+image: '/images/2020-10-21-format-dax-code-pbi-img00.jpg'
+image_caption: 'Power BI is Microsoft's data visualization solution'
+tags: [power-bi, dax]
+featured:
+
 ---
 
 As computer scientist Donald Knuth said, "Programs are meant to be read by humans and only incidentally for computers to execute." And this should also apply to your code within Power BI reports. 
@@ -19,7 +25,7 @@ A bit messy, right? To format this code:
 
 1. Copy and paste your DAX code into SQLBI's [DAX formatting tool](https://www.daxformatter.com/). Click on **Format**. 
 
-	![](/asset/screenshot/format-dax-code-img01.png) 
+	![2020-10-21-format-dax-code-pbi-img01](/images/2020-10-21-format-dax-code-pbi-img01.jpg) 
 
 2. See the results 
 

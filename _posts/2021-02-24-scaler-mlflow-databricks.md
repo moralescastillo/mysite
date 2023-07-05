@@ -1,8 +1,14 @@
 ---
 layout: post
 title: Saving and Loading Scalers using MLflow and Databricks with Python  
-description: Chances are, you will be needing scalers to make predictions on new data sets.
-tags: databricks machine-learning python
+description: Chances are, you will be needing scalers to make predictions on new data sets
+date: 2021-02-24 12:00:00 +0200
+author: paulo
+image: '/images/2021-02-24-scaler-mlflow-databricks-img00.jpg'
+image_caption: Databricks is web-based platform for which provides automated cluster management while allowing you to work with Python, R and others, on IPython-style notebooks
+tags: [databricks, machine-learning, python]
+featured: 
+
 ---
 
 MLflow is a platform to track experimentation, reproducibility, deployment of machine learning models. On the experimentation phase, mlflow facilitates the versioning of your models. It allows you to save not only the models but also metrics, parameters and datasets. For a quick introduction on mlflow, I found [this](https://www.youtube.com/watch?v=vqigwhYyJ7M) tutorial and [that](https://www.youtube.com/watch?v=OWJHHAtnAwY) tutorial to be very helpful.  
@@ -35,7 +41,7 @@ To make predictions on a new data set using this model, you will need not only t
  
 On the databricks UI, a quick glance at the experiment’s latest run shows you both the model and the scaler. 
 
-![](/asset/screenshot/2021-02-24-scaler-mlflow-databricks-img01.png) 
+![2021-02-24-scaler-mlflow-databricks-img01](/images/2021-02-24-scaler-mlflow-databricks-img01.jpg) 
 
 To retrieve the model, we use the function `load_model()`.  
 

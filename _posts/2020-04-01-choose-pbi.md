@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Reason to Choose Power BI
-description: Thoughts after working with the tool for about two years.
+description: Thoughts after working with the tool for about two years
 date: 2020-04-01 12:00:00 +0200
 author: paulo
-image: '/images/21.jpg'
+image: '/images/2020-04-01-choose-pbi-img01.jpg'
+image_caption: Power BI is Microsoft's data visualization solution
 tags: [power-bi]
+featured: 
 ---
-
 
 I started working with Power BI in August 2018. Soon after, I recognized that Power BI is a versatile tool for both non-experience and advanced BI practitioners. Above all, I became confident that self-service BI is within the reach of small and medium enterprises (SMEs). Thanks to tools like Power BI, many SMEs now have the capabilities to gather, clean and visualize data in easy steps. At a good entry price and without having a dedicated BI team in house.   
 

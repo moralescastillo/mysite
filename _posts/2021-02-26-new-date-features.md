@@ -1,8 +1,13 @@
 ---
 layout: post
 title: Deriving Meaning from Date Features for Prediction in Python  
-description: Some ideas on new features that can be created based on date features.
-tags: machine-learning python
+description: Some ideas on new features that can be created based on date features
+date: 2021-02-26 12:00:00 +0200
+author: paulo
+image: '/images/2021-02-26-new-date-features-img00.jpg'
+image_caption:  
+tags: [machine-learning, python]
+featured: 
 ---
 
 Date features alone will not bring much to your predictive model.  Yet information from date features is often crucial for adding predictive power. To get to this information, date features need to be transformed into new features.  

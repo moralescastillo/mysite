@@ -2,7 +2,12 @@
 layout: post
 title: Using Calendar Weeks in Power BI
 description: Allowing months and years to be composed of exact weeks.
-tags: power-bi
+date: 2020-10-29 12:00:00 +0200
+author: paulo
+image: '/images/2020-10-29-use-calendar-week-pbi-img00.jpg'
+image_caption: Power BI is Microsoft's data visualization solution
+tags: [power-bi]
+featured: 
 ---
 
 Often times it is useful to analyze the development of KPIs on a weekly basis. To achieve this, it is necessary to create a column with calendar weeks with some adjustments.  
@@ -11,7 +16,7 @@ Say you have the table "account calendar" with column *Date*:
 
 1. From Data Editor on Power BI Desktop, select the table "calendar table."
 
-	![](/asset/screenshot/use-calendar-week-img01.png)
+	![2020-10-29-use-calendar-week-pbi-img01](/images/2020-10-29-use-calendar-week-pbi-img01.jpg)
 
 2. Create *calendar week* using each date's *start of week* and *week number*.	
 

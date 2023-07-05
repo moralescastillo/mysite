@@ -1,8 +1,13 @@
 ---
 layout: post
 title: Using Google Fonts with Plots in R
-description: A short example on how to use Google Fonts within ggplot graphs.
-tags: r fonts
+description: A short example on how to use Google Fonts within ggplot graphs
+date: 2021-02-12 12:00:00 +0200
+author: paulo
+image: '/images/2021-02-12-google-font-r-img00.jpg'
+image_caption: The R Project is free software for statistical computing
+tags: [r, fonts]
+featured: 
 ---
 
 
@@ -38,11 +43,11 @@ Here is an example on how to use the font Lobster in a plot saved as a PNG image
 
 As mentioned, prompting the plot to appear in RStudio will show the default font.   
 
-![](/asset/screenshot/2021-02-12-google-font-r-img01.png)
+![2021-02-12-google-font-r-img01](/images/2021-02-12-google-font-r-img01.jpg)
  
 Yet, the saved file will have the desired outcome. 
 
-![](/asset/screenshot/2021-02-12-google-font-r-img02.png)
+![2021-02-12-google-font-r-img02](/images/2021-02-12-google-font-r-img02.jpg)
  
 
 References:

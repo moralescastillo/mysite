@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Getting a Power BI Account
-description: A description of the different types of accounts.
-tags: power-bi
+description: A description of the different types of accounts
 date: 2020-04-06 12:00:00 +0200
 author: paulo
-image: /asset_old/screenshot/get-account-img1.jpg
+image: '/images/2020-04-06-get-account-img00.jpg'
+image_camption: Power BI is Microsoft's data visualization solution
 tags: [power-bi]
 featured:
 ---
@@ -27,7 +27,7 @@ The free version allows you to publish your reports to your “My Workspace” i
 
 PBI Pro is the ideal license for employees at small and medium companies. It allows you to collaborate and share content with other PBI Pro users via PBI Service. There is also 60-day trial period at no cost. After this, the license costs 8.40€ a month (in Europe), with the ability to cancel any time.    
 
-![get-account-img1](/asset_old/screenshot/get-account-img1.jpg)
+![2020-04-01-get-account-img01](/images/2020-04-01-get-account-img01.jpg)
  
 ### Power BI Premium  
 

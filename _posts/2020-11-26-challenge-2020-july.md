@@ -1,13 +1,18 @@
 ---
 layout: post
 title: Challenge July 2020&#58; My First 50-Miler
-description: Discovering the power of alcohol-free beer on a warm July 4th.
-tag: running
+description: Discovering the power of alcohol-free beer on a warm July 4th
+date: 2020-11-26 12:00:00 +0200
+author: paulo
+image: '/images/2020-11-26-challenge-2020-july-img00.jpg'
+image_caption: Route covering 50 miles, most of them alongside the Mauerweg
+tag: [running]
+featured: 
 ---
 
 11:25:56. It was brutal.  
 
-![](/asset/screenshot/2020-11-26-challenge-2020-july-img01.jpg)
+![2020-11-26-challenge-2020-july-img01](/images/2020-11-26-challenge-2020-july-img01.jpg)
 
 <font size="-1"><center><span>Route covering 50 miles, most of them alongside the Mauerweg</span></center></font>
 <br>
@@ -16,7 +21,7 @@ Until July of 2020, my longest consecutive run had been 54 km. It felt natural t
 
 I chose the southern part of the [Mauerweg](https://www.komoot.com/tour/78555721), a bike and hiking path following the Berlin Wall. This path is ideal for running because it is in the middle of the forest, far away from traffic lights and crowds.   
 
-![](/asset/picture/2020-11-26-challenge-2020-july-img02.jpg)
+![2020-11-26-challenge-2020-july-img02](/images/2020-11-26-challenge-2020-july-img02.jpg)
 
 <font size="-1"><center><span>Painful muscle cramps at the finish line</span></center></font>
 <br>
