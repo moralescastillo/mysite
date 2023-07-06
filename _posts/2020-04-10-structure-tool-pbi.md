@@ -5,7 +5,7 @@ description: A brief description of the main components of Power BI as a tool
 date: 2020-04-10 15:01:35 +0200
 author: paulo
 image: '/images/2020-04-10-structure-tool-pbi-img00.jpg'
-image_caption: 'Power BI is Microsoft's data visualization solution'
+image_caption: Power BI is Microsoft's data visualization solution
 tags: [power-bi]
 featured:
 ---

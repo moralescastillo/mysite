@@ -5,10 +5,9 @@ description: Keeping your code neat and tidy
 date: 2020-10-21 15:01:35 +0200
 author: paulo
 image: '/images/2020-10-21-format-dax-code-pbi-img00.jpg'
-image_caption: 'Power BI is Microsoft's data visualization solution'
+image_caption: Power BI is Microsoft's data visualization solution
 tags: [power-bi, dax]
 featured:
-
 ---
 
 As computer scientist Donald Knuth said, "Programs are meant to be read by humans and only incidentally for computers to execute." And this should also apply to your code within Power BI reports. 

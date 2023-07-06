@@ -5,7 +5,7 @@ description: A simple trick to make your Power Query work more efficient
 date: 2020-10-21 15:01:35 +0200
 author: paulo
 image: '/images/2020-10-21-go-to-column-pbi-img00.jpg'
-image_caption: 'Power BI is Microsoft's data visualization solution'
+image_caption: Power BI is Microsoft's data visualization solution
 tags: [power-bi]
 featured:
 ---
