@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
 title: Paulo Morales Castillo
-logo: # You can add own logo. For example "/images/logo.png".
+logo: /images/SYMBOL-WHITE-TRANSPARENT.png # You can add own logo. For example "/images/logo.png".
 description: Multipurpose Jekyll Blog Theme
 
 
@@ -9,7 +9,11 @@ description: Multipurpose Jekyll Blog Theme
 # Author Global Settings
 author:
   author__name: Paulo Morales Castillo
-  author__bio: Hi there! Paulo here, a Filmmaker and Content Creator based in Toronto, Ontario, Canada. This blog is about learning, life, and inspiring you to take one step forward.
+  author__bio: >
+    My name is Paulo Morales Castillo and I am a freelance analytics/data engineer 
+    based in Berlin, Germany. I am constantly learning about new technologies and 
+    tinkering with data in one way or another. I write about my 
+    experiences on my blog.
   author__avatar: /images/01-1.jpg
 
 
@@ -34,7 +38,8 @@ menu__settings:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hi there! I’m Dann Kanigan, a Filmmaker and Content Creator based in Toronto, Ontario, Canada. This blog is about learning, life, and inspiring you to take one step forward.
+  hero__title: >
+    Hi there! My name is Paulo and I am data generalist based in Berlin, Germany. I write about my experiences on my blog.
 
 
 #-------------------------------
@@ -106,7 +111,7 @@ contact:
 #-------------------------------
 # Comment Section (Disqus)
 disqus:
-  enable: true
+  enable: false
   disqus__identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
 
 
