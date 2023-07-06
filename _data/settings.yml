@@ -14,7 +14,7 @@ author:
     based in Berlin, Germany. I am constantly learning about new technologies and 
     tinkering with data in one way or another. I write about my 
     experiences on my blog.
-  author__avatar: /images/01-1.jpg
+  author__avatar: /images/0_author_admin.jpg
 
 
 #-------------------------------
@@ -40,15 +40,14 @@ menu__settings:
 hero:
   hero__title: >
     Hi there! My name is Paulo and I am a data all-arounder 
-    based in Berlin, Germany. I write about my experiences 
-    on my blog.
+    based in Berlin, Germany. Welcome to my blog.
 
 
 #-------------------------------
 # Blog Settings
 blog:
   blog__title: Blog
-  blog__description: Find out how to set up a successful blog or how to make yours even better!
+  blog__description: 
 
 
 #-------------------------------
