@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Using Custom Maps in Metabase
-description: All you need is the GeoJSON file of the map you would like to plot on.
-tags: metabase
+description: All you need is the GeoJSON file of the map you would like to plot on
+date: 2022-01-05 12:00:00 +0200
+author: paulo
+image: '/images/2022-01-05-custom-maps-metabase-img01.jpg'
+image_caption: Population of Berlin per zip code
+tags: [metabase]
+featured: 
 ---
-
-![](/asset/screenshot/2022-01-05-custom-maps-metabase-img01.jpg)
 
 One of Metabase's best visualization options is maps. You include a table (dataset) with location-type columns and Metabase would plot the data on a map for you.
 

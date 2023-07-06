@@ -2,12 +2,13 @@
 layout: post
 title: Mapping of Postal and District Codes 
 description: A mapping from Austrian 4-digit postal codes to Austrian 3-digit district codes
-tags: dataset metabase maps
+date: 2022-04-12 12:00:00 +0200
+author: paulo
+image: '/images/2022-04-12-mapping-postal-district-img01.jpg'
+image_caption: Map of Austria at the district level, viewed from the Metabase Admin console
+tags: [dataset, metabase, maps]
+featured: 
 ---
-
-![](/asset/screenshot/2022-04-12-mapping-postal-district-img01.jpg)
-<font size="-1"><center><span>Map of Austria at the district level, viewed from the Metabase Admin console. </span></center></font>
-<br>
 
 The [CSV file](https://github.com/moralescastillo/datasets/blob/main/austria-postal-district.csv) consists of a mapping from Austrian 4-digit postal codes to Austrian 3-digit district codes.
 

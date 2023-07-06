@@ -2,12 +2,13 @@
 layout: post
 title: Preventing Unexpected Billing in GCP 
 description: A few tips on how to avoid surprises at the end of the month
-tags: gcp
+date: 2021-04-17 12:00:00 +0200
+author: paulo
+image: '/images/2022-04-17-gcp-billing-tips-img01.jpg'
+image_caption: Budgets & alerts overview on GCP
+tags: [gcp]
+featured: 
 ---
-
-![](/asset/screenshot/2022-04-17-gcp-billing-tips-img01.jpg)
-<font size="-1"><center><span> Budgets & alerts overview on GCP. </span></center></font>
-<br>
 
 
 One of the intimidating parts about getting started with cloud services is billing. Google Cloud Platform (GCP) gives you a Free Tier ($300 in credit) to get started. Yet, GCP will still ask you for your credit card details. And whenever the credit runs out, google will start billing your card.

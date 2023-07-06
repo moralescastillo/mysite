@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Matching First Names and Gender using gender-guesser  
-description: gender-guesser is a python package that allows you to match a first names and name origin to a gender.
-tags: python
+description: gender-guesser is a python package that allows you to match a first names and name origin to a gender
+date: 2022-02-28 12:00:00 +0200
+author: paulo
+image: '/images/2022-02-28-python-gender-guesser-img01.jpg'
+image_caption: 
+tags: [python]
+featured: 
 ---
-
-![](/asset/screenshot/2022-02-28-python-gender-guesser-img01.jpg) 
 
 
 Recently, I had the task to assign genders to a group of customers for whom we did not have such information. For the task, I was provided with a list of unique first names and their residence ISO country codes. To match gender with each name-country combination, I used the [gender-guesser](https://pypi.org/project/gender-guesser/) python package. 

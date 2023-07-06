@@ -2,12 +2,13 @@
 layout: post
 title: Working from Corralejo, Fuerteventura 
 description: Some learnings from my travels in the nomad island
-tags: remote-work
+date: 2022-03-31 12:00:00 +0200
+author: paulo
+image: '/images/2022-03-31-remote-fuerteventura-corralejo-img01.jpg'
+image_caption: View of Corralejo from the top of Volcan Bayuyo. Lobos Island in the background
+tags: [remote-work]
+featured: 
 ---
-
-![](/asset/screenshot/2022-03-31-remote-fuerteventura-corralejo-img01.jpg)
-<font size="-1"><center><span>View of Corralejo from the top of Volcan Bayuyo. Lobos Island in the background. </span></center></font>
-<br>
 
 I had the fortune to spend some time living in and working remotely from Corralejo, Fuerteventura. Here are a couple of tips that may help those on the fence about working remotely from the island.
 
