@@ -1,13 +1,14 @@
 ---
 layout: post
 title: dbt run commands for model development 
-description: A compilation of a few commands when developing new models in dbt.
-tags: dbt
+description: A compilation of a few commands when developing new models in dbt
+date: 2021-05-19 12:00:00 +0200
+author: paulo
+image: '/images/2022-05-19-dbt-run-command-img01.jpg'
+image_caption: 'Logo of [dbt](https://www.getdbt.com/) (data base tool)'
+tags: [dbt]
+featured: 
 ---
-
-![](/asset/screenshot/2022-05-19-dbt-run-command-img01.jpg)
-<font size="-1"><center><span>Logo of <a href="https://www.getdbt.com/">dbt (data base tool)</a></span></center></font>
-<br>
 
 When developing new models using dbt (data base tool), I often find myself using the following run commands:
 

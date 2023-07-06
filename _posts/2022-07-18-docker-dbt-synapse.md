@@ -2,13 +2,13 @@
 layout: post
 title: A simple Dockerfile for a dbt Synapse
 description: A sample Dockerfile to containerize a dbt project with Azure Synapse dependencies
-tags: dbt docker azure
+date: 2022-07-18 12:00:00 +0200
+author: paulo
+image: '/images/2022-07-18-docker-dbt-synapse-img01.jpg'
+image_caption: Docker and dbt are indispensible tools for the CI/CD of modern DWH systems
+tags: [dbt, docker, azure]
+featured: 
 ---
-
-![](/asset/screenshot/2022-07-18-docker-dbt-synapse-img01.jpg)
-
-<font size="-1"><center><span> Docker and dbt are indispensible tools for the CI/CD of modern DWH systems </span></center></font>
-<br>
 
 Creating a Dockerfile to containerize a [dbt](https://www.getdbt.com/) project is rather simple. There are many such sample files available on the internet.
 

@@ -2,12 +2,13 @@
 layout: post
 title: Gathering Questions about GCP 
 description: A sample of questions about GCP used as a study-guide for Google's Associate Cloud Engineer Certification
-tags: gcp
+date: 2022-04-22 12:00:00 +0200
+author: paulo
+image: '/images/2022-04-22-gcp-certificate-questions-img01.jpg'
+image_caption: 'Sample quiz question from [Google Cloud Skill Boost](https://www.cloudskillsboost.google/paths/11)'
+tags: [gcp]
+featured: 
 ---
-
-![](/asset/screenshot/2022-04-22-gcp-certificate-questions-img01.jpg)
-<font size="-1"><center><span> Budgets & alerts overview on GCP. </span></center></font>
-<br>
 
 The [CSV file](https://github.com/moralescastillo/datasets/blob/main/gcp-questions.csv) consists of 147 questions on various GCP topics. The questions were taken from Cloud Engineering Learning Path courses, from [Google Cloud Skill Boost](https://www.cloudskillsboost.google/paths/11). 
 

@@ -2,13 +2,13 @@
 layout: post
 title: Working from Taghazout, Morocco 
 description: The beauty is found in the mess
-tags: remote-work
+date: 2022-07-25 12:00:00 +0200
+author: paulo
+image: '/images/2022-07-25-remote-morocco-taghazout-img01.jpg'
+image_caption: View of into the ocean, from Adventure Keys coworking space
+tags: [remote-work]
+featured: 
 ---
-
-![](/asset/screenshot/2022-07-25-remote-morocco-taghazout-img01.jpg)
-<font size="-1"><center><span>View of into the ocean, from Adventure Keys coworking space. </span></center></font>
-<br>
-
 
 ### Living and Working
 "The beauty is found in the mess" said a fellow nomad over dinner, referring to their experience in Morocco. I could not agree more.

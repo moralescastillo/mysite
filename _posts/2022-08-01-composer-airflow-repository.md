@@ -2,13 +2,13 @@
 layout: post
 title: Syncing a Cloud Source Repository to your Composer Airflow Environment
 description: And thus starting your CI/CD pipeline
-tags: gcp airflow
+date: 2022-08-01 12:00:00 +0200
+author: paulo
+image: '/images/2022-08-01-composer-airflow-repository-img01.jpg'
+image_caption: Logos for Cloud Composer, Airflow, and Cloud Source Repository
+tags: [gcp, airflow]
+featured: 
 ---
-
-![](/asset/screenshot/2022-08-01-composer-airflow-repository-img01.jpg)
-<font size="-1"><center><span>Icons for Cloud Composer, Airflow, and Cloud Source Repository. </span></center></font>
-<br>
-
 
 You created a brand new Cloud Composer environment. Now what? A natural next-step in the CI/CD pipeline is to sync a Git repository to your environment. 
 
@@ -18,27 +18,27 @@ Once started, your new environment has created a DAGs folder in a Cloud Storage 
 
 1. From your Composer environment, click on **Environment Configuration** and refer to the *DAGs Folder* location. Copy the link to the DAGs folder and save for later.
 
-    ![2022-08-01-composer-airflow-repository-img02](/asset/screenshot/2022-08-01-composer-airflow-repository-img02.jpg)
+    ![2022-08-01-composer-airflow-repository-img02](/images/2022-08-01-composer-airflow-repository-img02.jpg)
 
 2. Go to Cloud Source Repositories. Create a new repository by clicking on **Add repository**.
 
-    ![2022-08-01-composer-airflow-repository-img03](/asset/screenshot/2022-08-01-composer-airflow-repository-img03.jpg)
+    ![2022-08-01-composer-airflow-repository-img03](/images/2022-08-01-composer-airflow-repository-img03.jpg)
 
 3. Using your preferred authentication method, clone the repository to a local git repository.
 
-    ![2022-08-01-composer-airflow-repository-img04](/asset/screenshot/2022-08-01-composer-airflow-repository-img04.jpg)
+    ![2022-08-01-composer-airflow-repository-img04](/images/2022-08-01-composer-airflow-repository-img04.jpg)
 
 4. From GCP, go to Cloud Build. Click on **Triggers** > **Create trigger +**. Proceed to create a new trigger
 
-    ![2022-08-01-composer-airflow-repository-img05](/asset/screenshot/2022-08-01-composer-airflow-repository-img05.jpg)
+    ![2022-08-01-composer-airflow-repository-img05](/images/2022-08-01-composer-airflow-repository-img05.jpg)
 
 5. Under *event*, make sure the trigger is set to "Push to a branch." Moreover, select the repository created in step 2, and type `^master$` under *Branch*. 
 
-    ![2022-08-01-composer-airflow-repository-img06](/asset/screenshot/2022-08-01-composer-airflow-repository-img06.jpg)
+    ![2022-08-01-composer-airflow-repository-img06](/images/2022-08-01-composer-airflow-repository-img06.jpg)
 
 6. Under *configuration*, specify the path that will hold your yaml file, in this case `/cloudbuild/cloudbuild.yaml`.
 
-    ![2022-08-01-composer-airflow-repository-img07](/asset/screenshot/2022-08-01-composer-airflow-repository-img07.jpg)
+    ![2022-08-01-composer-airflow-repository-img07](/images/2022-08-01-composer-airflow-repository-img07.jpg)
 
     and finalize the trigger by clicking on **Create**.
 
@@ -86,11 +86,11 @@ Once started, your new environment has created a DAGs folder in a Cloud Storage 
 
 9. Commit your changes in your local repository and push them to the Source Repository.
 
-    ![2022-08-01-composer-airflow-repository-img08](/asset/screenshot/2022-08-01-composer-airflow-repository-img08.jpg)
+    ![2022-08-01-composer-airflow-repository-img08](/images/2022-08-01-composer-airflow-repository-img08.jpg)
 
 10. Finally, go back to your Composer environment. Click on **Open Airflow UI**. Now you should see the test DAG from step 8 on the Airflow DAG panel.
 
-    ![2022-08-01-composer-airflow-repository-img09](/asset/screenshot/2022-08-01-composer-airflow-repository-img09.jpg)
+    ![2022-08-01-composer-airflow-repository-img09](/images/2022-08-01-composer-airflow-repository-img09.jpg)
 
 From now on, every commit pushed to the Source Repository will be reflected on your Cloud Composer environment. All related code is available on [GitHub](https://github.com/moralescastillo/code_sample/tree/main/composer_repository_sync).
 

@@ -2,12 +2,13 @@
 layout: post
 title: Applying Scalers using DataFrameMapper()
 description: An example on how to scale and hot-encode variables while preprocessing your data frame.
-tags: python machine-learning
+date: 2022-06-08 12:00:00 +0200
+author: paulo
+image: '/images/2022-06-08-data-frame-mapper-img01.jpg'
+image_caption: 'Sample data frame, processed using DataFrameMapper()'
+tags: [python, machine-learning]
+featured: 
 ---
-
-![](/asset/screenshot/2022-06-08-data-frame-mapper-img01.jpg)
-<font size="-1"><center><span>Sample data frame, processed using DataFrameMapper() </span></center></font>
-<br>
 
 When building a model, I often perform scaling and hot-encoding variables while preprocessing data. It is a part of the process I dislike because I never find a consistent, elegant way to do it and replicate it. 
 

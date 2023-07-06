@@ -2,12 +2,13 @@
 layout: post
 title: Working from Santa Teresa, Costa Rica 
 description: Strong waves (surf, not WiFi)
-tags: remote-work
+date: 2022-04-27 12:00:00 +0200
+author: paulo
+image: '/images/2022-04-27-remote-santa-teresa-img01.jpg'
+image_caption: A brief stop while running in Playa Manzanillo
+tags: [remote-work]
+featured: 
 ---
-
-![](/asset/screenshot/2022-04-27-remote-santa-teresa-img01.jpg)
-<font size="-1"><center><span>A brief stop while running in Playa Manzanillo. </span></center></font>
-<br>
 
 ### Living and Working
 Santa Teresa is frequented by people from all over the world, either chasing waves, admiring the nature, or both. Although very international, I did not meet anybody else working remotely from the area. Here are some thoughts on the whole experience:

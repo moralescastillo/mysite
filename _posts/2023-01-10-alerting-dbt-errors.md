@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Alerting for dbt Errors in Azure Data Factory Using Databricks
-description: Stay on top of errors that may come up when running your dbt build.
-tags: azure adf dbt databricks python
+description: Stay on top of errors that may come up when running your dbt build
+date: 2023-01-10 12:00:00 +0200
+author: paulo
+image: '/images/2023-01-10-alerting-dbt-errors-img01.jpg'
+image_caption: 'Photo by [David Pupaza](https://unsplash.com/@dav420?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/heNwUmEtZzo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)'
+tags: [azure, adf, dbt, databricks, python]
+featured: 
 ---
-
-![](/asset/screenshot/2023-01-10-alerting-dbt-errors-img01.jpg)
-<font size="-1"><center><span>Photo by <a href="https://unsplash.com/@dav420?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David Pupaza</a> on <a href="https://unsplash.com/photos/heNwUmEtZzo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
- </span></center></font>
-<br>
 
 Is it me or dbt (getdbt.com) is synonym for Snowflake? The two are often seen hand in hand. In reality, dbt works with any other data warehouse solution. For some of our clients, we use dbt alongside Azure Synapse and Azure Data Factory (ADF).
 
@@ -53,7 +53,7 @@ The following is a sample JSON response in ADF of dbt logs containing an error:
 
 Feel free to insert a JSON snippet like this in the box every time you would like to debug your python script. But make sure to delete it from the notebook after you are done debugging to script! 
 
-![2023-01-10-alerting-dbt-errors-img02](/asset/screenshot/2023-01-10-alerting-dbt-errors-img02.jpg)
+![2023-01-10-alerting-dbt-errors-img02](/images/2023-01-10-alerting-dbt-errors-img02.jpg)
 
 We then check if the dbt logs contain any errors:
 
@@ -123,6 +123,6 @@ Back on ADF studio, add a new **Databricks Notebook** activity to your pipeline.
 
 Under **Settings** > **Base parameters**, we add a new parameter named *dbt_results*. As value, we set the logs pulled from the previous activity using *@activity('pull_aci_log').output.content*.
 
-![2023-01-10-alerting-dbt-errors-img03](/asset/screenshot/2023-01-10-alerting-dbt-errors-img03.jpg)
+![2023-01-10-alerting-dbt-errors-img03](/images/2023-01-10-alerting-dbt-errors-img03.jpg)
 
 As always, make sure to hit **Debug** and check for any issues in the pipeline. The complete sample python script can be found in [GitHub](https://github.com/moralescastillo/code_sample/blob/main/alering_dbt_errors/alerting_dbt_errors.py).

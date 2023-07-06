@@ -2,12 +2,13 @@
 layout: post
 title: Creating Sample Datasets in Python
 description: A script to create sample pandas data frames with randomly generated data.
-tags: python machine-learning
+date: 2022-06-03 12:00:00 +0200
+author: paulo
+image: '/images/2022-06-03-python-sample-data-img01.jpg'
+image_caption: Sample data frame using np.random arrays
+tags: [python, machine-learning]
+featured: 
 ---
-
-![](/asset/screenshot/2022-06-03-python-sample-data-img01.jpg)
-<font size="-1"><center><span>Sample data frame using np.random arrays</span></center></font>
-<br>
 
 When running into errors using python, I often resource to Stack Overflow. To my surprise, many analysts post their questions using the actual dataset that causes their error, which sometimes is sensitive data. 
 

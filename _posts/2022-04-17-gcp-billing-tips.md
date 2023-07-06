@@ -5,7 +5,7 @@ description: A few tips on how to avoid surprises at the end of the month
 date: 2021-04-17 12:00:00 +0200
 author: paulo
 image: '/images/2022-04-17-gcp-billing-tips-img01.jpg'
-image_caption: Budgets & alerts overview on GCP
+image_caption: 'Budgets & alerts overview on GCP'
 tags: [gcp]
 featured: 
 ---

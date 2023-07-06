@@ -1,17 +1,20 @@
 ---
+layout: post
 title: Creating Minimalist Map Posters using R  
-layout: page
+description: Levering R and OpenStreetMaps to create custom minimalist posters
+date: 2022-07-30 12:00:00 +0200
+author: paulo
+image: '/images/2022-07-30-minimalist-map-r-img01.jpg'
+image_caption: 'Map poster of Berlin available at juniqe.de'
+tags: [r, maps]
+featured: 
 ---
 
 As a Christmas gift, I wanted to give my relatives a minimalist map poster of the places where they live. A poster they could frame and put on the wall. I found a couple of websites that would do the mapping, printing and shipping but it was too expensive in my opinion. So I started looking for ways of plotting maps with a minimalist theme in R. 
 
-![](/asset/screenshot/minimalist-map-r-img01.png) 
-<font size="-1"><center><span>Map poster of Berlin available at juniqe.de</span></center></font>
-<br>
-
 At first, I came across the package [`ggmap`](https://www.rdocumentation.org/packages/ggmap/versions/3.0.0). With the function `get_stamenmap()`, the package enables you to use map tiles from services like Google Maps and Stamen Maps. The maps come as monochromatic images, which is a good minimalist theme. Yet the map styles available limit your ability to e.g. set the thickness of lines within the maps. This is not a surprise, as the tile themselves are images rather than a plot rendered in R.  
 
-![](/asset/screenshot/minimalist-map-r-img02.png) 
+![2022-07-30-minimalist-map-r-img02](/images/2022-07-30-minimalist-map-r-img02.jpg) 
 <font size="-1"><center><span>Map of Berlin via <a href="http://maps.stamen.com/toner/#12/52.5269/13.4315">maps.stamen.com</a></span></center></font>
 <br>
 
@@ -19,7 +22,7 @@ Finally, I came across this [tutorial](http://joshuamccrain.com/tutorials/maps/s
 
 The biggest issue I run into with the OSM data is the coordinates themselves. With the function `getbb()`, you are able to find the bounding coordinates of a location (city, country, etc). The issue is that, when plotting a location with the bounding coordinates on a common poster-size pdf, a lot of white space is created.  
 
-![](/asset/screenshot/minimalist-map-r-img03.png) 
+![2022-07-30-minimalist-map-r-img03](/images/2022-07-30-minimalist-map-r-img03.jpg) 
 <font size="-1"><center><span>Early attempts at plotting a map of Berlin on a pdf with landscape orientation</span></center></font>
 <br>
 
@@ -55,7 +58,7 @@ Create a pdf with the map of Berlin.
 	draw_map('Berlin, Germany') # add any location search term
 	{%endraw%}
 
-![](/asset/screenshot/minimalist-map-r-img04.png)
+![2022-07-30-minimalist-map-r-img04](/images/2022-07-30-minimalist-map-r-img04.jpg)
 <font size="-1"><center><span>The function creates the map so that it contains the surface from the original bounding coordinates, and extends the coordinates so that the plot fits the pdf without white space</span></center></font>
 <br>
 
@@ -66,7 +69,7 @@ Create a pdf with the map of Berlin with landscape orientation.
          orientation = 'landscape') # set orientation
 	{%endraw%}
 
-![](/asset/screenshot/minimalist-map-r-img07.png)
+![2022-07-30-minimalist-map-r-img07](/images/2022-07-30-minimalist-map-r-img07.jpg)
 <font size="-1"><center><span>The original bounding coordinates are extended to fit the pdf's orientation</span></center></font>
 <br>
 
@@ -80,7 +83,7 @@ Create a map of [Tempeholfer Feld](https://www.openstreetmap.org/search?query=te
 			 page_size = 'l') # select A4, s, m, or l
 	{%endraw%}
 
-![](/asset/screenshot/minimalist-map-r-img05.png)
+![2022-07-30-minimalist-map-r-img05](/images/2022-07-30-minimalist-map-r-img05.jpg)
 <font size="-1"><center><span>The functions calculates the needed coordinates to cover approximately 20 squared kms in surface</span></center></font>
 <br>
 
@@ -95,7 +98,7 @@ Create a map of [Tiergarten Berlin](https://www.openstreetmap.org/search?query=t
 			 custom_label = 'Tiergarten (Not to be confused with Tierpark), Berlin')  
 	{%endraw%}
 	 
-![](/asset/screenshot/minimalist-map-r-img06.png)
+![2022-07-30-minimalist-map-r-img06](/images/2022-07-30-minimalist-map-r-img06.jpg)
 <font size="-1"><center><span>The functions calculates the needed coordinates to cover approximately 10 squared kms in surface, on a pdf of with length and width of 20 and 60 cms respectively</span></center></font>
 <br>
 

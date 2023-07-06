@@ -2,14 +2,15 @@
 layout: post
 title: Nudging The End User
 subtitle: A PBI example on how to guide users towards optimal data usage while reducing the chances of leakage
-description: In PBI, you can nudge the user towards selecting the data they need first, before it is actually displayed in the report.
-tags: power-bi
+description: In PBI, you can nudge the user towards selecting the data they need first, before it is actually displayed in the report
+date: 2023-02-19 12:00:00 +0200
+author: paulo
+image: '/images/2023-02-19-nudge-the-user-img01.jpg'
+image_caption: 'Photo by [Pascal Debrunner](https://unsplash.com/ko/@debrupas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/WuwKphhRQSM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)'
+tags: [power-bi]
+featured: 
 ---
 
-![](/asset/screenshot/2023-02-19-nudge-the-user-img01.jpg)
-<font size="-1"><center><span> Photo by <a href="https://unsplash.com/ko/@debrupas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pascal Debrunner</a> on <a href="https://unsplash.com/photos/WuwKphhRQSM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span></center></font>
-<br>
- 
 In [Nudge](https://www.goodreads.com/book/show/3450744-nudge), economist Richard Thaler promotes the practice of libertarian paternalism in society. By this idea, a choice architect designs ways to "nudge" others towards optimal decision-making. 
 
 We would argue that, we, the creators of data products, are also choice architects. We are responsible for sharing data and insights in ways which are most practical to the end user. And thus, it is also our duty to nudge the end user to make good use of the data and insights given to them.
@@ -26,7 +27,7 @@ Let us create a sample PBI report using the GCSE exam scores dataset from the `m
 
 In this report, we provide the user with a table listing students' scores per school. The report includes a filter for school ID and a filter for student ID.
 
-![2023-02-19-nudge-the-user-img02](/asset/screenshot/2023-02-19-nudge-the-user-img02.jpg)
+![2023-02-19-nudge-the-user-img02](/images/2023-02-19-nudge-the-user-img02.jpg)
 <font size="-1"><center><span> GCSE exam scores listed in a PBI table </span></center></font>
 <br>
 
@@ -50,7 +51,7 @@ Next, using DAX, we create a measure called *filter_check*. The goal of this mea
 
 To create *filter_check* in the report, go to **Modeling**>**New Measure**. In the header bar, insert the above DAX code and press enter. 
 
-![2023-02-19-nudge-the-user-img03](/asset/screenshot/2023-02-19-nudge-the-user-img03.jpg)
+![2023-02-19-nudge-the-user-img03](/images/2023-02-19-nudge-the-user-img03.jpg)
 <font size="-1"><center><span> Creating <em>filter_check</em> in PBI </span></center></font>
 <br>
 
@@ -60,7 +61,7 @@ Given that neither a school ID nor a student ID has been chosen in filters, *fil
 
 Finally, test this approach by choosing both school and student IDs. Notice that, normally, choosing only one of the two filters will render no results. Unless, of course, there is no more than one unique student ID per School and vice versa.
 
-![2023-02-19-nudge-the-user-img04](/asset/screenshot/2023-02-19-nudge-the-user-img04.jpg)
+![2023-02-19-nudge-the-user-img04](/images/2023-02-19-nudge-the-user-img04.jpg)
 <font size="-1"><center><span> Applying filters makes the table display results </span></center></font>
 <br>
 

@@ -2,13 +2,14 @@
 layout: post
 title: Is My dbt Ready?
 subtitle: Waiting for a Containerized dbt Project to End in Azure Data Factory 
-description: Set up activities in Azure Data Factory to track when your containerized dbt project has finished running.
-tags: adf azure dbt dwh
+description: Set up activities in Azure Data Factory to track when your containerized dbt project has finished running
+date: 2023-01-20 12:00:00 +0200
+author: paulo
+image: '/images/2023-01-20-dbt-container-terminated-img01.jpg'
+image_caption: Working with dbt (getdbt.com) within Azure Data Factory
+tags: [adf, azure, dbt, dwh]
+featured: 
 ---
-
-![](/asset/screenshot/2023-01-20-dbt-container-terminated-img01.jpg)
-<font size="-1"><center><span> Working with dbt (getdbt.com) within Azure Data Factory </span></center></font>
-<br>
 
 One of the advantages of using dbt (getdbt.com) is that we can use tags to run groups of models. In this way, we save time by not running all models available. 
 
@@ -39,7 +40,7 @@ Keep in mind that, ADF should have access rights to ACI to get a response from t
 
 We begin by creating an **Until** activity after the container-start activity. Let us call this activity *wait_aci_success*. 
 
-![2023-01-20-dbt-container-terminated-img02](/asset/screenshot/2023-01-20-dbt-container-terminated-img02.jpg)
+![2023-01-20-dbt-container-terminated-img02](/images/2023-01-20-dbt-container-terminated-img02.jpg)
 <font size="-1"><center><span> The Web and Until activities connected on success </span></center></font>
 <br>
 
@@ -47,7 +48,7 @@ Within *wait_aci_success*, we create two activities. Firstly, a **Web** activity
 
 As its name implies, we assign the Wait activity a 30-second waiting period.
 
-![2023-01-20-dbt-container-terminated-img03](/asset/screenshot/2023-01-20-dbt-container-terminated-img03.jpg)
+![2023-01-20-dbt-container-terminated-img03](/images/2023-01-20-dbt-container-terminated-img03.jpg)
 <font size="-1"><center><span> Set the waiting period to 30 seconds </span></center></font>
 <br>
 
@@ -55,7 +56,7 @@ Within *aci_state_if_success*, we use the state ACI REST API mentioned above. Re
 
 We then place the above API in the **URL box** and choose *GET* as **method**. In **Authentication**, select *System Assigned Managed Identity* and let *https://management.azure.com/* be the **Resource**. 
 
-![2023-01-20-dbt-container-terminated-img04](/asset/screenshot/2023-01-20-dbt-container-terminated-img04.jpg)
+![2023-01-20-dbt-container-terminated-img04](/images/2023-01-20-dbt-container-terminated-img04.jpg)
 <font size="-1"><center><span> Include the ACI REST API in the Web activity </span></center></font>
 <br>
 
@@ -80,7 +81,7 @@ Now, we step back into the original pipeline. Click on *wait_aci_success* and go
 within the expression builder.
 
 
-![2023-01-20-dbt-container-terminated-img05](/asset/screenshot/2023-01-20-dbt-container-terminated-img05.jpg)
+![2023-01-20-dbt-container-terminated-img05](/images/2023-01-20-dbt-container-terminated-img05.jpg)
 <font size="-1"><center><span> Include the expression within the Until activity's expression builder  </span></center></font>
 <br>
 
@@ -108,7 +109,7 @@ Within the expression builder from *wait_aci_terminate*, we evaluate whether the
 <font size="-1"><center><span> ADF dynamic content evaluating whether the instance state is equal to 'Terminated' </span></center></font>
 <br>
 
-![2023-01-20-dbt-container-terminated-img06](/asset/screenshot/2023-01-20-dbt-container-terminated-img06.jpg)
+![2023-01-20-dbt-container-terminated-img06](/images/2023-01-20-dbt-container-terminated-img06.jpg)
 <font size="-1"><center><span> Overview of the final ADF pipeline </span></center></font>
 <br>
 

@@ -2,7 +2,13 @@
 layout: post
 title: Creating a Custom Theme in Power BI
 description: Save time and make your Power BI reports look professional by creating custom themes.
-tags: power-bi
+date: 2020-10-29 12:00:00 +0200
+author: paulo
+image: '/images/2020-10-29-create-custom-theme-pbi-img00.jpg'
+image_caption: Power BI is Microsoft's data visualization solution
+tags: [power-bi]
+featured: 
+
 ---
 
 When creating a visual, Power BI Desktop uses a default color palette and font. You can customize your visuals by manually changing their color and font.   
@@ -11,7 +17,7 @@ Alternatively, you can import a [Power BI Desktop theme](https://docs.microsoft.
 
 Say you have created a report using the default pallet and font:  
 
-![](/asset/screenshot/create-custom-theme-img01.png)
+![2020-10-29-create-custom-theme-pbi-img01](/images/2020-10-29-create-custom-theme-pbi-img01.jpg)
 
 Now, you would like to customize it by making the report color-blind friendly and use the font Courier New is all visuals:  
 
@@ -39,10 +45,10 @@ Now, you would like to customize it by making the report color-blind friendly an
 
 3. From Report Editor, go to **View** > **Themes** > **Browse for themes**.  
 
-	![](/asset/screenshot/create-custom-theme-img03.png)
+	![2020-10-29-create-custom-theme-pbi-img03](/images/2020-10-29-create-custom-theme-pbi-img03.jpg)
 
-3. Find the JSON file and open it. The theme is then imported and your visuals update with the new theme specifications.  
+4. Find the JSON file and open it. The theme is then imported and your visuals update with the new theme specifications.  
 
-	![](/asset/screenshot/create-custom-theme-img02.png)
+	![2020-10-29-create-custom-theme-pbi-img02](/images/2020-10-29-create-custom-theme-pbi-img02.jpg)
 
 Keep a template .pbix file where the theme JSON file is already uploaded. In this way, you and your colleagues can create new reports with the organization’s theme right away. 
