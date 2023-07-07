@@ -10,10 +10,15 @@ description: Multipurpose Jekyll Blog Theme
 author:
   author__name: Paulo Morales Castillo
   author__bio: >
-    My name is Paulo Morales Castillo and I am a freelance analytics/data engineer 
-    based in Berlin, Germany. I am constantly learning about new technologies and 
-    tinkering with data in one way or another. I write about my 
-    experiences on my blog.
+    I am a freelance analytics/data engineer based in Berlin, Germany, 
+    who is constantly learning and experimenting with new technologies. 
+    With a background in data analytics since 2014, I have gained 
+    expertise in various areas such as data science, data engineering, 
+    web analytics, and marketing analytics. My core skills include 
+    descriptive, exploratory, and predictive data analysis, 
+    data warehouse setup and maintenance, data orchestration and 
+    transformation, and dashboard creation and automation. I also run 
+    long distances from time to time. 
   author__avatar: /images/0_author_admin.jpg
 
 
@@ -31,6 +36,8 @@ menu__settings:
     #    title: 'Authors'
     #  - url: '/elements/'
     #    title: 'Elements'
+    #- title: 'Tags'
+    #  url: '/tags/'
     - title: 'Contact'
       url: '/contact/'
 
@@ -39,7 +46,7 @@ menu__settings:
 # Hero Settings
 hero:
   hero__title: >
-    Hi there! My name is Paulo and I am a data all-arounder 
+    Hi there! My name is Paulo and I am a freelance data all-arounder 
     based in Berlin, Germany. Welcome to my blog.
 
 
@@ -90,7 +97,9 @@ footer__menu__settings:
 
 # Social Links
 social:
-- {icon: "ion-logo-twitter", color: "#55acee", name: Twitter, link: "https://twitter.com"}
+- {icon: "ion-logo-github", color: "#000000", name: Github, link: "https://github.com/moralescastillo"}
+- {icon: "ion-logo-linkedin", color: "#0A66C2", name: LinkedIn, link: "https://www.linkedin.com/in/moralescas/"}
+- {icon: "ion-logo-twitter", color: "#55acee", name: Twitter, link: "https://twitter.com/PauloMoralesCas"}
 #- {icon: "ion-logo-facebook", color: "#3b5999", name: Facebook, link: "https://facebook.com"}
 #- {icon: "ion-logo-pinterest", color: "#bd081c", name: Pinterest, link: "https://pinterest.com"}
 #- {icon: "ion-logo-dribbble", color: "#ea4c89", name: Dribbble, link: "https://dribbble.com"}
@@ -103,7 +112,7 @@ social:
 #-------------------------------
 # Contact Settings
 contact:
-  email: hello@paulomoralescastillo.com # Add your email for contant form
+  email: xyyqykpp # Add your email for contant form
 
 # NOTE
 # Dann theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
