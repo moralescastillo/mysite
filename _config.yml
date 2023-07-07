@@ -1,40 +1,56 @@
-# Dependencies
-markdown:         kramdown
-#highlighter:      pygments
+#-------------------------------
+# General Site Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Permalinks
-#permalink:        pretty
-#relative_permalinks: true
 
-# Setup
-title:            Paulo Morales Castillo
-tagline:          Analytics/Data Engineer
-#description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              https://paulomoralescastillo.com
-baseurl:          /
+#-------------------------------
+# Build Settings
+markdown: kramdown
+permalink: /:title
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 
-author:
-  name:           Paulo Morales Castillo
-  url:            https://paulomoralescastillo.com
+paginate: 6
+paginate_path: "/page/:num"
 
-#paginate:         5
 
-# Custom vars
-# version:          2.1.0
+#-------------------------------
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:slug
+  authors:
+    output: true
+    permalink: /:name
 
-github:
-  repo:           #https://
+# Pages Path
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
 
-# pluggins
-
-#plugins:        [jekyll-paginate]
-
-# Social media usernames
-github_username:    moralescastillo
-linkedin_username:  moralescas
-strava_username:    paulo_mc
-
-exclude:
-  - .jekyll-cache
-
-google_analytics: G-79GPSHLYJ6
+sass:
+  sass_dir: _sass
+  style: compressed

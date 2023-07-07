@@ -1,0 +1,33 @@
+---
+layout: page
+title: Contact
+description: > 
+  Thank you for visiting. I sincerely hope that I have offered you something valuable. 
+  If you would like to connect, kindly complete the contact form provided below, and I will ensure a prompt response.
+  You can also find me in  <a href="https://github.com/moralescastillo" ­target="_blank">Github</a>, 
+  <a href="https://www.linkedin.com/in/moralescas/"­ target="_blank">Linkedin</a> 
+  and <a href="https://twitter.com/PauloMoralesCas" ­target="_blank">Twitter</a>. 
+permalink: /contact/
+image: 
+image_caption: 
+---
+
+<div class="form-box">
+  <form class="form" action="{% if site.data.settings.contact.email %}https://formspree.io/f/{{site.data.settings.contact.email}}{% else %}#{% endif %}" method="POST">
+    <div class="form__group">
+      <label class="form__label screen-reader-text" for="form-name">Your Name</label>
+      <input class="form__input" id="form-name" type="text" name="name" placeholder="Name" required>
+    </div>
+    <div class="form__group">
+      <label class="form__label screen-reader-text" for="form-email">Your Email</label>
+      <input class="form__input" id="form-email" type="email" name="_replyto" placeholder="Email" required>
+    </div>
+    <div class="form__group">
+      <label class="form__label screen-reader-text" for="form-text">Your Message</label>
+      <textarea class="form__input" id="form-text" name="text" rows="7" placeholder="Message" required></textarea>
+    </div>
+    <div class="form__group">
+      <button class="button button--primary" type="submit">Send Message</button>
+    </div>
+  </form>
+</div>

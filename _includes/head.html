@@ -1,41 +1,42 @@
 <head>
-
-  {% if site.google_analytics %}
-    {% include google-analytics.html %}
-  {% endif %}
-  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.title }}{% endif %}</title>
+  <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.settings.description }}{% endif %}'>
 
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.data.settings.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="{{ "/" | relative_url }}public/css/poole.css">
-  <link rel="stylesheet" href="{{ "/" | relative_url }}public/css/syntax.css">
-  <link rel="stylesheet" href="{{ "/" | relative_url }}public/css/hyde.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-  
-  <!-- Icons -->
-  <link rel="logowhitecircle" sizes="500x500" href="{{ "/" | relative_url }}public/logowhitecircle.png">
-                                 <link rel="logowhitecircle icon" href="{{ "/" | relative_url }}public/logowhitecircle.ico">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if page.url == "/" %}{{ site.data.settings.title }}{% else %}{{ page.title }} – {{ site.data.settings.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.url == "/" %}{{ site.data.settings.description | strip_html | xml_escape }}{% elsif page.description %}{{ page.description | strip_html | xml_escape }}{% else %}{{ page.excerpt | strip_html | xml_escape }}{% endif %}">
+  <meta name="twitter:image:src" content="{{ page.image | absolute_url }}">
 
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-  
-  
-   <!-- tags -->
-	{% if site.tags != "" %}
-		{% include collect_tags.html %}
-	{% endif %}
+  <!-- Facebook OpenGraph -->
+  <meta property="og:title" content="{% if page.url == "/" %}{{ site.data.settings.title }}{% else %}{{ page.title }} – {{ site.data.settings.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.url == "/" %}{{ site.data.settings.description | strip_html | xml_escape }}{% elsif page.description %}{{ page.description | strip_html | xml_escape }}{% else %}{{ page.excerpt | strip_html | xml_escape }}{% endif %}">
+  <meta property="og:image" content="{{ page.image | absolute_url }}">
 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" as="style">
+
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+  <!-- Ionicons -->
+  <link rel="preload" href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" as="style">
+
+  <link href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <style>
+  {% capture include_to_scssify %}
+    {% include main.scss %}
+  {% endcapture %}
+  {{ include_to_scssify | scssify }}
+  </style>
 </head>
+
