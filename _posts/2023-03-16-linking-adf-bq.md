@@ -2,7 +2,7 @@
 layout: post
 title: Linking to BigQuery in Azure Data Factory
 subtitle: An example on how to use BigQuery as a data source in Azure Data Factory
-description: In this article, we go over the steps, requirements and recommendations when creating a BigQuery linked service in Azure Data Factory. 
+description: In this article, we go over the steps, requirements and recommendations when creating a BigQuery linked service in Azure Data Factory 
 date: 2023-03-16 12:00:00 +0200
 author: paulo
 image: '/images/2023-03-16-linking-adf-bq-img01.jpg'

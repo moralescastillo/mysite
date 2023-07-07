@@ -3,13 +3,14 @@ layout: post
 title: My Airflow Journey
 subtitle: Three don'ts I learned in two years of using Apache Airflow
 description: Starting from scratch is impractical, Google Cloud Platform's Composer is expensive, and debugging Airflow on Windows is challenging
+date: 2023-07-05 12:00:00 +0200
+author: paulo
+image: '/images/2023-07-05-my-airflow-journey-img01.jpg'
+image_caption: 'Outcome when generating an image using AI and the words "airflow" and "journey"'
 tags: [airflow]
+feature:
 ---
 
-![](/asset/screenshot/2023-07-05-my-airflow-journey-img01.jpg)
-<font size="-1"><center><span> Outcome when generating an image using AI and the words "airflow" and "journey." </span></center></font>
-<br>
- 
 It’s been about two years since I started using Apache Airflow both for personal and professional purposes. Though my work is mostly data warehouse development nowadays, I keep tinkering with Airflow on a daily basis. Throughout this journey, I've encountered challenges, found solutions, and improved my workflow. Here are three don'ts I would like to share.
 
 
