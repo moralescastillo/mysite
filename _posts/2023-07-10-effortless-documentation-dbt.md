@@ -39,7 +39,7 @@ We can take documentation up a notch by using **docs** blocks. This way, we leve
 Let's begin by creating the file *models/docs.md*. Within this file, we place our markdown documentation, enclosed by the Jinja functions.
 
 <script src="https://gist.github.com/moralescastillo/0b6b49c38f66f8c71d69590670b7da94.js"></script>
-<font size="-1"><center><span> Example markdown file to supplement dim_album's documentation. Notice that, the holder's reference name is dictated by {% raw %} {% docs dim_album %} {% rawend %}</span></center></font>
+<font size="-1"><center><span> Example markdown file to supplement dim_album's documentation. Notice that, the holder's reference name is dictated by {% raw %} {% docs dim_album %} {% endraw %}</span></center></font>
 <br>
 
 We then reference this *models/docs.md* markdown file using Jinja within the schema YAML:
@@ -63,14 +63,14 @@ Whenever a generic test has been called on a column within the schema YAML file,
 <font size="-1"><center><span> The generic test for uniqueness has been called on the column album_id. It is configured in the YAML schema file and rendered by dbt docs serve </span></center></font>
 <br>
 
-Similar to generic tests, singular tests are custom pieces of SQL that are executed against our dbt models. They are stored within the *tests* folder and get executed alongside generic tests.
+Similarly to generic tests, singular tests are custom pieces of SQL that are executed against our dbt models. They are stored within the *tests* folder and get executed alongside generic tests.
 
 One important aspect of documentation is describing the tests that you have written to validate your data models. At the moment, dbt will create a documenation page for singular tests. It will show you the SQL behind the singular test, as well as the model that is being tested under dependencies.
 
 However, dbt does not yet allow you to fill in the [description box in a singular test's documentation](https://github.com/dbt-labs/dbt-core/issues/2578). A workaround is to describe the test and reference its documentation under the model's documentation page. Simply use the test's page URL suffix in the *docs.md* file.
 
 <script src="https://gist.github.com/moralescastillo/f62d912d0c8d42502a7ac2ebcd57923d.js"></script>
-<font size="-1"><center><span> Including documenation for older_album_test and a reference link to its own documentation page </span></center></font>
+<font size="-1"><center><span> Including description for older_album_test and a reference link to its own documentation page </span></center></font>
 <br>
 
 Voila! The result is your model's documentation page, which lists a model's generic and singular tests. It is always useful to append a query that helps the reader to identify and correct the error raised by the test. And last but not least, do not forget to use clear and concise language whenever you can. Happy querying.
