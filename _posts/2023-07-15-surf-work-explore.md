@@ -2,7 +2,7 @@
 layout: post
 title: 'Surf, Work, and Explore: A Web Scraping Exercise'
 subtitle: 'Using data to find the workation trifecta - surfing, affordability, and fast internet'
-description: I scrape data using python to find new countries with surf spots where you can work remotely from, *ceteris paribus*
+description: I scrape data using python to find new countries with surf spots where you can work remotely from, <i>ceteris paribus</i>
 date: 2023-07-17 10:50:00 +0200
 author: paulo
 image: '/images/2023-07-15-surf-work-explore-img00.jpg'
@@ -51,7 +51,7 @@ To visualize the relationship between the cost of living index and median broadb
 
 
 ![2023-07-15-surf-work-explore-img01](/images/2023-07-15-surf-work-explore-img01.jpg){:loading="lazy"}
-<font size="-1"><center><span> Plot of countries according to the affordability, internet speed and possibility for sorfing spots </span></center></font>
+<font size="-1"><center><span> Plot of countries according to the affordability, internet speed and possibility of surfing spots </span></center></font>
 <br>
 
 
