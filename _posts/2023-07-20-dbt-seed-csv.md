@@ -16,7 +16,7 @@ In addition to sources and models, [dbt](https://www.getdbt.com/) allows us to u
 Instead of hard-coding this data directly into a model, dbt lets us keep it in CSV format. We can then use it just like any other model in our project. One of the most frequently used seeds in my day-to-day is a mapping of German postal codes to cities and federal states.
 
 
-### Adding a New Seed:
+### Adding a New Seed
 
 Let's begin from a development branch. Assume our CSV file is *postal_code_germany.csv*. To add a new seed, follow these steps:
 
