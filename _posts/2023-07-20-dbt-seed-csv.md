@@ -13,7 +13,7 @@ feature:
 
 In addition to sources and models, [dbt](https://www.getdbt.com/) allows us to use something called "seeds" in our project. Seeds are CSV files that we keep in the dbt project's *seeds* folder. They contain data that we use often but change rarely. For example, good candidates for seeds would be a list of test user IDs, local holiday dates, or codes mapped to labels.
 
-Instead of hard-coding this data directly into a model, dbt lets us keep it in CSV format. We can then use it just like any other model in our project. One of the most frequently used seeds in my day-to-day is a mapping of German postal codes to cities and federal states.
+Instead of hard-coding this data directly into a model, dbt lets us keep it in CSV format. We can then use it just like any other model in our project. One of the most frequently used seeds in my day-to-day is a [mapping of German postal codes to cities and federal states](https://github.com/moralescastillo/datasets/blob/main/postal-code-germany.csv).
 
 
 ### Adding a New Seed
@@ -53,7 +53,7 @@ CSV files are flexible but don't carry specific information about data types. Th
 To fix this, dbt lets us specify column types for seeds. We can create a property file for seeds, similar to the ones we have for models, to set the correct data types.
 
 <script src="https://gist.github.com/moralescastillo/6757ab31add692a71f9ceb305eb4a94e.js"></script>
-<font size="-1"><center><span> Setting up column types on a property file for seed postal_code_germany </span></center></font>
+<font size="-1"><center><span> Setting up column types on a property file for seed <i>postal_code_germany</i> </span></center></font>
 <br>
 
 The changes above are structural changes to the seed. This implies that we will need a full-refresh to make the changes applicable to our data warehouse.
