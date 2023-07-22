@@ -99,7 +99,7 @@ footer__menu__settings:
 social:
 - {icon: "ion-logo-github", color: "#000000", name: Github, link: "https://github.com/moralescastillo"}
 - {icon: "ion-logo-linkedin", color: "#0A66C2", name: LinkedIn, link: "https://www.linkedin.com/in/moralescas/"}
-- {icon: "ion-logo-medium-m", color: "#ffffff", name: Medium, link: "https://medium.com/@moralescas"}
+- {icon: "ion-logo-medium", color: "#ffffff", name: Medium, link: "https://medium.com/@moralescas"}
 - {icon: "ion-logo-twitter", color: "#55acee", name: Twitter, link: "https://twitter.com/PauloMoralesCas"}
 #- {icon: "ion-logo-facebook", color: "#3b5999", name: Facebook, link: "https://facebook.com"}
 #- {icon: "ion-logo-pinterest", color: "#bd081c", name: Pinterest, link: "https://pinterest.com"}
