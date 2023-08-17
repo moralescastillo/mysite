@@ -79,7 +79,7 @@ drop table snapshot.snapshot_gamma;
 Then, modify the snapshot file to indicate the desired distribution approach. That is, a HASH distribution along the id column:
  
 <script src="https://gist.github.com/moralescastillo/6c26b07117df9eeb9ac87cc607a6096c.js"></script>
-<font size="-1"><center><span> Query behing <code>snapshot_gamma</code>, after specifying a Hash distribution </span></center></font>
+<font size="-1"><center><span> Query behind <code>snapshot_gamma</code>, after specifying a Hash distribution </span></center></font>
 <br>
 
 <!---
