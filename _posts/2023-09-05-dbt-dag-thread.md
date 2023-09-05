@@ -225,7 +225,7 @@ Similar to the single-thread case, the CLI reports that `model_beta_b` is trigge
 
 
   
-### conclusion
+### Conclusion
 
 In summary, we see that the execution of a DAG respects dependencies. If an upstream model fails, downstream models are skipped, regardless of the number of threads. However, the execution of a DAG does not consistently respect the *fail fast* argument.
 
@@ -233,4 +233,4 @@ So, what is the answer to the original question? The answer is, it depends.
 
 In theory, models running in parallel in a two-thread environment should be canceled and marked as skipped. 
 
-Yet, in practice, whether a model running in parallel is created depends on the dbt adapter's support for query cancelation. In the case of the bigquery adapter, it does not seem to support query cancelation. Thus models running in parallel could still be materialized.
+Yet, in practice, whether a model running in parallel is run and materialized depends on the dbt adapter's support for query cancelation. In the case of the BigQuery adapter, it does not seem to support query cancelation. Thus models running in parallel could still be materialized.
