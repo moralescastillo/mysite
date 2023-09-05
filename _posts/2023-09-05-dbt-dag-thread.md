@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Understanding DAGs in dbt: Threads, Errors and Failing Fast'
-subtitle: 'A Comparison of Results across Multi-Threaded Environments using the BigQuery adapter'
+subtitle: 'A Comparison of Results across Multi-Thread Environments using the BigQuery adapter'
 description: 'Three scenarios show us the implications of running a Directed Acyclic Graph (DAG) in multi-threaded dbt environments, shedding light on how errors and the "fail fast" argument impact model execution'
 date: 2023-09-05 18:42:00 +0200
 author: paulo
@@ -35,18 +35,18 @@ To tackle this question, we'll explore three scenarios using the hypothetical DA
 
 1. **Smooth Run**: Executing the DAG without any errors.
 2. **Error Run**: Running the DAG where `model_beta_a` encounters a division-by-zero error.
-3. **Fail-fast Error Run**: Executing the DAG with `model_beta_a` encountering a division-by-zero error and the *fail-fast* argument enabled.
+3. **Fail-Fast Error Run**: Executing the DAG with `model_beta_a` encountering a division-by-zero error and the *fail-fast* argument enabled.
 
 All three scenarios are conducted using `dbt core 1.6.1` with the `bigquery plugin 1.6.4`. For simplicity, all models use materialization of type table.
 
 
-### Some background
+### Some Background
 
-In the context of dbt, a [*thread*](https://docs.getdbt.com/docs/running-a-dbt-project/using-threads) represents a path of ordered commands. The number of threads determines the maximum number of paths dbt will concurrently process when executing a DAG. You can specify the number of threads in the profiles.yml file or directly through the dbt command using the `--threads` argument.
+In the context of dbt, a [*thread*](https://docs.getdbt.com/docs/running-a-dbt-project/using-threads) represents a path of ordered commands. The number of threads determines the maximum number of paths dbt will concurrently process when executing a DAG. You can specify the number of threads in the *profiles.yml* file or directly through the dbt command using the `--threads` argument.
 
 Once the order and the number of paths are determined, dbt proceeds with the compilation and execution of each node. Compilation involves assembling queries and syntax error checking, followed by execution of the compiled query on the target database.
 
-Results and metadata from each dbt run are display in the CLI and also stored in the *target/run_results.json* file. This file is updated with each successful run.
+Results and metadata from each dbt run are display in the command-line interface (CLI) and also stored in the *target/run_results.json* file. This file is updated with each successful run.
 
 ### Smooth Run
 
@@ -69,7 +69,7 @@ The execution proceeds as expected, with all models being ordered, compiled, and
 
 
 ![2023-09-05-dbt-dag-thread-img02](/images/2023-09-05-dbt-dag-thread-img02.jpg){:loading="lazy"}
-<font size="-1"><center><span> Execution order and threads according to results from the smooth run scenario with one threads </span></center></font>
+<font size="-1"><center><span> Model execution order, threads and status according to results from the smooth run scenario with one threads </span></center></font>
 <br>
 
 
@@ -104,7 +104,7 @@ As expected, running the DAG with two threads results in a slightly shorter exec
 
 
 ![2023-09-05-dbt-dag-thread-img03](/images/2023-09-05-dbt-dag-thread-img03.jpg){:loading="lazy"}
-<font size="-1"><center><span> Execution order and threads according to results from the smooth run scenario with two threads </span></center></font>
+<font size="-1"><center><span> Model execution order, threads and status according to results from the smooth run scenario with two threads </span></center></font>
 <br>
 
   
@@ -143,7 +143,7 @@ As expected, `model_beta_a` is compiled and executed but fails to materialize du
 
 
 ![2023-09-05-dbt-dag-thread-img06](/images/2023-09-05-dbt-dag-thread-img06.jpg){:loading="lazy"}
-<font size="-1"><center><span> Execution order and threads according to target results from the error run scenario with one thread </span></center></font>
+<font size="-1"><center><span> Model execution order, threads and status according to target results from the error run scenario with one thread </span></center></font>
 <br>
 
 
@@ -165,8 +165,13 @@ https://gist.github.com/ceb82855fb2e1a3aaec0f89ffe1d17ec.git
 Similar to the single-thread case, `model_beta_a` and `model_gamma_a` do not materialize in the two-thread case. Also, compilation and execution of the beta models occur concurrently, just as in the smooth run.
 
 
+![2023-09-05-dbt-dag-thread-img09](/images/2023-09-05-dbt-dag-thread-img09.jpg){:loading="lazy"}
+<font size="-1"><center><span> Model execution order, threads and status according to target results from the error run scenario with two threads </span></center></font>
+<br>
 
-### Fail-fast Error Run
+
+
+### Fail-Fast Error Run
 
 We now introduce the *fail-fast* argument into our DAG run using the command `dbt run --threads 1 --fail-fast`. 
 
@@ -195,7 +200,7 @@ This story contrasts with the target results. A quick inspection indicates that 
 
 
 ![2023-09-05-dbt-dag-thread-img07](/images/2023-09-05-dbt-dag-thread-img07.jpg){:loading="lazy"}
-<font size="-1"><center><span> Execution order and threads according to target results from the fail-fast error run scenario with one thread </span></center></font>
+<font size="-1"><center><span> Model execution order, threads and status according to target results from the fail-fast error run scenario with one thread </span></center></font>
 <br>
 
 
@@ -219,7 +224,7 @@ Similar to the single-thread case, the CLI reports that `model_beta_b` is trigge
 
 
 ![2023-09-05-dbt-dag-thread-img08](/images/2023-09-05-dbt-dag-thread-img08.jpg){:loading="lazy"}
-<font size="-1"><center><span> Execution order and threads according to target results from the fail-fast error run scenario with two threads </span></center></font>
+<font size="-1"><center><span> Model execution order, threads and status according to target results from the fail-fast error run scenario with two threads </span></center></font>
 <br>
 
 
