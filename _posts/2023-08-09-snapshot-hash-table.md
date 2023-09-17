@@ -7,7 +7,7 @@ date: 2023-08-09 16:29:00 +0200
 author: paulo
 image: '/images/2023-08-09-snapshot-hash-table-img00.jpg'
 image_caption: 'Photo by [William Priess](https://unsplash.com/@william_priess?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/1jyHQxBAE7A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)'
-tags: [dbt, dwh]
+tags: [dbt, dwh, azure, synapse]
 feature:
 ---    
 
