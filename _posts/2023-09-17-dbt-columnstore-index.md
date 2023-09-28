@@ -53,13 +53,13 @@ This error will also come up when using materializations of the type `incrementa
 
 ### the root
 
-A quick search on the internet will take you to the root of the problem. Firstly, Azure Synapse and similar solutions create tables using the `CLUSTERED COLUMN INDEX` as the default index. As per official documentation, "by default, dedicated SQL pool creates a clustered columnstore index when no index options are specified on a table."[^1]
+A quick search on the internet will take you to the root of the problem. Firstly, Azure Synapse and similar solutions create tables using the `CLUSTERED COLUMN INDEX` as the default index. As per official documentation, "by default, dedicated SQL pool creates a clustered columnstore index when no index options are specified on a table[^1]."
 
-At the same time, LOBs are not a good option when creating columnstore index index: "LOB data types (the (max) length data types) can't be the key of an ordered clustered columnstore index."[^2]
+At the same time, LOBs are not a good option when creating columnstore index index: "LOB data types (the (max) length data types) can't be the key of an ordered clustered columnstore index[^2]."
 
 ### the confusion
 
-According to the `dbt-synapse` adapter documentation, "All configuration options for the Microsoft SQL Server adapter also apply to this adapter."[^3] 
+According to the `dbt-synapse` adapter documentation, "All configuration options for the Microsoft SQL Server adapter also apply to this adapter[^3]." 
 
 Meanwhile, the `dbt-sqlserver` adapter documentation confirms the above default behavior by stating that "tables will, by default, be materialized as a columnstore tables."[^4]
 
