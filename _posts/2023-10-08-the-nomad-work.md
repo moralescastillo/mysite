@@ -14,7 +14,9 @@ feature:
 <!---
 Photo by <a href="https://unsplash.com/@flysi3000?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Simon Abrams</a> on <a href="https://unsplash.com/photos/k_T9Zj3SE8k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 --->
-  
+
+**TL;DR:** <a href="https://thenomad.work/" target="_blank" rel="noopener noreferrer">https://thenomad.work/</a> 
+
 
 Ever since COVID-19, knowledge workers all over the world have broken loose from their offices. For many, it was a curse as it caused family-work conflict, social isolation, and distractions. For others, including myself, it presented unique opportunities.
 
