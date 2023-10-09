@@ -28,6 +28,12 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
+    - title: 'Made'
+      submenu:
+      - url: 'https://thenomad.work'
+        title: 'the nomad work'
+    #  - url: '/elements/'
+    #    title: 'Elements'
     - title: 'About'
       url: '/about/'
     #- title: 'Pages'
