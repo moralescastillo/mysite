@@ -13,7 +13,7 @@ feature:
 
 <!---
 Photo by <a href="https://unsplash.com/@kyrie3?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kyrie kim</a> on <a href="https://unsplash.com/photos/white-calendar-on-white-textile-jqxB3C0YNG0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  --->
+--->
 
 Some [dbt](https://www.getdbt.com/) packages come equipped with useful macros for generating date dimension tables. However, these macros often face limitations when used with Azure Synapse or similar Microsoft data warehousing (DWH) solutions.
 
@@ -26,7 +26,7 @@ We can avoid these issues by writing our own macro. Below, you'll find a dbt mac
 
 ### the dim_date_azure macro
 
-Let's begin by creating the file 'dim_date_azure.sql' in the 'macros/' folder. The file will contain the following query, which allows us to generate a basic date spine between two dates:
+Let's begin by creating the file `dim_date_azure.sql` in the `macros/` folder. The file will contain the following query, which allows us to generate a basic date spine between two dates:
 
 <script src="https://gist.github.com/moralescastillo/a288665a00c3fbb4623fbd2ac67de75f.js"></script>
 <font size="-1"><center><span> The <code>dim_date_azure</code> macro generates a series of dates</span></center></font>
