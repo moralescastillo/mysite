@@ -14,8 +14,6 @@ feature:
 <!---
 Photo by <a href="https://unsplash.com/@kyrie3?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kyrie kim</a> on <a href="https://unsplash.com/photos/white-calendar-on-white-textile-jqxB3C0YNG0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   --->
-  
-
 
 Some [dbt](https://www.getdbt.com/) packages come equipped with useful macros for generating date dimension tables. However, these macros often face limitations when used with Azure Synapse or similar Microsoft data warehousing (DWH) solutions.
 
