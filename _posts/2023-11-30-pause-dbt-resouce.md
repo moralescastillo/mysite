@@ -7,7 +7,7 @@ date: 2023-11-30 14:00:00 +0200
 author: paulo
 image: '/images/2023-11-30-pause-dbt-resource-img00.jpg'
 image_caption: 'Photo by [Namroud Gorguis](https://unsplash.com/@namroud?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/photo-of-black-and-brown-cassette-tape-FZWivbri0Xk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)'
-tags: [dbt, dwh, bigquery]
+tags: [dbt, dwh, big-query]
 feature:
 ---    
 
