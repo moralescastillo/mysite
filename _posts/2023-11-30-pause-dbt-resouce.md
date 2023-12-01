@@ -64,7 +64,7 @@ Nevertheless, disabling resources becomes challenging when they have many depend
 
 Another option for pausing resources is to turn them into [analyses](https://docs.getdbt.com/docs/build/analyses). For example, if we want to pause the model `stg_spotify_album`, we would move it from `models/staging/spotify` into `analyses/`.
 
-One of the advantages of turning resources into analyses is that they will still compile and be found in the `target/compiled` folder. This allows us to use the compiled query and keep building upon the resource collaboratively. Also, no modifications to existing CLI commands are required. 
+One of the advantages of turning resources into analyses is that they will still compile and be found in the `target/compiled` folder. This allows us to use the compiled query and keep building upon the resource collaboratively. Also, no modifications to existing CLI commands are required.  
 
 The clear disadvantage of this approach is manually moving all paused resources from `models/` to `analyses/`. Additionally, the dependency issue, similar to disabled models, will persist. We would need to move all downstream dependencies from our paused resource to `analyses/`.
 
