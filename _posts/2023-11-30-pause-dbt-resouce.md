@@ -31,7 +31,7 @@ For example, imagine we would like to pause all models depending on the source t
 ```bash 
 dbt build --exclude source:bigquery.spotify_album+
 ```
-We can also use [tags](https://docs.getdbt.com/reference/resource-configs/tags). For instance, by tagging all resources with 'legacy', we can exclude them from a dbt build:
+We can also use [tags](https://docs.getdbt.com/reference/resource-configs/tags). For instance, by tagging all resources with 'legacy', we can exclude them from a `dbt build`:
 
 ```bash 
 dbt build --exclude tag:legacy
@@ -68,6 +68,9 @@ One of the advantages of turning resources into analyses is that they will still
 
 The clear disadvantage of this approach is manually moving all paused resources from `models/` to `analyses/`. Additionally, the dependency issue, similar to disabled models, will persist. We would need to move all downstream dependencies from our paused resource to `analyses/`.
 
-The above are ideas on the possible steps to take to pause dbt resources. Eventually, we would like to migrate these resources out of your data warehouse, for which [model versioning](https://docs.getdbt.com/reference/resource-properties/versions) can be a good long-term approach.
+
+### conclusion
+
+The above are ideas on the possible steps to take to pause dbt resources. Eventually, we would like to migrate these resources out of our data warehouse, for which [model versioning](https://docs.getdbt.com/reference/resource-properties/versions) can be a good long-term approach.
 
 There is no right or wrong when it comes to pausing models in dbt. All approaches have their pros and cons, which need to be analyzed on a case-by-case basis. Are there any other elegant ways to pause resources in dbt? Let us know in the comments. Happy querying.
