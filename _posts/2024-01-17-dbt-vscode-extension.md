@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Working with dbt extensions on VSCode'
-subtitle: 'No dbt-cloud? No problem.'
+title: 'Working with dbt in VS Code'
+subtitle: 'Some Helpful Extensions and their Features'
 description: 'tbd'
 date: 2024-01-17 13:00:00 +0200
 author: paulo
@@ -15,63 +15,79 @@ feature:
 Photo by <a href="https://unsplash.com/@zonduurzaam?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Zonduurzaam Deventer</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-red-light-on-a-white-device-BFNi3TWB2fw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 --->
 
-Subscribers of dbt-cloud enjoy some great benefits when performing data warehouse (DWH) development. Nevertheless, for the rest of us working  
-  
+Subscribers of dbt-cloud enjoy some great features when developing data warehouses (DWH). 
 
-When we first encounter the term *exposure* in the context of data, it doesn't sound all that appealing. In fact, it's natural to associate data exposures with the unwanted release of sensitive data. But let's not judge this feature by its name. In reality, [dbt](https://www.getdbt.com/) exposures are incredibly practical, and they offer many benefits to dbt developers. 
+For the rest of us who work on dbt in VS code, there are extensions which make development a smooth task. 
 
-In a nutshell, an [exposure](https://docs.getdbt.com/docs/build/exposures) is a reference to a data product. This data product can take various forms, such as a dashboard, an application, or a machine learning pipeline. The data product depends on tables, views, and metrics, which are its dependencies, providing the necessary data for its proper functioning.
+The following some of the most useful extensions and their features.
 
-With exposures, developers can organize and document these dependencies efficiently. They provide an opportunity to explain the intended purpose of these data assets to others working one the data warehouse. Are these tables, views and metrics the backbone of a dashboard, or are they critical for an ML pipeline? How frequently should they be updated, and what's the downstream value of these data assets?
+### [CSV Rainbow](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 
-### as YAML files
+Whenever we are working with seeds, this externsion comes in handy. With it, we are able to quickly open and modify the csv files which the seeds are based on. 
 
-Creating a dbt exposure is straightforward. We begin by creating a YAML file following the exposure template and its properties, and placing the file in the `models/` directory.
 
-Within this YAML file, we set the exposure properties: its name, type, description, and an exposure owner, the person responsible for the data product.
-
-<script src="https://gist.github.com/moralescastillo/14334eb41d3acb8fb006212398a90ae1.js"></script>
-<font size="-1"><center><span> Example YAML for a dashboard exposure listing <code>dim_track</code> and <code>fct_play_history</code> as dependents. Using <code>dbt-bigquery 1.6.4</code>  </span></center></font>
+![2024-01-17-dbt-vscode-extension-img01](/images/2024-01-17-dbt-vscode-extension-img01.jpg){:loading="lazy"}
+<font size="-1"><center><span> A CSV file opened with the CSV Rainbow extension installed </span></center></font>
 <br>
 
-<!---
-https://gist.github.com/14334eb41d3acb8fb006212398a90ae1.git
--->
 
-In this YAML file, we also list the exposure's dependencies, the set of tables, views and/or metrics on which the data product relies. By grouping these data assets into exposures, we can efficiently manage documentation and selection methods for different data products.
+CSV Rainbow also has additional features which allow you to query the CSV file itself. Like if it was one more table in your DWH. 
 
-### as documentation pages
 
-Running the `dbt docs generate` and `dbt docs serve` commands generate a dedicated page for exposures. On this page, the dbt developer provides insights into the data product and explains what is expected from its dependencies. For example, we can use tags like 'hourly' to indicate that the data assets from an exposure need to be built every hour.
+### [Query Results in dbt Power User](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user#querypreview)
 
-![2023-10-13-dbt-exposures-img01](/images/2023-10-13-dbt-exposures-img01.jpg){:loading="lazy"}
-<font size="-1"><center><span> A rendered documentation page for exposure <code>my_play_history_dashboard</code> </span></center></font>
+Probably the most well-known VS Code extension among analytics engineers, dbt power user is a must have tool. 
+
+Among its many features, this extension allows us to preview results from resources we are creating. 
+
+
+![2024-01-17-dbt-vscode-extension-img02](/images/2024-01-17-dbt-vscode-extension-img02.jpg){:loading="lazy"}
+<font size="-1"><center><span> An example view of the Query Preview feature </span></center></font>
 <br>
 
-This documentation page is not only a hub to understand the downstream usage of this group of data assets but also a gateway to access the data product itself. Using the *url* property in the YAML file, we can specify a link for users to navigate to the data product (see the button **View this exposure**).
 
-### as selector method
+Your models, more likely than not, will include Jinja placeholders. This prevents you from running the model-in-progress directly from the CLI against your DWH. 
 
-Exposures also provide us with an endpoint for running and testing their dependencies. For instance, if our dashboard needs to be updated every hour, we do not have to run a complete `dbt build` every hour. Instead, we can materialize only those dependencies linked to the dashboard, as specified in the exposure. This approach helps us save time and computing resources.
+This feature takes the model-in-progress and compiles the Jinja placeholders to run a preview of our model's results. 
 
-In the case for exposure `my_play_history_dashboard`, we use the CLI command:
+While using this tool, the user can always specify a limit of results to show, hence limiting DWH resource consumption. 
 
-```bash
+Please, keep in mind that this feauture unfortunately does not work with all dbt adapters. The preview query automatically places a `limit 100` towards the end of the compiled query. 
 
-dbt build --select exposure:my_play_history_dashboard
+For this reason, the preview feature does not work with the MSSQL adaptor and derivatives. 
 
-```
 
-However, when using an exposure as a selector method, it's crucial to ensure that the sources the exposure depends on are also kept up to date.
+### [Create and Edit Documentation in dbt Power User](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user#gendoc)
 
-In large dbt projects, manually identifying the sources that feed into the tables and views belonging to the exposure can be time-consuming. In the case for exposure `my_play_history_dashboard`, we simplify this process in the CLI by using:
+One of the reasons why documentation falls out of our priorities is because of the number of steps between our work and the documentation itself. 
 
-```bash
+After finishing their model, the user would normally to the dbt project's models folders, and look for the righ schema YAML file to document the model in. If a new schema file needs to be created, then the user would normally get stuck at the "how do you format one of these once again?". It is really inconvenient. 
 
-dbt ls --select +exposure:my_play_history_dashboard --resource-type source
+![2024-01-17-dbt-vscode-extension-img03](/images/2024-01-17-dbt-vscode-extension-img03.jpg){:loading="lazy"}
+<font size="-1"><center><span> An example view of the documentation feature </span></center></font>
+<br>
 
-```
 
-This command lists all the sources that need updating before building the dependencies associated with the exposure.
+With this feature, we are able to write documentation on the go while working on the model. We are able to write and edit documentation for not only the model itself, but also one and each of the model's column
 
-In the end, exposures are not as negative as their name might suggest. On the contrary, they are one of the many valuable features dbt has to offer. They should be a part of every dbt project. So go ahead and make use of them. Happy querying.
+
+### [Lineage in dbt Power user]()
+
+The visuals of model lineage is one of the most powerful tools at the time of modeling in a DWH. Feature normally would tell us whether there are redundancies in our DAG or help us choose the right materialization for our model. 
+
+Normally, to reach to model lineage, the user would have to run a `dbt docs generate` and `dbt docs serve`, once again, putting extra steps in between the engineer's work and their tools. 
+
+![2024-01-17-dbt-vscode-extension-img04](/images/2024-01-17-dbt-vscode-extension-img04.jpg){:loading="lazy"}
+<font size="-1"><center><span> An example view of the lineage feature </span></center></font>
+<br>
+
+
+With this feature, we are able to bypass the above steps and quickly see model lineage while working or our model. The feature initiall shows the user a couple of models in the model lineage. Simply press on the **+** symble to see further nodes in the DAG. 
+
+### Final Thoughts
+
+The abovementioned features are only a fraction of the tools available to dbt users in VS Code. dbt Power User itself has many more fantastic features that engineers should considered. For example, column lineage and documentation generation come immediatedly to mind. To use these however, the user must first reliquish some project-related data to 
+
+With this feature, we are able to 
+
+
