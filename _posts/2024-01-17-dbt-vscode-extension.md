@@ -15,15 +15,15 @@ feature:
 Photo by <a href="https://unsplash.com/@zonduurzaam?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Zonduurzaam Deventer</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-red-light-on-a-white-device-BFNi3TWB2fw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 --->
 
-Subscribers of dbt-cloud enjoy some great features when developing data warehouses (DWH). 
+Subscribers of [dbt-cloud](https://www.getdbt.com/product/dbt-cloud) enjoy some great features when developing data warehouses (DWH). 
 
-For the rest of us who work on dbt in VS code, there are extensions which make development a smooth task. 
+For the rest of us who develop with dbt in VS code, there are extensions which make development a much smoother task. 
 
-The following some of the most useful extensions and their features.
+The following are example of some of the most helpful extensions and their features.
 
 ### [CSV Rainbow](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 
-Whenever we are working with seeds, this externsion comes in handy. With it, we are able to quickly open and modify the csv files which the seeds are based on. 
+Whenever we are working with seeds, this externsion comes in handy. After installation, the user is able to quickly open and modify the CSV files located in `/seeds`. 
 
 
 ![2024-01-17-dbt-vscode-extension-img01](/images/2024-01-17-dbt-vscode-extension-img01.jpg){:loading="lazy"}
@@ -31,14 +31,16 @@ Whenever we are working with seeds, this externsion comes in handy. With it, we 
 <br>
 
 
-CSV Rainbow also has additional features which allow you to query the CSV file itself. Like if it was one more table in your DWH. 
+CSV Rainbow also enables the user to query a CSV file directly. Like if it was one more table in your DWH. 
 
 
 ### [Query Results in dbt Power User](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user#querypreview)
 
+
 Probably the most well-known VS Code extension among analytics engineers, dbt power user is a must have tool. 
 
-Among its many features, this extension allows us to preview results from resources we are creating. 
+
+Among its many features, this extension allows the user to preview results from models on the go. 
 
 
 ![2024-01-17-dbt-vscode-extension-img02](/images/2024-01-17-dbt-vscode-extension-img02.jpg){:loading="lazy"}
@@ -46,22 +48,23 @@ Among its many features, this extension allows us to preview results from resour
 <br>
 
 
-Your models, more likely than not, will include Jinja placeholders. This prevents you from running the model-in-progress directly from the CLI against your DWH. 
+More likely than not, our models will include Jinja placeholders. This fact prevents us from running the model-in-progress directly from the CLI against our DWH. 
 
-This feature takes the model-in-progress and compiles the Jinja placeholders to run a preview of our model's results. 
+This feature takes the model-in-progress and compiles it with Jinja placeholders, to run a preview of our model's results. 
 
-While using this tool, the user can always specify a limit of results to show, hence limiting DWH resource consumption. 
+Moreover, while using this feature, the user can always specify a limit of results to show, hence limiting DWH resource consumption. 
 
-Please, keep in mind that this feauture unfortunately does not work with all dbt adapters. The preview query automatically places a `limit 100` towards the end of the compiled query. 
-
-For this reason, the preview feature does not work with the MSSQL adaptor and derivatives. 
+Unfortunately, this feauture unfortunately does not work with the MSSQL adaptor and derivatives. 
 
 
 ### [Create and Edit Documentation in dbt Power User](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user#gendoc)
 
 One of the reasons why documentation falls out of our priorities is because of the number of steps between our work and the documentation itself. 
 
-After finishing their model, the user would normally to the dbt project's models folders, and look for the righ schema YAML file to document the model in. If a new schema file needs to be created, then the user would normally get stuck at the "how do you format one of these once again?". It is really inconvenient. 
+For example, after finishing their model, the user would normally go to the dbt project's models folders, and look for the righ schema YAML file to document the model in. 
+
+
+If a new schema file needs to be created, then the user would normally run into the issue of forgetting how to format the YAML document "how do you format one of these once again?". It is really inconvenient. 
 
 ![2024-01-17-dbt-vscode-extension-img03](/images/2024-01-17-dbt-vscode-extension-img03.jpg){:loading="lazy"}
 <font size="-1"><center><span> An example view of the documentation feature </span></center></font>
