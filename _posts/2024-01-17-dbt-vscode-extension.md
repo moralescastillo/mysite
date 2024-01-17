@@ -7,7 +7,7 @@ date: 2024-01-17 13:00:00 +0200
 author: paulo 
 image: '/images/2024-01-17-dbt-vscode-extension-img00.jpg'
 image_caption: 'Photo by [Zonduurzaam Deventer](https://unsplash.com/@zonduurzaam?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-close-up-of-a-red-light-on-a-white-device-BFNi3TWB2fw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)'
-tags: [dbt, dwh]
+tags: [dbt, dwh, vscode]
 feature:
 ---    
 
@@ -17,9 +17,9 @@ Photo by <a href="https://unsplash.com/@zonduurzaam?utm_content=creditCopyText&u
 
 Subscribers of [dbt-cloud](https://www.getdbt.com/product/dbt-cloud) enjoy some great features when developing data warehouses (DWH). For the rest of us who develop with dbt in VS Code, there are extensions that make development a much smoother task. The following are examples of some of the most helpful extensions and their features.
 
-### [CSV Rainbow](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
+### CSV Rainbow
 
-Whenever we are working with seeds, this externsion comes in handy. After installation, the user is able to quickly open, identify and modify the CSV file content located in `/seeds`, right from VS Code.  
+Whenever we are working with seeds, [this extension](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) comes in handy. After installation, the user is able to quickly open, identify and modify the CSV file content located in `/seeds`, right from VS Code.  
 
 
 ![2024-01-17-dbt-vscode-extension-img01](/images/2024-01-17-dbt-vscode-extension-img01.jpg){:loading="lazy"}
@@ -28,9 +28,9 @@ Whenever we are working with seeds, this externsion comes in handy. After instal
 
 CSV Rainbow also enables the user to query the contents of a CSV file directly, just like if it were one more table in your DWH.
 
-### [Query Results in dbt Power User](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user#querypreview)
+### Query Results in dbt Power User
 
-Probably the most well-known VS Code extension among analytics engineers, dbt Power User is a must-have tool. Among its many features, this extension allows the user to preview results from models on the go.
+Probably the most well-known VS Code extension among analytics engineers, [dbt Power User](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user#querypreview) is a must-have tool. Among its many features, this extension allows the user to preview results from models on the go.
 
 ![2024-01-17-dbt-vscode-extension-img02](/images/2024-01-17-dbt-vscode-extension-img02.jpg){:loading="lazy"}
 <font size="-1"><center><span> An example view of the Query Preview feature </span></center></font>
@@ -40,7 +40,7 @@ More likely than not, our models will include Jinja placeholders. This fact prev
 
 Moreover, while using this feature, the user can always specify a limit of results to show, hence limiting DWH resource consumption. Unfortunately, this feature does not work with the MSSQL adaptor and derivatives. 
 
-### [Create and Edit Documentation in dbt Power User](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user#gendoc)
+### Create and Edit Documentation in dbt Power User
 
 One reason why documentation falls out of our priorities is because of the degrees of separation between our work and the documentation itself. For example, after finishing their model, the user would normally go to `/models`, and look for the right schema YAML file to document the model in.
 
@@ -50,12 +50,11 @@ If a new schema file needs to be created, then the user would frequently run int
 <font size="-1"><center><span> An example view of the documentation feature </span></center></font>
 <br>
 
-Thanks to this feature, we are able to write documentation on the go while working on our models. We are able to write and edit documentation for not only the model itself but also for each of the model's columns.
+Thanks to [this feature](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user#gendoc), we are able to write documentation on the go while working on our models. We are able to write and edit documentation for not only the model itself but also for each of the model's columns.
 
-### [Lineage in dbt Power User](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user#lineage)
+### Lineage in dbt Power User
 
-The visuals of model lineage are one of the most powerful tools at the time of modeling in a DWH. This feature normally would tell us whether there are redundancies in our DAG that we can avoid and/or help us choose the right materialization for our models.
-
+The visuals of model lineage are one of the most powerful tools at the time of modeling in a DWH. This feature would tell us whether there are redundancies in our DAG that we can avoid and/or help us choose the right materialization for our models.
 
 Normally, to reach to model lineage, the user would have to run first `dbt docs generate`, and then `dbt docs serve`. Once again, a couple of degrees of separation between the engineer's work and their tools. 
 
@@ -63,7 +62,7 @@ Normally, to reach to model lineage, the user would have to run first `dbt docs 
 <font size="-1"><center><span> An example view of the lineage feature </span></center></font>
 <br>
 
-With this feature, we are able to bypass the above steps and quickly see model lineage while working on our model. The feature initially shows the user a couple of models in the model lineage. Simply press on the **+** symbol to see further nodes in the DAG.
+With [this feature](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user#lineage), we are able to bypass the above steps and quickly see model lineage while working on our model. The feature initially shows the user a couple of models in the model lineage. Simply press on the **+** symbol to see further nodes in the DAG.
 
 ### Final Thoughts
 
