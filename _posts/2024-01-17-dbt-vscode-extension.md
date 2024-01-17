@@ -52,7 +52,7 @@ If a new schema file needs to be created, then the user would frequently run int
 
 Thanks to this feature, we are able to write documentation on the go while working on our models. We are able to write and edit documentation for not only the model itself but also for each of the model's columns.
 
-### [Lineage in dbt Power user](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user#lineage)
+### [Lineage in dbt Power User](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user#lineage)
 
 The visuals of model lineage are one of the most powerful tools at the time of modeling in a DWH. This feature normally would tell us whether there are redundancies in our DAG that we can avoid and/or help us choose the right materialization for our models.
 
