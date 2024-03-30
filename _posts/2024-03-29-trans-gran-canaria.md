@@ -61,7 +61,7 @@ Wrong. Very wrong.
 
 ### Murphy's Doppelganger
 
-We soon started our first steep descent towards Barranco del Sao. The views were gorgeous. It was one of the few times I stopped to soak in the landscape. Next to me, appreciating the view, was a fellow runner. One of his trekking poles was broken. I shuddered at the thought of doing this race with only one pole. 'One is better than none,' he mentioned with energy.
+We soon started our first steep descent towards Barranco del Sao. The views were gorgeous. It was one of the few times I stopped to soak in the landscape. Next to me, appreciating the view, was a fellow runner. One of his trekking poles was broken. I shuddered at the thought of doing this race with only one pole. "One is better than none," he mentioned with energy.
 
 ![2024-03-29-trans-gran-canaria-img03](/images/2024-03-29-trans-gran-canaria-img03.jpg)
 <font size="-1"><center><span>barranco del Sao at kilometer 49</span></center></font>
