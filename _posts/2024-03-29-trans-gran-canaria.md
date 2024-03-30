@@ -41,7 +41,7 @@ We made it to the second aid station in Barreto, with 19.3 km on our feet and 75
 
 I used the bottleneck as an opportunity to take out my jacket and finally acknowledge that it was getting cold. I eventually made it to the top by swinging from the branches of trees, reminiscent of my early relatives in the evolutionary path. Upon reaching the summit, we found that our shoes were now considerably heavier due to the added mud on our soles. It felt like Kangoo jumps, but without the bouncing.
 
-On the way down, watching every step as we gained speed on the descent, it occurred to me: the weather in Las Palmas and Maspalomas, both coastal cities, is nothing like up in the hilly inner parts of the island. With these thoughts and my gloves, shorts, and jacket all wet, I realized we were in for a hell of a day. As we approached the aid stations in the town of Teror, I jokingly remarked to one of the volunteers, "No wonder this place is called Terror." The volunteer smiled and kindly handed me some water. My notes read 31.4 km and 1580m of cumulative ascent so far.
+On the way down, watching every step as we gained speed on the descent, it occurred to me: the weather in Las Palmas and Maspalomas, both coastal cities, is nothing like up in the hilly inner parts of the island. With these thoughts and my gloves, shorts, and jacket all wet, I realized we were in for a hell of a day. As we approached the aid stations in the town of Teror, I jokingly remarked to one of the volunteers, "No wonder this place is called *Terror*." The volunteer smiled and kindly handed me some water. My notes read 31.4 km and 1580m of cumulative ascent so far.
 
 ### Murphy's Law
 
@@ -67,13 +67,13 @@ We soon started our first steep descent towards Barranco del Sao. The views were
 <font size="-1"><center><span>barranco del Sao at kilometer 49</span></center></font>
 <br>
 
-His optimism sounded foreign to me at the time. I would see this fellow runner about five times more throughout the race. I never found out much about him, his name, or place of origin. The only thing I remember is his resemblance to Oppenheimer's Cillian Murphy. I was feeling strong and overtaking many of my fellow runners as we arrived at the fifth aid station, El Hornillo. With 52.7km and 3158m of cumulative ascent behind, I had gained one hundred and thirty-three positions.
+His optimism sounded foreign to me at the time. I would see this fellow runner about five times more throughout the race. I never found out much about him, his name, or place of origin. The only thing I remember is his resemblance to *Oppenheimer*'s Cillian Murphy. I was feeling strong and overtaking many of my fellow runners as we arrived at the fifth aid station, El Hornillo. With 52.7km and 3158m of cumulative ascent behind, I had gained one hundred and thirty-three positions.
 
 While at El Hornillo, I noticed the notes I had brought with me were completely wet. It turns out, paper does not fare well in rain. I quickly turned to a volunteer and asked the distance to the next stop. "Solo siete kilómetros," said the volunteer. I roughly estimated the amount of water I needed for the seven kilometers in my soft flasks and headed out.
 
 ### When Life Gives You Lemons...
 
-The merciless ascent began quickly. Soon, other runners started overtaking with a really good pace[^2]. The summit was nowhere in sight. "Which is the next aid station again?" I asked as they passed by. "Artenara," murmured one of them. The news came as a thunderbolt. The distance to Artenara is actually 13.4 kilometers, I remembered. It was almost twice as much as I had accounted for in water. Furthermore, the stretch to Artenara is the second steepest and longest ascent of the race. There were the lemons.
+The merciless ascent began quickly. Soon, other runners started overtaking with a really good pace.[^2] The summit was nowhere in sight. "Which is the next aid station again?" I asked as they passed by. "Artenara," murmured one of them. The news came as a thunderbolt. The distance to Artenara is actually 13.4 kilometers, I remembered. It was almost twice as much as I had accounted for in water. Furthermore, the stretch to Artenara is the second steepest and longest ascent of the race. There were the lemons.
 
 That last debacle sealed my fate; I was not going to make it by plan-A time. The mountains in Gran Canaria have many false summits, where you think you have arrived at the top only to find out you are nowhere near it. The rain continued. It became difficult to breathe. It felt as if my throat was burning with every gulp of air.
 
@@ -92,7 +92,7 @@ Then I ran into Bilbao runner, who was just making his entrance to the venue. We
 "Do you know what's good for that?" Bilbao runner said, looking at me. "Get a bit angry." And then it hit me. I felt entitled to have the conditions that I expected and was mad at the world for not meeting my expectations. How dare life give me things other than according to plan!? I realized how foolish my position was. I felt some relief.
 
 ![2024-03-29-trans-gran-canaria-img05](/images/2024-03-29-trans-gran-canaria-img05.jpg)
-<font size="-1"><center><span>ascent profile of the race, as measured on the author's garmin</span></center></font>
+<font size="-1"><center><span>ascent profile of the race, as measured by the author's Garmin device</span></center></font>
 <br>
 
 I had hundreds of meters of ascent ahead, and it was promising to get colder as the night approached. I recall that, from my winter gear, I only had my windproof trousers with me. Keeping my torso warm was crucial as I was struggling to breathe. I figured warm legs could only help my overall condition. I struggled to put the trousers on, and when I was farther away from the public, I released a scream of frustration. That's it. Let's finish this race.
@@ -134,7 +134,7 @@ It is fascinating that ultrarunning gathers people of rather an older profile. T
 The descent towards El Tunte began, an 8-kilometer stretch of steep, rocky terrain. Technical terrain, as the lingo goes. With every step, my quads and knees painfully reminded me of the torture I had put them through during the day. At around 2 am, after 100km and 6204m of cumulative ascent, I entered El Tunte, where warmer weather welcomed us. The aid station was located in the main square of the city, and music played out loud from speakers. It was a full-on party, with locals and volunteers joining in dancing salsa. It seemed like no one noticed me pouring drinks into my flasks. They were all having fun, and I didn't blame them. I would much rather be in their shoes than have them in mine.
 
 ![2024-03-29-trans-gran-canaria-img09](/images/2024-03-29-trans-gran-canaria-img09.jpg)
-<font size="-1"><center><span>race path as measured by the author's garmin</span></center></font>
+<font size="-1"><center><span>race path as measured by the author's Garmin device</span></center></font>
 <br>
 
 I left El Tunte, and for the first time, I started feeling tired. I was sipping a mixture of Pepsi and Red Bull from my right soft flask, hoping to stay awake. Running mostly on my own on the dusty and rocky paths, I would sporadically see a head torch in the distance ahead of me. Being alone on the trail and downhill made it so that I had to concentrate even harder on where to step next. Still, despite the mental and physical fatigue, I tried to absorb the unique views around me. When else would I be virtually alone on a trail in the early morning hours in the middle of nowhere on an island?
@@ -156,6 +156,6 @@ We must have sounded crazy to the passersby, as we were debating whether Sonia G
 With only a couple of kilometers remaining to the finish line, he sped up and I let him go. "Are you sure?" he shouted into the darkness. "See you at the finish line," I said, watching him use his trekking poles to push his body forward. I wanted to spend some time alone and reflect on all the things I had experienced throughout the day. Finally, I was able to look up to the sky.
 
 [^1]: [A Runner's Tale of Plantar Fasciitis](https://paulomoralescastillo.com/runner-plantar-fasciitis.html)
-[^2]: Those were runners from the Advanced Transgrancanaria, the 84km race, whose course mixed with ours for most of the length of the race
+[^2]: I found out later on that those were runners from the Advanced Transgrancanaria, the 84km race, whose course mixed with ours for most of the length of the race
 [^3]: [Gansu ultramarathon disaster](https://en.wikipedia.org/wiki/Gansu_ultramarathon_disaster)
 
