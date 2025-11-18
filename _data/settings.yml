@@ -10,15 +10,10 @@ description: Multipurpose Jekyll Blog Theme
 author:
   author__name: Paulo Morales Castillo
   author__bio: >
-    I am a freelance analytics/data engineer based in Berlin, Germany, 
-    who is constantly learning and experimenting with new technologies. 
-    With a background in data analytics since 2014, I have gained 
-    expertise in various areas such as data science, data engineering, 
-    web analytics, and marketing analytics. My core skills include 
-    descriptive, exploratory, and predictive data analysis, 
-    data warehouse setup and maintenance, data orchestration and 
-    transformation, and dashboard creation and automation. I also run 
-    long distances from time to time. 
+    Analytics/data engineer and endurance runner based in Berlin, Germany. 
+    Since 2014, I've been helping organizations transform data into insights 
+    through practical, minimalist solutions. When I'm not building data 
+    pipelines, you'll find me training for my next trail endurance race. 
   author__avatar: /images/0_author_admin.jpg
 
 
@@ -52,8 +47,8 @@ menu__settings:
 # Hero Settings
 hero:
   hero__title: >
-    Hi there! My name is Paulo and I am a freelance data all-arounder 
-    based in Berlin, Germany. Welcome to my blog.
+    Hi there! My name is Paulo and I am an analytics/data engineer 
+    and endurance runner based in Berlin, Germany. Welcome to my blog.
 
 
 #-------------------------------
