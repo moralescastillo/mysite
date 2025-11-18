@@ -6,4 +6,4 @@ website: https://paulomoralescastillo.com
 twitter: https://twitter.com
 #facebook: https://www.facebook.com
 ---
-Hi there! My name is Paulo and I am a freelance data all-arounder based in Berlin, Germany. Welcome to my blog.
+Hi there! My name is Paulo and I am an analytics/data engineer and endurance runner based in Berlin, Germany. Welcome to my blog.
