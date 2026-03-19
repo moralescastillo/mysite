@@ -30,6 +30,8 @@ menu__settings:
       url: '/'
     - title: 'Made'
       submenu:
+      - url: 'https://berlintrailrunners.com'
+        title: 'Berlin Trail Runners'
       - url: 'https://thenomad.work'
         title: 'the nomad work'
     #  - url: '/elements/'
