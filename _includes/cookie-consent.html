@@ -1,0 +1,50 @@
+<div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:9999;background:#1a1a1a;color:#fff;padding:16px 24px;display:flex;flex-wrap:wrap;align-items:center;gap:12px;font-size:14px;line-height:1.5;">
+  <p style="margin:0;flex:1;min-width:200px;">
+    This site uses Google Analytics to understand how visitors interact with it.
+    By clicking "Accept", you consent to the use of cookies for analytics purposes.
+    You can decline if you prefer not to be tracked.
+    See <a href="/privacy/" style="color:#aaa;">Privacy Policy</a> for details.
+  </p>
+  <div style="display:flex;gap:8px;flex-shrink:0;">
+    <button id="cookie-decline" style="padding:8px 16px;border:1px solid #aaa;background:transparent;color:#aaa;cursor:pointer;border-radius:4px;font-size:14px;">Decline</button>
+    <button id="cookie-accept" style="padding:8px 16px;border:none;background:#fff;color:#1a1a1a;cursor:pointer;border-radius:4px;font-size:14px;font-weight:600;">Accept</button>
+  </div>
+</div>
+
+<script>
+(function() {
+  var CONSENT_KEY = 'analytics_consent';
+  var banner = document.getElementById('cookie-banner');
+
+  function loadGA() {
+    var id = '{{ site.data.settings.google-analytics }}';
+    if (!id) return;
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', id);
+  }
+
+  var consent = localStorage.getItem(CONSENT_KEY);
+
+  if (consent === 'accepted') {
+    loadGA();
+  } else if (consent === null) {
+    banner.style.display = 'flex';
+    document.getElementById('cookie-accept').addEventListener('click', function() {
+      localStorage.setItem(CONSENT_KEY, 'accepted');
+      banner.style.display = 'none';
+      loadGA();
+    });
+    document.getElementById('cookie-decline').addEventListener('click', function() {
+      localStorage.setItem(CONSENT_KEY, 'declined');
+      banner.style.display = 'none';
+    });
+  }
+})();
+</script>

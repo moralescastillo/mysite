@@ -4,10 +4,6 @@
 {% include head.html %}
 
 <body>
-  {% if site.data.settings.google-analytics %}
-    {% include google-analytics.html %}
-  {% endif %}
-
   <!-- begin global wrap -->
   <div class="global-wrap">
 
@@ -31,6 +27,10 @@
       pagination_next_page_number = '{{ paginator.next_page }}',
       pagination_available_pages_number = '{{ paginator.total_pages }}';
   </script>
+
+  {% if site.data.settings.google-analytics %}
+    {% include cookie-consent.html %}
+  {% endif %}
 </body>
 
 </html>
