@@ -6,7 +6,7 @@ description: From a winter afternoon in a Bonn university library to confirming 
 date: 2026-05-15 12:00:00 +0200
 author: paulo
 image: '/images/2026-05-15-reading-the-impossible-img01.jpg'
-image_caption: 'Photo by [Vladan Raznatovic](a href="https://unsplash.com/@vladanraznatovic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText") on [Unsplash](a href="https://unsplash.com/photos/a-statue-of-a-man-holding-a-shield-and-a-shield-80ALvDvJzDQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText")'
+image_caption: 'Photo by [Vladan Raznatovic](https://unsplash.com/@vladanraznatovic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"} on [Unsplash](https://unsplash.com/photos/a-statue-of-a-man-holding-a-shield-and-a-shield-80ALvDvJzDQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"}'
 tags: [running, "246"]
 featured: 
 ---
@@ -17,7 +17,7 @@ I was at the Juridicum building of the University of Bonn, surrounded by law stu
 
 Instead, I was reading the Economist.
 
-The [article](a href="https://www.economist.com/christmas-specials/2012/12/22/the-lunacy-of-the-long-distance-runner") was about Spartathlon, a 246-kilometer race from Athens to Sparta, following a route a messenger named Pheidippides ran in 490 BC to ask the Spartans for help before the Battle of Marathon. The finish line is the statue of Leonidas. The race has cutoffs so tight that most people who start do not finish. The article described the Greek heat, the hallucinations, the vomiting, the particular kind of suffering that apparently draws hundreds of people from around the world every September.
+The [article](https://www.economist.com/christmas-specials/2012/12/22/the-lunacy-of-the-long-distance-runner){:target="_blank" rel="noopener noreferrer"} was about Spartathlon, a 246-kilometer race from Athens to Sparta, following a route a messenger named Pheidippides ran in 490 BC to ask the Spartans for help before the Battle of Marathon. The finish line is the statue of Leonidas. The race has cutoffs so tight that most people who start do not finish. The article described the Greek heat, the hallucinations, the vomiting, the particular kind of suffering that apparently draws hundreds of people from around the world every September.
 
 I had never heard of ultramarathons. I was not a runner. My only real exposure to marathon running at that point was a professor from my undergraduate years in California. An athletic, relentless woman who had given up a lucrative job in the oil industry to become a professor of geology at my university. She trained hard and finished the Sacramento marathon, only to end the day in the emergency room hooked to an IV. She was proud of it. It scared me for years.
 
