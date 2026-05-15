@@ -3,11 +3,11 @@ layout: post
 title: Reading the Impossible, Fifteen Years Later
 subtitle: The beginning of 246km to Sparta
 description: From a winter afternoon in a Bonn university library to confirming my registration for Spartathlon 2026
-date: 2026-05-15 18:35:00 +0200
+date: 2026-05-15 12:00:00 +0200
 author: paulo
 image: '/images/2026-05-15-reading-the-impossible-img01.jpg'
 image_caption: 'Photo by [Vladan Raznatovic](a href="https://unsplash.com/@vladanraznatovic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText") on [Unsplash](a href="https://unsplash.com/photos/a-statue-of-a-man-holding-a-shield-and-a-shield-80ALvDvJzDQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText")'
-tags: [running, 246]
+tags: [running, "246"]
 featured: 
 ---
 
