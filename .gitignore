@@ -38,6 +38,8 @@ validation-status.json
 validation-report.json
 
 # Folders to ignore
+_inbox/
+CLAUDE.md
 node_modules
 vendor/
 .jekyll-cache/
