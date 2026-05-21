@@ -2,7 +2,7 @@
 layout: post
 title: 2000 Kilometers to Sparta
 subtitle: A training plan, and everything that will try to derail it
-description: Breaking down the 20-week build to Spartathlon 2026.
+description: Breaking down the 20-week build to Spartathlon 2026
 date: 2026-05-20 12:00:00 +0200
 author: paulo
 image: '/images/2026-05-20-two-thousand-kilometers-sparta-img01.jpg'
