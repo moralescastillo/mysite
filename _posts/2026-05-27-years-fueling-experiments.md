@@ -13,7 +13,7 @@ featured:
 
 According to Jason Koop's *Training Essentials for Ultrarunning*, gastrointestinal distress is the leading cause of DNFs in ultramarathon running. I believe him. I have been close to contributing to that statistic.
 
-The summer of 2019 was when I first understood that what you eat before a run is not a neutral decision. I was training for the Berlin marathon, doing my long runs along the Teltowkanal in Berlin. One Sunday I went out after a breakfast of scrambled eggs and bacon. It was hot. Somewhere around kilometer eighteen, the warning signs arrived. I pulled over, asked my friend and bike companion for a tissue, and disappeared into the bushes. I came back out nauseous. I had very nearly had an accident in my running shorts.
+The summer of 2019 was when I first understood that what you eat before a run is not a neutral decision. I was training for the Berlin marathon, doing my long runs along the Teltowkanal in Berlin. One Sunday I went out after a breakfast of scrambled eggs and bacon. It was hot. Somewhere around kilometer eighteen, the warning signs arrived. I pulled over, asked my friend and bike companion for a tissue, and disappeared into the bushes. I came back out nauseous. I nearly had an accident in my running shorts.
 
 It was not the last time something like that would happen.
 
@@ -77,7 +77,7 @@ Before the Cappadocia Ultra Trail in Turkey, a friend suggested instant mashed p
 
 This was the unlock I had been missing. A savory, reliable food I could bring into any country, prepare in a hotel room, and know would work in my stomach.
 
-At the same time, I forced myself to revisit carbohydrate mixes. The iso drink disaster in Hungary had put me off them for years. But I could not keep avoiding them entirely, not with a longer races in the horizon. I started slowly, introducing small amounts alongside foods I already trusted, going for long runs specifically to test my stomach rather than my legs.
+At the same time, I forced myself to revisit carbohydrate mixes. The iso drink disaster in Hungary had put me off them for years. But I could not keep avoiding them entirely, not with longer races in the horizon. I started slowly, introducing small amounts alongside foods I already trusted, going for long runs specifically to test my stomach rather than my legs.
 
 After several weeks of testing, I landed on a coconut-flavored carb mix from MNSTRY. What makes it work, for me, is the flavor profile. Most carb mixes on the market use a sharp, acidic fruit flavor that makes you more thirsty the longer you drink it. The coconut version has a milky, mild quality. I also found flavorless gels that I can take without triggering the same response. I have reduced my gel intake to roughly one per 50 kilometers, only when I need a fast hit without stopping.
 
