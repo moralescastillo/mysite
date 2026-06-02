@@ -12,7 +12,7 @@ permalink: /tags/
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
   {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
 
-  <div class="tags__inner is-hidden" id="{{ this_word | cgi_escape }}">
+  <div class="tags__inner is-hidden" id="{{ this_word | downcase | url_encode }}">
 
     <div class="container">
       <div class="row">
@@ -51,9 +51,14 @@ permalink: /tags/
 <!-- end tags -->
 
 <script>
-  var tag_name = window.location.search.replace("?tag=", "");
+  var params = new URLSearchParams(window.location.search);
+  var tag_name = params.get("tag");
   if (tag_name) {
-    var el = document.getElementById(tag_name);
+    var el = document.getElementById(encodeURIComponent(tag_name));
     if (el) el.classList.remove("is-hidden");
+  } else {
+    document.querySelectorAll(".tags__inner").forEach(function(el) {
+      el.classList.remove("is-hidden");
+    });
   }
 </script>

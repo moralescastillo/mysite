@@ -38,7 +38,7 @@
         <div class="search-tags__inner">
         {% for item in (0..site.tags.size) %}{% unless forloop.last %}
         {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-          <a href="{{ site.baseurl }}/tags/?tag={{ this_word | cgi_escape }}" class="search-tag">{{ this_word }}</a>
+          <a href="{{ site.baseurl }}/tags/?tag={{ this_word | downcase | url_encode }}" class="search-tag">{{ this_word }}</a>
         {% endunless %}
         {% endfor %}
         </div>

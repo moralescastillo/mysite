@@ -56,8 +56,11 @@ hero:
 #-------------------------------
 # Blog Settings
 blog:
-  blog__title: Blog
-  blog__description: 
+  blog__title: ""
+  blog__description: >
+    When I am not building data pipelines, you will find me training for my next endurance race.
+    Right now I am preparing for Spartathlon 2026, a 246 km road race from Athens to Sparta, and documenting the journey in my <a href="/tags/?tag=246" class="post__tag">246</a> series.
+    Browse all topics <a href="#" onclick="var s=document.querySelector('.search'),h=document.querySelector('html'),g=document.querySelector('.global-wrap'),o=document.querySelector('.header__overlay');s.classList.add('is-visible');h.classList.add('search-is-visible');g.classList.add('is-active');o.classList.add('is-visible');setTimeout(function(){document.querySelector('.search__text').focus();},250);return false;">here</a>.
 
 
 #-------------------------------

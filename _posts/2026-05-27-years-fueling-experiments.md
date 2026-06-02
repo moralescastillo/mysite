@@ -7,7 +7,7 @@ date: 2026-05-27 12:00:00 +0200
 author: paulo
 image: '/images/2026-05-27-years-fueling-experiments-img01.jpg'
 image_caption: 'Photo by [Zero](https://unsplash.com/@z3ro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"} on [Unsplash](https://unsplash.com/photos/man-with-child-on-back-next-to-bottled-drinks-t8HzRmnrics?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){:target="_blank" rel="noopener noreferrer"}'
-tags: [running, "246"]
+tags: [running, '246']
 featured: 
 ---     
 

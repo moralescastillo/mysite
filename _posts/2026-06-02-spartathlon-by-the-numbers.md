@@ -7,7 +7,7 @@ date: 2026-06-02 12:00:00 +0200
 author: paulo
 image: '/images/2026-06-02-spartathlon-by-the-numbers-img01.jpg'
 image_caption: ''
-tags: [running, "246"]
+tags: [running, '246']
 featured: 
 ---
 
