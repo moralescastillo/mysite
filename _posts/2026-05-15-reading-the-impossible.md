@@ -23,7 +23,7 @@ I had never heard of ultramarathons. I was not a runner. My only real exposure t
 
 If one marathon did that, what would six of them back to back do to a person?
 
-The article also introduced me to Scott Jurek, seven consecutive Western States wins, featured runner in the book "Born to Run", and one of the defining figures of the sport. And to Yiannis Kouros, whose 303-kilometer 24-hour track record sat in my head as something incomprehensible.[^1] Thousands of laps around the same track. The library was already killing me and I was sitting still.
+The article also introduced me to Scott Jurek, seven consecutive Western States wins, featured runner in the book "Born to Run", and one of the defining figures of the sport. And to Yiannis Kouros, whose 303-kilometer 24-hour track record sat in my head as something incomprehensible.[^1] Hundreds of laps around the same track. The library was already killing me and I was sitting still.
 
 It all sounded surreal. So distant from my reality. Yet, somehow, inspiring.
 
@@ -51,4 +51,4 @@ What I do know is that between now and September 26th, the day I will see the Ac
 
 This blog series will document that preparation. Training, strategy, gear, nutrition, and whatever else takes up the hours between now and Athens. If you are curious about what it takes to get to the start line of one of the harder races on the calendar, follow along. I will try to be honest about all of it.
 
-[^1]: Kouros's record was later broken by Aleksander Sorokin in 2021, who ran 319.6 kilometers in 24 hours. On a track.
+[^1]: Kouros's 24-hour record was later broken by Aleksandr Sorokin in 2021, with 309 kilometers. A year later, Sorokin broke his own record with 319.6 kilometers.
