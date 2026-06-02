@@ -49,8 +49,8 @@ menu__settings:
 # Hero Settings
 hero:
   hero__title: >
-    Hi there! My name is Paulo and I am an analytics/data engineer 
-    and endurance runner based in Berlin, Germany. Welcome to my blog.
+    Hi there! My name is Paulo and I am an analytics/data engineer
+    and endurance runner based in Berlin. Welcome to my blog.
 
 
 #-------------------------------
@@ -58,9 +58,8 @@ hero:
 blog:
   blog__title: ""
   blog__description: >
-    When I am not building data pipelines, you will find me training for my next endurance race.
-    Right now I am preparing for Spartathlon 2026, a 246 km road race from Athens to Sparta, and documenting the journey in my <a href="/tags/?tag=246" class="post__tag">246</a> series.
-    Browse all topics <a href="#" onclick="var s=document.querySelector('.search'),h=document.querySelector('html'),g=document.querySelector('.global-wrap'),o=document.querySelector('.header__overlay');s.classList.add('is-visible');h.classList.add('search-is-visible');g.classList.add('is-active');o.classList.add('is-visible');setTimeout(function(){document.querySelector('.search__text').focus();},250);return false;">here</a>.
+    When I am not building data pipelines, you will find me training for my next endurance race. But I write about various <a href="#" style="font-weight:700;" onclick="var s=document.querySelector('.search'),h=document.querySelector('html'),g=document.querySelector('.global-wrap'),o=document.querySelector('.header__overlay');s.classList.add('is-visible');h.classList.add('search-is-visible');g.classList.add('is-active');o.classList.add('is-visible');setTimeout(function(){document.querySelector('.search__text').focus();},250);return false;">topics</a>.
+    <br><br>Currently preparing for Spartathlon 2026 and documenting the journey in my <a href="/tags/?tag=246" class="post__tag" style="font-weight:700;">246 series</a>.
 
 
 #-------------------------------
