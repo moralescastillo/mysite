@@ -10,10 +10,9 @@
   }
 
   .section__description {
-    max-width: 760px;
     margin-top: 20px;
     margin-bottom: 0;
-    font-size: 28px;
+    font-size: 21.6px;
     line-height: 1.45;
     color: var(--text-color);
   }
@@ -25,14 +24,14 @@
 
     .section__description {
       margin-top: 16px;
-      font-size: 24px;
+      font-size: 18px;
     }
   }
 
   @media (max-width: $mobile) {
     .section__description {
       margin-top: 12px;
-      font-size: 20px;
+      font-size: 13.2px;
     }
   }
 }
