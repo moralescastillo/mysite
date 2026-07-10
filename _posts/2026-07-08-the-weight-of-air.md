@@ -97,7 +97,7 @@ It was now 7:00. The night was officially over, and so came the hardest climb of
 
 I left the aid station clinging to that hope. I started climbing with other back-of-the-pack runners, and the shared slow rhythm was its own small motivation. After a good hour we came out of the woods. Queyras has a consistent structure to it: forest until around 2000 meters, then grassy meadows, then bare stone toward 2500 and above. At a brief plateau near 2200 meters we crossed a river and I dunked my shirt, buying a few seconds of glacier-cold relief before the heat took over again. There was no shade left. We had left the trees behind.
 
-My strategy shrank to a game. Look ahead, spot a runner, make a visual marker. Then make it my next goal, and when I reached it turn around to see what I had climbed and count it as a win. Runners from all the races merged here. Strong-looking people would pass me and I would find them minutes later sitting on a rock or asleep in whatever shade they could find.
+My strategy shrank to a game. Look ahead, spot a runner, make a visual marker. That's my next goal. Then make it to the goal, and turn around to see what I had climbed and count it as a win. Runners from all the races merged here. Strong-looking people would pass me and I would find them minutes later sitting on a rock or asleep in whatever shade they could find.
 
 In this goal-setting game I fixed my eyes on what looked like the peak, marked by one of those yellow trail signs that point hikers back down to the valleys. I gathered everything I had and aimed for it. A runner rushed past me for a strong finish and shouted as he arrived at the summit. I started celebrating, certain I was clearing the hardest climb of the race.
 
