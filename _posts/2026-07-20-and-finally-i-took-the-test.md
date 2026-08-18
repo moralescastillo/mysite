@@ -2,11 +2,11 @@
 layout: post
 title: And Finally I Took the Test
 subtitle: A half day at Charité making sure my heart and lungs are ready for September
-description: A half-day performance diagnostics session at Charité's sports medicine department, and what the results change for my Spartathlon training and pacing
+description: A half-day performance diagnostics session at Charité's sports medicine department, and what the results change for my training
 date: 2026-07-20 12:00:00 +0200
 author: paulo
 image: '/images/2026-07-20-and-finally-i-took-the-test-img01.jpg'
-image_caption: ''
+image_caption: 'image by the author'
 tags: [running, "246"]
 featured: 
 ---
@@ -31,7 +31,9 @@ I arrived at 9am to a waiting room lined with posters from the Winter Olympic Ga
 
 Then it was a sequence of short visits to different rooms, to measure different things. Height, weight, body fat. Resting blood pressure and ECG (I had to take off my Garmin before starting). A lung function test in a clear booth that looked like one of those glass phone-call booths you find in coworking spaces.
 
-![2026-07-20-and-finally-i-took-the-test-img02](/images/2026-07-20-and-finally-i-took-the-test-img02.jpg)
+<center>
+<img src="/images/2026-07-20-and-finally-i-took-the-test-img02.jpg" alt="Decor on the walls of the waiting room">
+</center>
 <font size="-1"><center><span>Decor on the walls of the waiting room</span></center></font>
 <br>
 
@@ -45,7 +47,7 @@ They gave me a towel to clean myself up and back to the waiting room. Then the d
 
 ### What the numbers said
 
-Relative VO2 max came out at 55 ml/min/kg, which matches my Garmin estimate. VLaMax, a measure of glycolytic power, came in at 0.56 mmol/l/s, on the low end, which the doctor read as a strongly aerobic, fat-oxidative profile. In plain terms: built for distance rather than producing short bursts of speed. My aerobic ceiling sits at 6:02 min/km and a heart rate of 126. This, the doctor said, should be my ceiling pace for the first 100-150 km.
+Relative VO2 max came out at 55 ml/min/kg, which matches my Garmin estimate. VLaMax, a measure of glycolytic power, came in at 0.56 mmol/l/s, on the low end, which the doctor read as a strongly aerobic, fat-oxidative profile. In plain terms: built for distance rather than producing short bursts of speed. My aerobic ceiling sits at 6:02 min/km and a heart rate of 126. This, the doctor added, should be my ceiling pace for the first 100-150 km.
 
 ![2026-07-20-and-finally-i-took-the-test-img03](/images/2026-07-20-and-finally-i-took-the-test-img03.jpg)
 <font size="-1"><center><span>Lactate curve and heart rate from the treadmill test. Blood lactate stays nearly flat up to about 12 km/h, then rises sharply. The lactate threshold (LT) sits at 9.9 km/h (HR 126 bpm), and the individual anaerobic threshold (IAS) at 13.6 km/h (HR 155 bpm)</span></center></font>
@@ -57,6 +59,6 @@ More importantly, the doctor told me my heart was doing well and that I was fit 
 
 ### What changes now
 
-I am currently doing one interval session every week. The plan now is to add a second weekly session closer to my individual anaerobic threshold pace, somewhere around 4:20 to 4:30 per kilometer at a heart rate of 150 to 158, alongside the existing 4x4 VO2 max session. On the other end, my easy runs need to actually stay easy, under a heart rate of 126.
+I am currently doing one interval session every week. The plan now is to add a second weekly session closer to my individual anaerobic threshold pace, somewhere around 4:20 to 4:30 per kilometer at a heart rate of 150 to 158, alongside the existing 4x4 VO2 max session. On the other end, my easy runs need to stay easy, under a heart rate of 126.
 
 Bloodwork, urinalysis and other results are still coming by mail, so there may be more to adjust once those arrive. And I am still waiting for an invoice.
