@@ -30,7 +30,7 @@ It all sounded surreal. So distant from my reality. Yet, somehow, inspiring.
 That was roughly fifteen years ago. Today, May 15th, 2026, I sent my medical certificate and confirmed my participation for Spartathlon 2026.
 
 ![2026-05-15-reading-the-impossible-img02](/images/2026-05-15-reading-the-impossible-img02.jpg)
-<font size="-1"><center><span>The route of Spartathlon 2026, 246 kilometers from the Acropolys in Athens to the statue of Leonidas in Sparta</span></center></font>
+<font size="-1"><center><span>The route of Spartathlon 2026, 246 kilometers from the Acropolis in Athens to the statue of Leonidas in Sparta</span></center></font>
 <br>
 
 
