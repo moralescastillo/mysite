@@ -23,11 +23,16 @@ I had never heard of ultramarathons. I was not a runner. My only real exposure t
 
 If one marathon did that, what would six of them back to back do to a person?
 
-The article also introduced me to Scott Jurek, seven consecutive Western States wins, featured runner in the book "Born to Run", and one of the defining figures of the sport. And to Yiannis Kouros, whose 303-kilometer 24-hour track record sat in my head as something incomprehensible.[^1] Hundreds of laps around the same track. The library was already killing me and I was sitting still.
+The article also introduced me to Scott Jurek, seven consecutive Western States wins, featured runner in the book "Born to Run", and one of the defining figures of the sport. And to Yiannis Kouros, whose 303-kilometer 24-hour record sat in my head as something incomprehensible.[^1] Hundreds of kilometers in just a day. The library was already killing me and I was sitting still.
 
 It all sounded surreal. So distant from my reality. Yet, somehow, inspiring.
 
 That was roughly fifteen years ago. Today, May 15th, 2026, I sent my medical certificate and confirmed my participation for Spartathlon 2026.
+
+![2026-05-15-reading-the-impossible-img02](/images/2026-05-15-reading-the-impossible-img02.jpg)
+<font size="-1"><center><span>The route of Spartathlon 2026, 246 kilometers from the Acropolys in Athens to the statue of Leonidas in Sparta</span></center></font>
+<br>
+
 
 The path from that library to this confirmation is not a straight line. More of a random walk. It involves a few false starts, a long stretch of not running at all, and eventually, somehow, becoming the kind of person who signs up for this type of race.
 
@@ -49,6 +54,6 @@ He would not have believed it. I am still not entirely sure I believe it.
 
 What I do know is that between now and September 26th, the day I will see the Acropolis in Athens at the start line, I have a summer of grueling training ahead. Spartathlon has a finishing rate that consistently sits below 40%. The cutoffs are unforgiving. The heat is not optional.
 
-This blog series will document that preparation. Training, strategy, gear, nutrition, and whatever else takes up the hours between now and Athens. If you are curious about what it takes to get to the start line of one of the harder races on the calendar, follow along. I will try to be honest about all of it.
+This blog series will document that preparation. Training, strategy, gear, nutrition, and whatever else takes up the hours between now and Athens. If you are curious about what it takes to get to the start line of one of the harder races on the calendar, follow along.
 
 [^1]: Kouros's 24-hour record was later broken by Aleksandr Sorokin in 2021, with 309 kilometers. A year later, Sorokin broke his own record with 319.6 kilometers.
