@@ -27,8 +27,10 @@ menu__settings:
       submenu:
       - url: 'https://www.berlintrailrunners.com'
         title: 'Berlin Trail Runners'
-      - url: 'https://thenomad.work'
-        title: 'the nomad work'
+      - url: 'https://indierunners.co/'
+        title: 'Indie Runners'
+    #  - url: 'https://thenomad.work'
+    #    title: 'the nomad work'
     #  - url: '/elements/'
     #    title: 'Elements'
     - title: 'About'
