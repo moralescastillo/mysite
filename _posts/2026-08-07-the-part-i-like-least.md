@@ -75,6 +75,10 @@ The variety problem I solved the way I solve most things, with a spreadsheet.
 
 Instagram turned out to be a good source of ideas, for upper body and core as much as for legs. The account I follow is [band.workout.pros](https://www.instagram.com/band.workout.pros/){:target="_blank" rel="noopener noreferrer"}. Anything worth trying goes into an Excel sheet, tagged by body part and by equipment.
 
+![2026-08-07-the-part-i-like-least-img05](/images/2026-08-07-the-part-i-like-least-img05.jpg)
+<font size="-1"><center><span>A sample of band workouts, ready to be selected by the algorithm</span></center></font>
+<br>
+
 On top of that sheet I built a small algorithm that assembles the session. It picks at random, balances muscle groups and subgroups across the eight slots, and excludes anything I have done in the last two sessions. Then it emails it to me. I open the mail and either follow it or adjust as I go. A very simple personal trainer.
 
 ### Always after, never before
