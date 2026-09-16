@@ -3,9 +3,9 @@ layout: post
 title: The Mauerweg, in Relay
 subtitle: Heat, warm water, and the return of GI distress
 description: A report from the Mauerweglauf Relay, a heat and gear test before Spartathlon
-date: 2026-08-20 12:00:00 +0200
+date: 2026-08-19 12:00:00 +0200
 author: paulo
-image: '/images/2026-08-20-mauerweg-relay-img01.jpg'
+image: '/images/2026-08-19-mauerweg-relay-img01.jpg'
 image_caption: 'The 2026 Mauerweglauf Relay medal'
 tags: [running, "246"]
 featured: 
@@ -25,7 +25,7 @@ My team started at 8:00. I picked up my leg at kilometer 51, at noon, with fresh
 
 The first kilometers were good. I know this course by now, mostly from race day, so every landmark triggered the same small mental game: what comes after this bend, how far to the next stretch I recognize. Familiar ground, visited once a year.
 
-![2026-08-20-mauerweg-relay-img02](/images/2026-08-20-mauerweg-relay-img02.jpg)
+![2026-08-19-mauerweg-relay-img02](/images/2026-08-19-mauerweg-relay-img02.jpg)
 <font size="-1"><center><span>The Fernsehturm seen from Staaken station, a landmark I only ever pass on race day</span></center></font>
 <br>
 
@@ -43,7 +43,7 @@ At the next stop, Revierförsterei Krampnitz, I needed more cooling, so I took t
 
 By the long paved stretch along the Havel, my Garmin recorded 34.2 degrees, the hottest reading I noticed. At Brauhaus Meierei, kilometer 38, I finally found something cold and drank as much as I could to compensate. It did not last. The next station was warm water again, and by kilometer 50, at Königsweg, my pace had already started to slide.
 
-![2026-08-20-mauerweg-relay-img03](/images/2026-08-20-mauerweg-relay-img03.jpg)
+![2026-08-19-mauerweg-relay-img03](/images/2026-08-19-mauerweg-relay-img03.jpg)
 <font size="-1"><center><span>My Garmin recording the temperature along the Havel</span></center></font>
 <br>
 
@@ -67,7 +67,7 @@ I reached Rudow, my final relay handoff, and saw my team and friends waiting abo
 
 Final time for my leg: 6:41, six seconds per kilometer slower than the 6:35 goal. On paper, close enough. This average would have been comfortably inside Spartathlon cutoff pace for the first 80 kilometers. However, had this been the real race, that stretch of walking and restarting would have been enough to put me behind cutoff early.
 
-![2026-08-20-mauerweg-relay-img04](/images/2026-08-20-mauerweg-relay-img04.jpg)
+![2026-08-19-mauerweg-relay-img04](/images/2026-08-19-mauerweg-relay-img04.jpg)
 <font size="-1"><center><span>Grade-adjusted pace: Spartathlon cutoff against my actual pace during the relay</span></center></font>
 <br>
 
