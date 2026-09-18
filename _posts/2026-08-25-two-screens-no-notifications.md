@@ -63,7 +63,7 @@ On top of both screens, I have a too-fast alarm set at 5:55 per kilometer, just 
 <font size="-1"><center><span>The too-fast alarm triggering on the Enduro 3</span></center></font>
 <br>
 
-One feature I am learn to like, and hoping not to need too often, is the cutoff warning at each course point. You can load the actual cutoff time into each checkpoint, and the watch will flag your status in green, yellow, or red depending on how comfortably you are expected to make it. Ten minutes before a cutoff and you have not arrived, it will let you know.
+One feature I am learning to like, and hoping not to need too often, is the cutoff warning at each course point. You can load the actual cutoff time into each checkpoint, and the watch will flag your status in green, yellow, or red depending on how comfortably you are expected to make it. Ten minutes before a cutoff and you have not arrived, it will let you know.
 
 ### Why not Auto Lap
 
