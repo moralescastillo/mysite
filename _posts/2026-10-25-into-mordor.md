@@ -11,13 +11,13 @@ tags: [running, "246"]
 featured: 
 ---
 
-I left Zevgolatio at the 100-kilometer mark, 13 minutes behind Plan A, still in a good mood from seven kilometers with a dog. Ahead were the night, the mountain, and most of the climbing in the race. In the first 100 kilometers, the trouble came from outside: a toilet, a cutoff, a missing chip. In the next 70, it came from me.
+I left Zevgolatio at the 100-kilometer mark, 13 minutes behind Plan A, still in a good mood from seven kilometers with the dog. Ahead were the night, the mountain, and most of the climbing in the race. 
 
-### A climb that was not one
+### Not one climb
 
 The first sustained climb of the course started as the day ended. I felt good. I slowed down and kept jogging, steady, the way I had planned it.
 
-Somewhere on that climb I first noticed the name Yosuke on a bib. I remember it because one of my favorite DJs goes by the same name. Yosuke the runner and I kept passing each other all the way up to CP32, and, as it turned out, all the way to Sparta. We never exchanged a word.
+Somewhere on that climb I first noticed the name Yosuke on a bib. I remember it because one of my favorite DJs, yousuke yukimatsu, goes by the same name. Yosuke the runner and I kept passing each other all the way up to CP32, and, as it turned out, all the way to Sparta. We never exchanged a word.
 
 At CP32 in Halkeion, kilometer 112, runners were sitting down to dinner. Others were getting massages. I wanted to keep my rhythm, so Lefteris and I swapped flasks and I left.
 
@@ -29,7 +29,7 @@ Then the night came, and with it a lesson about GPX files. What had looked like 
 
 ### Chicken soup and a wrong checkpoint
 
-At CP35 in Ancient Nemea, kilometer 122, Lefteris did not let me leave as quickly. You are not eating enough, he said. If we did not fix it now, it would cost me later. He brought chicken soup, and it went down without a problem.
+At CP35 in Ancient Nemea, kilometer 122, Lefteris did not let me leave as quickly. You are not eating enough, he said. I need it to fix that, otherwise it would cost me later. He brought chicken soup, and it went down without a problem.
 
 The uneven climb continued. Past midnight I reached what seemed to be its highest point, at CP39, where I expected Lefteris with water. He was not there. I called him. Are you already here? he asked. He told me to keep going and he would find me.
 
@@ -49,7 +49,7 @@ Then he told me about the Sangas pass. He did not understand why people talked a
 
 It was one of the few moments in the whole race when I thought about the finish line.
 
-He told me to go ahead, he would walk a while. I heard jackals on the way into Lyrkeia.
+He told me to go ahead, he would walk a bit. I heard the hauling of jackals in the dark, on the way into Lyrkeia.
 
 ### Ten minutes on a yoga mat
 
@@ -65,11 +65,11 @@ When he woke me, I felt revitalized. We swapped flasks, I took the rest of the C
 
 ### The mountain
 
-The road steepened and I went straight to power hiking. Plenty of runners passed me. I would rather move steadily than push now and stop a few kilometers later. A Hungarian runner asked if he could tag along. Not at all, I said. We climbed most of the paved road to the base together, and before long we were passing the runners who had overtaken me, now stopped halfway up. Years of trail running were paying off. Above us, a line of headlamps went up the mountain. It looked steep.
+The road steepened and I went straight to power hiking. Plenty of runners passed me. I would rather move steadily than push now and stop a few kilometers later. A Hungarian runner asked if he could tag along. Yes of course, I said. We climbed most of the paved road to the base together, and before long we were passing the runners who had overtaken me, now stopped halfway up. Years of trail running were paying off. Above us, a line of headlamps went up the mountain. It looked steep.
 
 At the base, CP47, kilometer 159, Lefteris was waiting. You are not eating enough, he said again. I had no appetite. Not nausea, just numbness. I was not feeling much of anything. I took another Club Mate and a bottle of Huel anyway, and started up the trail.
 
-Traction was the first problem. Before the race, I had wondered whether to switch to trail shoes for this section. It was too short to justify the time a shoe change would cost. But it had rained all day, and in road shoes on wet rock I slipped constantly.
+Traction was the first problem. Before the race, I had wondered whether to switch to trail shoes for this section. It was too short to justify the time a shoe change would cost. But it had rained all day, and in road shoes on wet soil I slipped constantly.
 
 I did not see anyone on the way up. It was a quiet climb, and one of the parts of the race I enjoyed most. After 160 kilometers of asphalt, it felt closer to the running I do at home.
 
@@ -89,6 +89,6 @@ When I left, it was 07:10. One hour behind Plan A. Twenty minutes ahead of the c
 
 I had better get going. On the way out, there was Yosuke again, at the same steady pace as always.
 
-The math was simple. Three of the eight segments were left. I was tired, chafed and blistered, but my spirits were up and my stomach was fine. The cutoffs would loosen from here, the last 20 kilometers were downhill, and the weather was still mild. If I could take 40 minutes out of each remaining segment, I would arrive in Sparta two hours ahead of the cutoff, at around 34 hours. Plan A, rescued.
+The math was simple. Three of the eight milestone segments were left. I was tired, chafed and blistered, but my spirits were up and my stomach was fine. The cutoffs would loosen from here, the last 20 kilometers were downhill, and the weather was still mild. If I could take 40 minutes out of each remaining segment, I would arrive in Sparta two hours ahead of the cutoff, at around 34 hours. Plan A, rescued.
 
 That was the plan, anyway.
