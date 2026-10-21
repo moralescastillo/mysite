@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Three Lucky Breaks
-subtitle: Spartathlon, part one. Athens to Zevgolatio
+title: Spartathlon, part one
+subtitle: Three Lucky Breaks. Athens to Zevgolatio
 description: The first 100 kilometers of Spartathlon 2026, with rain at the Acropolis, a cutoff scare, and a chip I never knew existed
 date: 2026-10-19 12:00:00 +0200
 author: paulo
-image: '/images/2026-10-19-three-lucky-breaks-img01.jpg'
+image: '/images/2026-10-19-spartathlon-part-one-img01.jpg'
 image_caption: 'A rainy start for Spartathlon 2026, below the Acropolis. Photo taken by the Spartathlon Photography Club.'
 tags: [running, "246"]
 featured: 
@@ -35,7 +35,7 @@ Lefteris found me, took my glasses, and we jogged a few hundred meters away from
 
 A year earlier, Lefteris and I ran Pistoia-Abetone, a 50k in Italy that, as I found out at the start, runs on open roads. We spent hours on the shoulder of a two-lane road with cars passing fast, some drivers in full road rage. At the finish, Lefteris said: you know Spartathlon is like that, right?
 
-![2026-10-19-three-lucky-breaks-img02](/images/2026-10-19-three-lucky-breaks-img02.jpg)
+![2026-10-19-spartathlon-part-one-img02](/images/2026-10-19-spartathlon-part-one-img02.jpg)
 <font size="-1"><center><span>at the start line with Lefteris before the countdown</span></center></font>
 <br>
 
@@ -47,7 +47,7 @@ Then the city ran out of patience. Somewhere around kilometer 9, the police had 
 
 The first 20 kilometers were factories, refineries and military facilities, in rain, with sunglasses I regretted bringing. At Loutropyrgos the industry gave way, the sea appeared on the left, and for a while I forgot about the rain. Shortly after came the sunken ship, another sight I knew from the videos. I did not know then that it would be one of the most beautiful views of the entire race.
 
-![2026-10-19-three-lucky-breaks-img03](/images/2026-10-19-three-lucky-breaks-img03.jpg)
+![2026-10-19-spartathlon-part-one-img03](/images/2026-10-19-spartathlon-part-one-img03.jpg)
 <font size="-1"><center><span>the sea and the sunken ship near Loutropyrgos, around kilometer 25</span></center></font>
 <br>
 
@@ -63,7 +63,7 @@ Leaving town, I saw a portable toilet on the roadside, about 200 meters ahead. P
 
 At CP12, our first crew stop, I changed clothes and shoes, grabbed a couple of rice balls, and left just a few minutes behind Plan A. All systems operational.
 
-![2026-10-19-three-lucky-breaks-img04](/images/2026-10-19-three-lucky-breaks-img04.jpg)
+![2026-10-19-spartathlon-part-one-img04](/images/2026-10-19-spartathlon-part-one-img04.jpg)
 <font size="-1"><center><span>approaching Megara</span></center></font>
 <br>
 
@@ -77,8 +77,8 @@ I pushed harder. The ETA did not move. I passed runners with resigned faces. Min
 
 I reached CP13 four minutes before the cutoff and kept going.
 
-![2026-10-19-three-lucky-breaks-img05](/images/2026-10-19-three-lucky-breaks-img05.jpg)
-<font size="-1"><center><span>buffer against the cutoff at each checkpoint with Plan A for reference</span></center></font>
+![2026-10-19-spartathlon-part-one-img05](/images/2026-10-19-spartathlon-part-one-img05.jpg)
+<font size="-1"><center><span>buffer against the cutoff at each checkpoint with Plan A for reference, from start to kilometer 100</span></center></font>
 <br>
 
 Of the next hours I remember very little, apart from the sea on the left between buildings. At CP16, kilometer 57, a volunteer helped me fill my flasks. I wished him a good rest of the day. He wished me the same, and a good night. We both laughed.
@@ -87,7 +87,7 @@ At kilometer 65, just after CP18 in Agioi Theodoroi, there was a timing mat with
 
 The rain eased. Hotspots appeared on my toes, and at CP19, among some industrial sites, I tried to put plasters on them. Everything was soaked and nothing would stick. As I put the shoes back on, I noticed the time: almost 15:00, the hottest part of the day, and it was 25 degrees with barely an hour of sun behind us. In a race known for its heat, the heat never came. Lucky break number two.
 
-![2026-10-19-three-lucky-breaks-img06](/images/2026-10-19-three-lucky-breaks-img06.jpg)
+![2026-10-19-spartathlon-part-one-img06](/images/2026-10-19-spartathlon-part-one-img06.jpg)
 <font size="-1"><center><span>passing by the Corinth Canal</span></center></font>
 <br>
 
@@ -98,7 +98,7 @@ I noticed the Corinth Canal only because of the tourists cheering on the bridge.
 At CP22, kilometer 80, Lefteris pointed me to the mat. I stepped on it. Nothing.
 
 <center>
-<img src="/images/2026-10-19-three-lucky-breaks-img07.jpg" alt="the dog, my companion on the farm roads after Ancient Corinth">
+<img src="/images/2026-10-19-spartathlon-part-one-img07.jpg" alt="the dog, my companion on the farm roads after Ancient Corinth">
 </center>
 <font size="-1"><center><span>arriving to the mat without a chip</span></center></font>
 <br>
@@ -123,7 +123,7 @@ Ancient Corinth, CP26 at kilometer 92, was beautiful: a pedestrian street lined 
 Then came farm roads, quiet except for crew cars honking as they passed, and a dog that ran almost seven kilometers with me, sometimes behind, sometimes ahead, always there. I made small talk with him now and then.
 
 <center>
-<img src="/images/2026-10-19-three-lucky-breaks-img08.jpg" alt="the dog, my companion on the farm roads after Ancient Corinth">
+<img src="/images/2026-10-19-spartathlon-part-one-img08.jpg" alt="the dog, my companion on the farm roads after Ancient Corinth">
 </center>
 <font size="-1"><center><span>the dog, my companion on the farm roads after Ancient Corinth</span></center></font>
 <br>
