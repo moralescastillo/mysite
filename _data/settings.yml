@@ -2,7 +2,7 @@
 # Site Settings
 title: Paulo Morales Castillo
 #logo: /images/SYMBOL-WHITE-TRANSPARENT.png # You can add own logo. For example "/images/logo.png".
-description: Multipurpose Jekyll Blog Theme
+description: Paulo Morales Castillo, freelance analytics and data engineer in Berlin. Data warehouses, pipelines and dashboards with dbt, Azure, BigQuery and Power BI. Also an endurance runner who writes about both.
 
 
 #-------------------------------
@@ -51,8 +51,8 @@ menu__settings:
 # Hero Settings
 hero:
   hero__title: >
-    Hi there! My name is Paulo and I am an analytics/data engineer
-    and endurance runner based in Berlin. Welcome to my blog.
+    I build data warehouses, pipelines and dashboards for teams that need
+    reliable numbers without a large data department. Freelance, based in Berlin.
 
 
 #-------------------------------
