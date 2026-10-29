@@ -1,0 +1,29 @@
+<div class="article article--compact article--project col col-4 col-d-6 col-t-12 animate">
+  <div class="article__inner">
+    <div class="article__content">
+      {% if project.stack.size >= 1 %}
+      <div class="article-tags__box">
+        {% for item in project.stack %}
+          <span class="article__tag">{{ item }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <h2 class="article__title">
+        {% if project.link %}
+        <a href="{{ project.link }}"{% if project.link contains 'http' %} target="_blank" rel="noopener"{% endif %}>{{ project.title }}</a>
+        {% else %}
+        {{ project.title }}
+        {% endif %}
+      </h2>
+
+      <p class="article__excerpt">{{ project.summary }}</p>
+
+      <div class="article__footer">
+        {% if project.client %}<span class="article__date">{{ project.client }}</span>{% endif %}
+        {% if project.year %}<span class="article__date">{{ project.year }}</span>{% endif %}
+        {% if project.write_up %}<a class="article__more" href="{{ project.write_up }}">Read more <i class="ion ion-ios-arrow-round-forward"></i></a>{% endif %}
+      </div>
+    </div>
+  </div>
+</div>

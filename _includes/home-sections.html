@@ -1,0 +1,73 @@
+{% assign running_posts = site.posts | where_exp: "post", "post.tags contains 'running'" %}
+{% comment %} Data posts are everything that is not running, reading or remote-work. {% endcomment %}
+{% assign skip_tags = "running,reading,remote-work" | split: "," %}
+
+<!-- begin home: work -->
+<section class="section home-section">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="section__head__small">
+          <h2 class="section__title">Work</h2>
+          <a class="section__link" href="{{ site.baseurl }}/work/">All projects <i class="ion ion-ios-arrow-round-forward"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      {% assign featured_projects = site.projects | where: "featured", true | sort: "order" %}
+      {% for project in featured_projects limit: 3 %}
+        {% include project-card.html %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- end home: work -->
+
+<!-- begin home: data -->
+<section class="section home-section">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="section__head__small">
+          <h2 class="section__title">Writing on data</h2>
+          <a class="section__link" href="{{ site.baseurl }}/blog/">All posts <i class="ion ion-ios-arrow-round-forward"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      {% assign shown = 0 %}
+      {% for post in site.posts %}
+        {% assign is_data = true %}
+        {% for t in skip_tags %}
+          {% if post.tags contains t %}{% assign is_data = false %}{% endif %}
+        {% endfor %}
+        {% if is_data %}
+          {% include article-compact.html %}
+          {% assign shown = shown | plus: 1 %}
+          {% if shown >= 4 %}{% break %}{% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- end home: data -->
+
+<!-- begin home: running -->
+<section class="section home-section">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="section__head__small">
+          <h2 class="section__title">Writing on running</h2>
+          <a class="section__link" href="{{ site.baseurl }}/tags/?tag=running">All running posts <i class="ion ion-ios-arrow-round-forward"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      {% for post in running_posts limit: 3 %}
+        {% include article.html %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- end home: running -->
