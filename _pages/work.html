@@ -1,0 +1,24 @@
+---
+layout: default
+title: Work
+description: Selected projects, client work and things I have built on the side. Client names are shared on request.
+permalink: /work/
+---
+
+<div class="container">
+  <div class="page-head">
+    <div class="page__info">
+      <h1 class="page__title">{{ page.title }}</h1>
+      <p class="page__description">{{ page.description }}</p>
+    </div>
+  </div>
+</div>
+
+<div class="container animate">
+  <div class="row">
+    {% assign projects = site.projects | sort: "order" %}
+    {% for project in projects %}
+      {% include project-card.html %}
+    {% endfor %}
+  </div>
+</div>

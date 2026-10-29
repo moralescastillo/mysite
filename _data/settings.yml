@@ -21,28 +21,14 @@ author:
 # Navigation Settings
 menu__settings:
   menu__items:
-    - title: 'Home'
-      url: '/'
-    - title: 'Made'
-      submenu:
-      - url: 'https://www.berlintrailrunners.com'
-        title: 'Berlin Trail Runners'
-      - url: 'https://indierunners.co/'
-        title: 'Indie Runners'
-    #  - url: 'https://thenomad.work'
-    #    title: 'the nomad work'
-    #  - url: '/elements/'
-    #    title: 'Elements'
+    - title: 'Work'
+      url: '/work/'
+    - title: 'Services'
+      url: '/services/'
+    - title: 'Blog'
+      url: '/blog/'
     - title: 'About'
       url: '/about/'
-    #- title: 'Pages'
-    #  submenu:
-    #  - url: '/authors/'
-    #    title: 'Authors'
-    #  - url: '/elements/'
-    #    title: 'Elements'
-    #- title: 'Tags'
-    #  url: '/tags/'
     - title: 'Contact'
       url: '/contact/'
 
@@ -53,35 +39,8 @@ hero:
   hero__title: >
     I build data warehouses, pipelines and dashboards for teams that need
     reliable numbers without a large data department. Freelance, based in Berlin.
-
-
-#-------------------------------
-# Blog Settings
-blog:
-  blog__title: ""
-  blog__description: >
-    When I am not building data pipelines, you will find me training for my next endurance race. <a href="#" style="font-weight:700;" onclick="var s=document.querySelector('.search'),h=document.querySelector('html'),g=document.querySelector('.global-wrap'),o=document.querySelector('.header__overlay');s.classList.add('is-visible');h.classList.add('search-is-visible');g.classList.add('is-active');o.classList.add('is-visible');setTimeout(function(){document.querySelector('.search__text').focus();},250);return false;">I write about both.</a>
-    <br><br>Currently preparing for Spartathlon 2026 and documenting the journey in my <a href="/tags/?tag=246" class="post__tag" style="font-weight:700;">246 series</a>.
-
-
-#-------------------------------
-# Recommended Tag Settings
-tag:
-  enable: false
-  tag__title: Recommended
-  tag__name: Motivation
-
-
-#-------------------------------
-# Newsletter Settings
-mailchimp:
-  enable: false
-  mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
-  mailchimp__title: Get interesting news
-  mailchimp__description: Subscribe to our newsletter and we’ll send you the emails of latest posts.
-  mailchimp__input__text: Your Email Address...
-  mailchimp__button__text: Subscribe
-  mailchimp__background__image: "/images/110.jpg"
+  hero__description: >
+    When I am not building data pipelines I am training for the next ultra. I write about both. Most recently: Spartathlon 2026, documented in the <a href="/tags/?tag=246">246 series</a>.
 
 
 #-------------------------------
@@ -90,16 +49,16 @@ mailchimp:
 # Footer Navigation
 footer__menu__settings:
   menu__items:
-    - title: 'Home'
-      url: '/'
+    - title: 'Work'
+      url: '/work/'
+    - title: 'Services'
+      url: '/services/'
+    - title: 'Blog'
+      url: '/blog/'
     - title: 'About'
       url: '/about/'
     - title: 'Contact'
       url: '/contact/'
-    #- title: 'Authors'
-    #  url: '/authors/'
-    #- title: 'Elements'
-    #  url: '/elements/'
 
 
 # Social Links
@@ -124,13 +83,6 @@ contact:
 
 # NOTE
 # Dann theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
-
-
-#-------------------------------
-# Comment Section (Disqus)
-disqus:
-  enable: false
-  disqus__identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
 
 
 #-------------------------------

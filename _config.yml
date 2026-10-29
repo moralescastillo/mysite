@@ -13,12 +13,14 @@ plugins:
   - jekyll-sitemap
 
 paginate: 9
-paginate_path: "/page/:num"
+paginate_path: "/blog/page/:num"
 
 
 #-------------------------------
 # Collections
 collections:
+  projects:
+    output: false
   pages:
     output: true
     permalink: /:name
