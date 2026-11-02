@@ -39,6 +39,7 @@ validation-report.json
 
 # Folders to ignore
 _inbox/
+imports/
 CLAUDE.md
 node_modules
 vendor/
