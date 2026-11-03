@@ -12,8 +12,8 @@ layout: default
       {% endif %}
       {% if page.link or page.repo %}
         <p class="page__links">
-          {% if page.link %}<a href="{{ page.link }}" target="_blank" rel="noopener">Website <i class="ion ion-ios-arrow-round-forward"></i></a>{% endif %}
-          {% if page.repo %}<a href="{{ page.repo }}" target="_blank" rel="noopener">GitHub <i class="ion ion-logo-github"></i></a>{% endif %}
+          {% if page.link %}<a href="{{ page.link }}" target="_blank" rel="noopener"><i class="ion ion-ios-globe" aria-hidden="true"></i> {{ page.link | remove: "https://" | remove: "http://" | remove: "www." | split: "?" | first | append: "|" | remove: "/|" | remove: "|" }}</a>{% endif %}
+          {% if page.repo %}<a href="{{ page.repo }}" target="_blank" rel="noopener"><i class="ion ion-logo-github" aria-hidden="true"></i> {{ page.repo | remove: "https://" | remove: "http://" | remove: "www." | append: "|" | remove: "/|" | remove: "|" }}</a>{% endif %}
         </p>
       {% endif %}
     </div>
