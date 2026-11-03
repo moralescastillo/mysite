@@ -6,7 +6,7 @@ date: 2020-11-26 12:00:00 +0200
 author: paulo
 image: '/images/2020-11-26-challenge-2020-july-img00.jpg'
 image_caption: Route covering 50 miles, most of them alongside the Mauerweg
-tag: [running]
+tags: [running]
 featured: 
 ---
 

@@ -6,7 +6,7 @@ date: 2020-10-29 12:00:00 +0200
 author: paulo
 image: '/images/2020-10-29-first-ultra-1-img02.jpg'
 image_caption: 'Photo by [Katalin Hoczane Melich](https://unsplash.com/@hoczika?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/balaton?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)'
-tag: [running]
+tags: [running]
 featured: 
 ---
 

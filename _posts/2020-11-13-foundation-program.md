@@ -6,7 +6,7 @@ date: 2020-11-13 12:00:00 +0200
 author: paulo
 image: '/images/2020-11-13-foundation-program-img00.jpg'
 image_caption: One-hour running before the Foundation Program, emphasis is put on pace over HR
-tag: [running]
+tags: [running]
 featured: 
 ---
 

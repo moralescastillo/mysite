@@ -6,7 +6,7 @@ date: 2020-10-29 12:00:00 +0200
 author: paulo
 image: '/images/2020-11-05-first-ultra-2-img02.jpg'
 image_caption: 'Day 2 at km 61'
-tag: [running]
+tags: [running]
 featured: 
 ---
 

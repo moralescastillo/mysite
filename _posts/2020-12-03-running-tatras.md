@@ -6,7 +6,7 @@ date: 2020-12-03 12:00:00 +0200
 author: paulo
 image: '/images/2020-12-03-running-tatras-img00.jpg'
 image_caption: 'Photo by [Alex Blokstra](https://unsplash.com/@alexblokstra?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/zakopane?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)'
-tag: [running]
+tags: [running]
 featured: 
 ---
 
