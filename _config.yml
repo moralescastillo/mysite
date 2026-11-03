@@ -20,7 +20,8 @@ paginate_path: "/blog/page/:num"
 # Collections
 collections:
   projects:
-    output: false
+    output: true
+    permalink: /work/:name/
   pages:
     output: true
     permalink: /:name
@@ -52,6 +53,11 @@ defaults:
       type: "authors"
     values:
       layout: "author"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
 
 sass:
   sass_dir: _sass

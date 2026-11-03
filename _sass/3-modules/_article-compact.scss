@@ -104,3 +104,14 @@
     font-size: 16px;
   }
 }
+
+// Website and GitHub links under the title on project pages
+.page__links {
+  margin-top: 8px;
+  font-size: 14px;
+
+  a {
+    display: block;
+    width: fit-content;
+  }
+}

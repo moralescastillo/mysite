@@ -7,8 +7,14 @@ layout: default
 
     <div class="page__info">
       <h1 class="page__title">{{ page.title | escape }}</h1>
-      {% if page.description %}
-        <p class="page__description">{{ page.description }}</p>
+      {% if page.description or page.summary %}
+        <p class="page__description">{{ page.description | default: page.summary }}</p>
+      {% endif %}
+      {% if page.link or page.repo %}
+        <p class="page__links">
+          {% if page.link %}<a href="{{ page.link }}" target="_blank" rel="noopener">Website <i class="ion ion-ios-arrow-round-forward"></i></a>{% endif %}
+          {% if page.repo %}<a href="{{ page.repo }}" target="_blank" rel="noopener">GitHub <i class="ion ion-logo-github"></i></a>{% endif %}
+        </p>
       {% endif %}
     </div>
 

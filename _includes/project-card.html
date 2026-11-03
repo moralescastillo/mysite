@@ -10,11 +10,7 @@
       {% endif %}
 
       <h2 class="article__title">
-        {% if project.link %}
-        <a href="{{ project.link }}"{% if project.link contains 'http' %} target="_blank" rel="noopener"{% endif %}>{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
+        <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
       </h2>
 
       <p class="article__excerpt">{{ project.summary }}</p>
@@ -22,7 +18,8 @@
       <div class="article__footer">
         {% if project.client %}<span class="article__date">{{ project.client }}</span>{% endif %}
         {% if project.year %}<span class="article__date">{{ project.year }}</span>{% endif %}
-        {% if project.write_up %}<a class="article__more" href="{{ project.write_up }}">Read more <i class="ion ion-ios-arrow-round-forward"></i></a>{% endif %}
+        {% if project.link %}<a class="article__more" href="{{ project.link }}" target="_blank" rel="noopener">Website <i class="ion ion-ios-arrow-round-forward"></i></a>{% endif %}
+        {% if project.repo %}<a class="article__more" href="{{ project.repo }}" target="_blank" rel="noopener">GitHub <i class="ion ion-logo-github"></i></a>{% endif %}
       </div>
     </div>
   </div>
