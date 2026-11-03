@@ -313,58 +313,6 @@
   }
 }
 
-/* Post Share */
-.post__share {
-  margin-top: 60px;
-
-  .share__list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .share__item {
-    margin-right: 12px;
-    margin-bottom: 0;
-
-    &:last-child {
-      margin-right: 0;
-    }
-  }
-
-  .share__link {
-    display: inline-block;
-    padding: 12px 24px;
-    font-size: 20px;
-    line-height: 1;
-    border-radius: 60px;
-    border: none;
-    color: var(--link-color);
-    background-color: var(--light-gray);
-
-    &:hover {
-      background-color: var(--darken-gray);
-    }
-  }
-
-  @media (max-width: $mobile) {
-    margin-top: 0;
-
-    .share__list {
-      justify-content: start;
-    }
-
-    .share__item {
-      margin-right: 8px;
-    }
-
-    .share__link {
-      padding: 10px 24px;
-      font-size: 18px;
-    }
-  }
-}
-
 /* Navigation */
 .post__navigation {
   display: flex;
